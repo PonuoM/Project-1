@@ -1,0 +1,52 @@
+{
+ "about": "Tavi hurt v2",
+ "frameWidth": 80,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 7
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 8
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 9
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 10
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 12
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 14
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 16
+  },
+  {
+   "note": "",
+   "ms": 55,
+   "sourceFrame": 19
+  },
+  {
+   "note": "",
+   "ms": 80,
+   "sourceFrame": 22
+  }
+ ]
+}

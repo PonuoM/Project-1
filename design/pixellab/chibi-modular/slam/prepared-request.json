@@ -1,0 +1,12 @@
+{
+  "endpoint": "animate-with-text-v3",
+  "description": "One heavy overhead RIGHT-facing attack with an empty gripping hand for a separate weapon. Raise arm above head, short held anticipation, sharply swing down with torso lean and bent knees, recover to original pose. Keep chibi head size, hair, undershirt and shorts consistent. Do not add equipment or slash FX. Entire body inside canvas, transparent.",
+  "image_size": {
+    "width": 64,
+    "height": 64
+  },
+  "no_background": true,
+  "status": "prepared only; no generation submitted",
+  "frame_count": 10,
+  "first_frame_file": "C:\\AppServ\\www\\Projects-1\\design\\pixellab\\chibi-modular\\base\\candidate-01.png"
+}

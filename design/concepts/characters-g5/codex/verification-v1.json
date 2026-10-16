@@ -1,0 +1,155 @@
+[
+  {
+    "file": "melee-1-v2.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      13,
+      13,
+      44,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "melee-2-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      13,
+      13,
+      46,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "melee-3-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      3,
+      8,
+      59,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "mage-1-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      12,
+      7,
+      50,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "mage-2-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      12,
+      12,
+      45,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "mage-3-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      11,
+      11,
+      52,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "archer-1-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 1,
+    "foregroundBounds": [
+      13,
+      11,
+      47,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "archer-2-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      13,
+      13,
+      48,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  },
+  {
+    "file": "archer-3-v1.png",
+    "size": [
+      512,
+      512
+    ],
+    "groundRow": 62,
+    "exportShiftY": 0,
+    "foregroundBounds": [
+      14,
+      11,
+      48,
+      62
+    ],
+    "background": "#00B140",
+    "artPixelScale": 8
+  }
+]

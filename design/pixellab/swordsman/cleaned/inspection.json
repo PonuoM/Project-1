@@ -1,0 +1,206 @@
+{
+  "source": "design/pixellab/swordsman",
+  "rules": "(all reported in inspection.json):\n1. Stray artifact: small components (<= 20 px) detached from the character in the reference candidate are\n   recorded as a signature (position + exact color) and removed from every frame where the same pixels appear,\n   even when a slash arc touches them.\n2. Any other detached component <= 20 px is removed unless it is mostly near-white, which is treated as slash\n   spark FX and kept.\n3. Nothing is moved: the feet line and the planted front foot are checked and reported, not re-aligned,\n   unless they disagree between frames.",
+  "files": [
+    {
+      "file": "candidate-11.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 18,
+      "frontFootX": 49,
+      "torsoX": 35
+    },
+    {
+      "file": "frame-01.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 18,
+      "frontFootX": 49,
+      "torsoX": 35
+    },
+    {
+      "file": "frame-02.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 16,
+      "frontFootX": 49,
+      "torsoX": 35
+    },
+    {
+      "file": "frame-03.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 11,
+      "frontFootX": 50,
+      "torsoX": 34
+    },
+    {
+      "file": "frame-04.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 10,
+      "frontFootX": 50,
+      "torsoX": 33
+    },
+    {
+      "file": "frame-05.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [
+        {
+          "size": 5,
+          "box": [
+            58,
+            31,
+            59,
+            34
+          ]
+        }
+      ],
+      "feetRow": 63,
+      "backFootX": 9,
+      "frontFootX": 51,
+      "torsoX": 30
+    },
+    {
+      "file": "frame-06.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [
+        {
+          "size": 3,
+          "box": [
+            4,
+            23,
+            5,
+            24
+          ]
+        },
+        {
+          "size": 3,
+          "box": [
+            7,
+            34,
+            8,
+            35
+          ]
+        },
+        {
+          "size": 2,
+          "box": [
+            10,
+            22,
+            11,
+            22
+          ]
+        }
+      ],
+      "feetRow": 63,
+      "backFootX": 10,
+      "frontFootX": 50,
+      "torsoX": 32
+    },
+    {
+      "file": "frame-07.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 14,
+      "frontFootX": 50,
+      "torsoX": 35
+    },
+    {
+      "file": "frame-08.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 17,
+      "frontFootX": 49,
+      "torsoX": 36
+    },
+    {
+      "file": "frame-09.png",
+      "removedPixels": 14,
+      "removedBox": [
+        0,
+        30,
+        4,
+        33
+      ],
+      "keptSparkComponents": [],
+      "feetRow": 63,
+      "backFootX": 18,
+      "frontFootX": 49,
+      "torsoX": 35
+    }
+  ],
+  "checks": {
+    "feetRowSameEveryFrame": true,
+    "feetRow": [
+      63
+    ],
+    "frontFootRange": [
+      49,
+      51
+    ],
+    "realigned": false,
+    "note": "Feet share one row and the front foot stays within a few pixels, so no frame was moved. Torso x shifts during the swing are the pose (lean/twist), not drift."
+  }
+}

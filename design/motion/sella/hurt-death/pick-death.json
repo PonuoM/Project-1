@@ -1,0 +1,52 @@
+{
+ "about": "Sella death",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 41
+  },
+  {
+   "note": "HIT",
+   "ms": 60,
+   "sourceFrame": 42
+  },
+  {
+   "note": "slump",
+   "ms": 60,
+   "sourceFrame": 43
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 44
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 46
+  },
+  {
+   "note": "sink",
+   "ms": 70,
+   "sourceFrame": 48
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 50
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 51
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 52
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "about": "ice status loop",
+ "frameWidth": 38,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 39
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 40
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 41
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 42
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 43
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 44
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 45
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 46
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 47
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 48
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "endpoint": "/animate-with-text-v3",
+  "firstFrameFile": "../base/candidate-01.png",
+  "lastFrameFile": "../base/candidate-01.png",
+  "action": "ONE powerful overhead sword chop facing RIGHT. The RIGHT ARM is the NEAR arm on the LEFT side of the image in the starting reference (screen x24), NOT the far arm on screen right. Animate this near right arm: crouch and lean back while raising its EMPTY gripping fist far ABOVE and BEHIND the head; hold one unmistakable loaded pose; explosively drive that fist down and forward past the face toward screen right while twisting the shoulders, leaning the entire body forward and bending knees; follow through LOW with fist in front of the hip; settle back to exact starting pose. Opposite far arm balances behind torso, no punch. Exaggerate right-arm rotation, spine lean, planted front foot and lowered hips: anticipation, explosive chop, heavy follow-through. Empty hand for a separate sword layer, NO sword or effects in raster. Preserve teal hair, chibi face, base undershirt/shorts and pixel style. Stay side-facing right and inside canvas, transparent.",
+  "frame_count": 8,
+  "no_background": true,
+  "seed": 141031
+}

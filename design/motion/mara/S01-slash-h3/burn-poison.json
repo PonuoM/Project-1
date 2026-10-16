@@ -1,0 +1,102 @@
+{
+ "about": "poison on weapon, 25 fps ticks",
+ "frameWidth": 128,
+ "impactFrame": 11,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 0
+  },
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 0
+  },
+  {
+   "note": "shift",
+   "ms": 40,
+   "sourceFrame": 1
+  },
+  {
+   "note": "raise",
+   "ms": 40,
+   "sourceFrame": 2
+  },
+  {
+   "note": "raise",
+   "ms": 40,
+   "sourceFrame": 3
+  },
+  {
+   "note": "wind",
+   "ms": 40,
+   "sourceFrame": 4
+  },
+  {
+   "note": "wind",
+   "ms": 40,
+   "sourceFrame": 4
+  },
+  {
+   "note": "HOLD high",
+   "ms": 40,
+   "sourceFrame": 5
+  },
+  {
+   "note": "HOLD high",
+   "ms": 40,
+   "sourceFrame": 5
+  },
+  {
+   "note": "launch",
+   "ms": 40,
+   "sourceFrame": 6
+  },
+  {
+   "note": "swing smear",
+   "ms": 40,
+   "sourceFrame": 7
+  },
+  {
+   "note": "IMPACT",
+   "ms": 40,
+   "sourceFrame": 8
+  },
+  {
+   "note": "IMPACT",
+   "ms": 40,
+   "sourceFrame": 8
+  },
+  {
+   "note": "follow",
+   "ms": 40,
+   "sourceFrame": 9
+  },
+  {
+   "note": "follow",
+   "ms": 40,
+   "sourceFrame": 9
+  },
+  {
+   "note": "recover",
+   "ms": 40,
+   "sourceFrame": 10
+  },
+  {
+   "note": "recover",
+   "ms": 40,
+   "sourceFrame": 11
+  },
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 12
+  },
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 12
+  }
+ ]
+}

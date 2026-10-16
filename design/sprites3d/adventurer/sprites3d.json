@@ -1,0 +1,2288 @@
+{
+  "version": 2,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "footOrigin": [
+    48,
+    64
+  ],
+  "footRow": 63,
+  "animations": {
+    "idle": {
+      "frames": 4,
+      "frameMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "impact": null,
+      "loop": true,
+      "sourceClip": "Idle",
+      "fx": {
+        "file": "fx_idle.png",
+        "anchor": "rightHand",
+        "impact": null
+      }
+    },
+    "walk": {
+      "frames": 8,
+      "frameMs": [
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "impact": null,
+      "loop": true,
+      "sourceClip": "Walking_A",
+      "fx": {
+        "file": "fx_walk.png",
+        "anchor": "rightHand",
+        "impact": null
+      }
+    },
+    "attack": {
+      "frames": 7,
+      "frameMs": [
+        60,
+        90,
+        30,
+        40,
+        80,
+        65,
+        100
+      ],
+      "impact": 3,
+      "loop": false,
+      "sourceClip": "1H_Melee_Attack_Slice_Diagonal",
+      "fx": {
+        "file": "fx_attack.png",
+        "anchor": "rightHand",
+        "impact": 3
+      }
+    },
+    "slam": {
+      "frames": 9,
+      "frameMs": [
+        35,
+        70,
+        90,
+        30,
+        45,
+        80,
+        90,
+        70,
+        65
+      ],
+      "impact": 4,
+      "loop": false,
+      "sourceClip": "1H_Melee_Attack_Chop",
+      "fx": {
+        "file": "fx_slam.png",
+        "anchor": "rightHand",
+        "impact": 4
+      }
+    },
+    "leap": {
+      "frames": 10,
+      "frameMs": [
+        45,
+        60,
+        80,
+        75,
+        30,
+        45,
+        70,
+        90,
+        70,
+        60
+      ],
+      "impact": 5,
+      "loop": false,
+      "sourceClip": "1H_Melee_Attack_Chop",
+      "fx": {
+        "file": "fx_leap.png",
+        "anchor": "rightHand",
+        "impact": 5
+      }
+    }
+  },
+  "body": {
+    "idle": {
+      "file": "body_idle.png",
+      "depth": "depth_body_idle.png"
+    },
+    "walk": {
+      "file": "body_walk.png",
+      "depth": "depth_body_walk.png"
+    },
+    "attack": {
+      "file": "body_attack.png",
+      "depth": "depth_body_attack.png"
+    },
+    "slam": {
+      "file": "body_slam.png",
+      "depth": "depth_body_slam.png"
+    },
+    "leap": {
+      "file": "body_leap.png",
+      "depth": "depth_body_leap.png"
+    }
+  },
+  "head": {
+    "idle": "head_idle.png",
+    "walk": "head_walk.png",
+    "attack": "head_attack.png",
+    "slam": "head_slam.png",
+    "leap": "head_leap.png"
+  },
+  "layers": {
+    "chest": {
+      "tunic": {
+        "files": {
+          "idle": "chest_tunic_idle.png",
+          "walk": "chest_tunic_walk.png",
+          "attack": "chest_tunic_attack.png",
+          "slam": "chest_tunic_slam.png",
+          "leap": "chest_tunic_leap.png"
+        },
+        "depth": {
+          "idle": "depth_chest_tunic_idle.png",
+          "walk": "depth_chest_tunic_walk.png",
+          "attack": "depth_chest_tunic_attack.png",
+          "slam": "depth_chest_tunic_slam.png",
+          "leap": "depth_chest_tunic_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_chest_tunic_idle.png",
+          "walk": "mask_chest_tunic_walk.png",
+          "attack": "mask_chest_tunic_attack.png",
+          "slam": "mask_chest_tunic_slam.png",
+          "leap": "mask_chest_tunic_leap.png"
+        }
+      },
+      "plate": {
+        "files": {
+          "idle": "chest_plate_idle.png",
+          "walk": "chest_plate_walk.png",
+          "attack": "chest_plate_attack.png",
+          "slam": "chest_plate_slam.png",
+          "leap": "chest_plate_leap.png"
+        },
+        "depth": {
+          "idle": "depth_chest_plate_idle.png",
+          "walk": "depth_chest_plate_walk.png",
+          "attack": "depth_chest_plate_attack.png",
+          "slam": "depth_chest_plate_slam.png",
+          "leap": "depth_chest_plate_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_chest_plate_idle.png",
+          "walk": "mask_chest_plate_walk.png",
+          "attack": "mask_chest_plate_attack.png",
+          "slam": "mask_chest_plate_slam.png",
+          "leap": "mask_chest_plate_leap.png"
+        }
+      },
+      "plum": {
+        "files": {
+          "idle": "chest_plum_idle.png",
+          "walk": "chest_plum_walk.png",
+          "attack": "chest_plum_attack.png",
+          "slam": "chest_plum_slam.png",
+          "leap": "chest_plum_leap.png"
+        },
+        "depth": {
+          "idle": "depth_chest_plum_idle.png",
+          "walk": "depth_chest_plum_walk.png",
+          "attack": "depth_chest_plum_attack.png",
+          "slam": "depth_chest_plum_slam.png",
+          "leap": "depth_chest_plum_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_chest_plum_idle.png",
+          "walk": "mask_chest_plum_walk.png",
+          "attack": "mask_chest_plum_attack.png",
+          "slam": "mask_chest_plum_slam.png",
+          "leap": "mask_chest_plum_leap.png"
+        }
+      }
+    },
+    "legs": {
+      "trousers": {
+        "files": {
+          "idle": "legs_trousers_idle.png",
+          "walk": "legs_trousers_walk.png",
+          "attack": "legs_trousers_attack.png",
+          "slam": "legs_trousers_slam.png",
+          "leap": "legs_trousers_leap.png"
+        },
+        "depth": {
+          "idle": "depth_legs_trousers_idle.png",
+          "walk": "depth_legs_trousers_walk.png",
+          "attack": "depth_legs_trousers_attack.png",
+          "slam": "depth_legs_trousers_slam.png",
+          "leap": "depth_legs_trousers_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_legs_trousers_idle.png",
+          "walk": "mask_legs_trousers_walk.png",
+          "attack": "mask_legs_trousers_attack.png",
+          "slam": "mask_legs_trousers_slam.png",
+          "leap": "mask_legs_trousers_leap.png"
+        }
+      },
+      "leather": {
+        "files": {
+          "idle": "legs_leather_idle.png",
+          "walk": "legs_leather_walk.png",
+          "attack": "legs_leather_attack.png",
+          "slam": "legs_leather_slam.png",
+          "leap": "legs_leather_leap.png"
+        },
+        "depth": {
+          "idle": "depth_legs_leather_idle.png",
+          "walk": "depth_legs_leather_walk.png",
+          "attack": "depth_legs_leather_attack.png",
+          "slam": "depth_legs_leather_slam.png",
+          "leap": "depth_legs_leather_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_legs_leather_idle.png",
+          "walk": "mask_legs_leather_walk.png",
+          "attack": "mask_legs_leather_attack.png",
+          "slam": "mask_legs_leather_slam.png",
+          "leap": "mask_legs_leather_leap.png"
+        }
+      }
+    },
+    "boots": {
+      "boots": {
+        "files": {
+          "idle": "boots_boots_idle.png",
+          "walk": "boots_boots_walk.png",
+          "attack": "boots_boots_attack.png",
+          "slam": "boots_boots_slam.png",
+          "leap": "boots_boots_leap.png"
+        },
+        "depth": {
+          "idle": "depth_boots_boots_idle.png",
+          "walk": "depth_boots_boots_walk.png",
+          "attack": "depth_boots_boots_attack.png",
+          "slam": "depth_boots_boots_slam.png",
+          "leap": "depth_boots_boots_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_boots_boots_idle.png",
+          "walk": "mask_boots_boots_walk.png",
+          "attack": "mask_boots_boots_attack.png",
+          "slam": "mask_boots_boots_slam.png",
+          "leap": "mask_boots_boots_leap.png"
+        }
+      },
+      "greaves": {
+        "files": {
+          "idle": "boots_greaves_idle.png",
+          "walk": "boots_greaves_walk.png",
+          "attack": "boots_greaves_attack.png",
+          "slam": "boots_greaves_slam.png",
+          "leap": "boots_greaves_leap.png"
+        },
+        "depth": {
+          "idle": "depth_boots_greaves_idle.png",
+          "walk": "depth_boots_greaves_walk.png",
+          "attack": "depth_boots_greaves_attack.png",
+          "slam": "depth_boots_greaves_slam.png",
+          "leap": "depth_boots_greaves_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_boots_greaves_idle.png",
+          "walk": "mask_boots_greaves_walk.png",
+          "attack": "mask_boots_greaves_attack.png",
+          "slam": "mask_boots_greaves_slam.png",
+          "leap": "mask_boots_greaves_leap.png"
+        }
+      }
+    },
+    "wrist": {
+      "bracer": {
+        "files": {
+          "idle": "wrist_bracer_idle.png",
+          "walk": "wrist_bracer_walk.png",
+          "attack": "wrist_bracer_attack.png",
+          "slam": "wrist_bracer_slam.png",
+          "leap": "wrist_bracer_leap.png"
+        },
+        "depth": {
+          "idle": "depth_wrist_bracer_idle.png",
+          "walk": "depth_wrist_bracer_walk.png",
+          "attack": "depth_wrist_bracer_attack.png",
+          "slam": "depth_wrist_bracer_slam.png",
+          "leap": "depth_wrist_bracer_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_wrist_bracer_idle.png",
+          "walk": "mask_wrist_bracer_walk.png",
+          "attack": "mask_wrist_bracer_attack.png",
+          "slam": "mask_wrist_bracer_slam.png",
+          "leap": "mask_wrist_bracer_leap.png"
+        }
+      },
+      "cuff": {
+        "files": {
+          "idle": "wrist_cuff_idle.png",
+          "walk": "wrist_cuff_walk.png",
+          "attack": "wrist_cuff_attack.png",
+          "slam": "wrist_cuff_slam.png",
+          "leap": "wrist_cuff_leap.png"
+        },
+        "depth": {
+          "idle": "depth_wrist_cuff_idle.png",
+          "walk": "depth_wrist_cuff_walk.png",
+          "attack": "depth_wrist_cuff_attack.png",
+          "slam": "depth_wrist_cuff_slam.png",
+          "leap": "depth_wrist_cuff_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_wrist_cuff_idle.png",
+          "walk": "mask_wrist_cuff_walk.png",
+          "attack": "mask_wrist_cuff_attack.png",
+          "slam": "mask_wrist_cuff_slam.png",
+          "leap": "mask_wrist_cuff_leap.png"
+        }
+      }
+    },
+    "weapon": {
+      "sword": {
+        "files": {
+          "idle": "weapon_sword_idle.png",
+          "walk": "weapon_sword_walk.png",
+          "attack": "weapon_sword_attack.png",
+          "slam": "weapon_sword_slam.png",
+          "leap": "weapon_sword_leap.png"
+        },
+        "depth": {
+          "idle": "depth_weapon_sword_idle.png",
+          "walk": "depth_weapon_sword_walk.png",
+          "attack": "depth_weapon_sword_attack.png",
+          "slam": "depth_weapon_sword_slam.png",
+          "leap": "depth_weapon_sword_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_weapon_sword_idle.png",
+          "walk": "mask_weapon_sword_walk.png",
+          "attack": "mask_weapon_sword_attack.png",
+          "slam": "mask_weapon_sword_slam.png",
+          "leap": "mask_weapon_sword_leap.png"
+        }
+      },
+      "sabre": {
+        "files": {
+          "idle": "weapon_sabre_idle.png",
+          "walk": "weapon_sabre_walk.png",
+          "attack": "weapon_sabre_attack.png",
+          "slam": "weapon_sabre_slam.png",
+          "leap": "weapon_sabre_leap.png"
+        },
+        "depth": {
+          "idle": "depth_weapon_sabre_idle.png",
+          "walk": "depth_weapon_sabre_walk.png",
+          "attack": "depth_weapon_sabre_attack.png",
+          "slam": "depth_weapon_sabre_slam.png",
+          "leap": "depth_weapon_sabre_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_weapon_sabre_idle.png",
+          "walk": "mask_weapon_sabre_walk.png",
+          "attack": "mask_weapon_sabre_attack.png",
+          "slam": "mask_weapon_sabre_slam.png",
+          "leap": "mask_weapon_sabre_leap.png"
+        }
+      }
+    },
+    "hat": {
+      "hood": {
+        "files": {
+          "idle": "hat_hood_idle.png",
+          "walk": "hat_hood_walk.png",
+          "attack": "hat_hood_attack.png",
+          "slam": "hat_hood_slam.png",
+          "leap": "hat_hood_leap.png"
+        },
+        "depth": {
+          "idle": "depth_hat_hood_idle.png",
+          "walk": "depth_hat_hood_walk.png",
+          "attack": "depth_hat_hood_attack.png",
+          "slam": "depth_hat_hood_slam.png",
+          "leap": "depth_hat_hood_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_hat_hood_idle.png",
+          "walk": "mask_hat_hood_walk.png",
+          "attack": "mask_hat_hood_attack.png",
+          "slam": "mask_hat_hood_slam.png",
+          "leap": "mask_hat_hood_leap.png"
+        }
+      },
+      "helm": {
+        "files": {
+          "idle": "hat_helm_idle.png",
+          "walk": "hat_helm_walk.png",
+          "attack": "hat_helm_attack.png",
+          "slam": "hat_helm_slam.png",
+          "leap": "hat_helm_leap.png"
+        },
+        "depth": {
+          "idle": "depth_hat_helm_idle.png",
+          "walk": "depth_hat_helm_walk.png",
+          "attack": "depth_hat_helm_attack.png",
+          "slam": "depth_hat_helm_slam.png",
+          "leap": "depth_hat_helm_leap.png"
+        },
+        "hidesBody": {
+          "idle": "mask_hat_helm_idle.png",
+          "walk": "mask_hat_helm_walk.png",
+          "attack": "mask_hat_helm_attack.png",
+          "slam": "mask_hat_helm_slam.png",
+          "leap": "mask_hat_helm_leap.png"
+        }
+      }
+    }
+  },
+  "anchors": {
+    "idle": [
+      {
+        "rightHand": [
+          51.255,
+          49.12
+        ],
+        "leftHand": [
+          54.023,
+          48.795
+        ],
+        "head": [
+          48.0,
+          35.898
+        ],
+        "chest": [
+          48.0,
+          41.762
+        ],
+        "hip": [
+          48.0,
+          54.133
+        ],
+        "frontFoot": [
+          45.243,
+          59.518
+        ],
+        "backFoot": [
+          49.781,
+          59.518
+        ],
+        "weaponTip": [
+          66.269,
+          59.702
+        ],
+        "weaponGrip": [
+          51.255,
+          49.12
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.019,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          51.244,
+          49.433
+        ],
+        "leftHand": [
+          54.038,
+          48.935
+        ],
+        "head": [
+          48.0,
+          36.194
+        ],
+        "chest": [
+          48.0,
+          42.058
+        ],
+        "hip": [
+          48.0,
+          54.429
+        ],
+        "frontFoot": [
+          45.243,
+          59.515
+        ],
+        "backFoot": [
+          49.781,
+          59.515
+        ],
+        "weaponTip": [
+          66.258,
+          60.015
+        ],
+        "weaponGrip": [
+          51.244,
+          49.433
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.022,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          51.249,
+          49.671
+        ],
+        "leftHand": [
+          54.028,
+          49.187
+        ],
+        "head": [
+          48.0,
+          36.405
+        ],
+        "chest": [
+          48.0,
+          42.27
+        ],
+        "hip": [
+          48.0,
+          54.64
+        ],
+        "frontFoot": [
+          45.243,
+          59.515
+        ],
+        "backFoot": [
+          49.781,
+          59.515
+        ],
+        "weaponTip": [
+          66.263,
+          60.253
+        ],
+        "weaponGrip": [
+          51.249,
+          49.671
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.022,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          51.269,
+          49.307
+        ],
+        "leftHand": [
+          53.995,
+          49.132
+        ],
+        "head": [
+          48.0,
+          36.05
+        ],
+        "chest": [
+          48.0,
+          41.915
+        ],
+        "hip": [
+          48.0,
+          54.285
+        ],
+        "frontFoot": [
+          45.243,
+          59.516
+        ],
+        "backFoot": [
+          49.781,
+          59.516
+        ],
+        "weaponTip": [
+          66.283,
+          59.889
+        ],
+        "weaponGrip": [
+          51.269,
+          49.307
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.021,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      }
+    ],
+    "walk": [
+      {
+        "rightHand": [
+          51.533,
+          50.617
+        ],
+        "leftHand": [
+          51.944,
+          46.212
+        ],
+        "head": [
+          48.409,
+          36.069
+        ],
+        "chest": [
+          48.409,
+          41.934
+        ],
+        "hip": [
+          48.0,
+          54.273
+        ],
+        "frontFoot": [
+          42.471,
+          57.169
+        ],
+        "backFoot": [
+          52.701,
+          58.942
+        ],
+        "weaponTip": [
+          66.546,
+          61.199
+        ],
+        "weaponGrip": [
+          51.533,
+          50.617
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.571,
+        "headDepth": 6.0268,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          51.979,
+          50.881
+        ],
+        "leftHand": [
+          53.478,
+          45.865
+        ],
+        "head": [
+          48.295,
+          37.003
+        ],
+        "chest": [
+          48.295,
+          42.868
+        ],
+        "hip": [
+          48.0,
+          55.222
+        ],
+        "frontFoot": [
+          43.775,
+          56.202
+        ],
+        "backFoot": [
+          50.096,
+          59.281
+        ],
+        "weaponTip": [
+          67.286,
+          60.817
+        ],
+        "weaponGrip": [
+          51.979,
+          50.881
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.353,
+        "headDepth": 6.0193,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          51.806,
+          48.854
+        ],
+        "leftHand": [
+          56.418,
+          45.045
+        ],
+        "head": [
+          48.038,
+          36.147
+        ],
+        "chest": [
+          48.038,
+          42.012
+        ],
+        "hip": [
+          48.0,
+          54.382
+        ],
+        "frontFoot": [
+          46.45,
+          55.789
+        ],
+        "backFoot": [
+          48.016,
+          59.528
+        ],
+        "weaponTip": [
+          67.388,
+          58.132
+        ],
+        "weaponGrip": [
+          51.806,
+          48.854
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.127,
+        "headDepth": 6.0025,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          50.668,
+          48.651
+        ],
+        "leftHand": [
+          59.238,
+          43.49
+        ],
+        "head": [
+          47.765,
+          35.973
+        ],
+        "chest": [
+          47.765,
+          41.837
+        ],
+        "hip": [
+          48.0,
+          54.197
+        ],
+        "frontFoot": [
+          48.703,
+          55.541
+        ],
+        "backFoot": [
+          46.628,
+          59.389
+        ],
+        "weaponTip": [
+          65.975,
+          58.587
+        ],
+        "weaponGrip": [
+          50.668,
+          48.651
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.249,
+        "headDepth": 5.9846,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          49.898,
+          48.995
+        ],
+        "leftHand": [
+          60.863,
+          42.254
+        ],
+        "head": [
+          47.593,
+          36.139
+        ],
+        "chest": [
+          47.593,
+          42.003
+        ],
+        "hip": [
+          48.0,
+          54.343
+        ],
+        "frontFoot": [
+          48.33,
+          58.964
+        ],
+        "backFoot": [
+          46.873,
+          57.06
+        ],
+        "weaponTip": [
+          64.911,
+          59.577
+        ],
+        "weaponGrip": [
+          49.898,
+          48.995
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.554,
+        "headDepth": 5.9734,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          49.244,
+          50.658
+        ],
+        "leftHand": [
+          59.695,
+          43.041
+        ],
+        "head": [
+          47.719,
+          37.078
+        ],
+        "chest": [
+          47.719,
+          42.942
+        ],
+        "hip": [
+          48.0,
+          55.298
+        ],
+        "frontFoot": [
+          45.607,
+          59.326
+        ],
+        "backFoot": [
+          48.11,
+          56.21
+        ],
+        "weaponTip": [
+          63.946,
+          61.873
+        ],
+        "weaponGrip": [
+          49.244,
+          50.658
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.307,
+        "headDepth": 5.9816,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          49.187,
+          50.817
+        ],
+        "leftHand": [
+          57.043,
+          44.753
+        ],
+        "head": [
+          47.981,
+          36.102
+        ],
+        "chest": [
+          47.981,
+          41.967
+        ],
+        "hip": [
+          48.0,
+          54.337
+        ],
+        "frontFoot": [
+          43.64,
+          59.529
+        ],
+        "backFoot": [
+          51.0,
+          55.776
+        ],
+        "weaponTip": [
+          63.56,
+          62.652
+        ],
+        "weaponGrip": [
+          49.187,
+          50.817
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.126,
+        "headDepth": 5.9987,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          50.669,
+          51.146
+        ],
+        "leftHand": [
+          53.072,
+          46.2
+        ],
+        "head": [
+          48.321,
+          36.205
+        ],
+        "chest": [
+          48.321,
+          42.07
+        ],
+        "hip": [
+          48.0,
+          54.421
+        ],
+        "frontFoot": [
+          41.751,
+          59.281
+        ],
+        "backFoot": [
+          52.421,
+          56.141
+        ],
+        "weaponTip": [
+          65.371,
+          62.361
+        ],
+        "weaponGrip": [
+          50.669,
+          51.146
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.268,
+        "headDepth": 6.021,
+        "headVariant": "neutral"
+      }
+    ],
+    "attack": [
+      {
+        "rightHand": [
+          52.585,
+          47.139
+        ],
+        "leftHand": [
+          54.023,
+          48.799
+        ],
+        "head": [
+          48.0,
+          35.902
+        ],
+        "chest": [
+          48.0,
+          41.767
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.522
+        ],
+        "weaponTip": [
+          67.599,
+          57.721
+        ],
+        "weaponGrip": [
+          52.585,
+          47.139
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          43.077,
+          25.586
+        ],
+        "leftHand": [
+          49.866,
+          49.088
+        ],
+        "head": [
+          47.358,
+          35.963
+        ],
+        "chest": [
+          46.736,
+          41.795
+        ],
+        "hip": [
+          45.985,
+          54.129
+        ],
+        "frontFoot": [
+          45.243,
+          59.515
+        ],
+        "backFoot": [
+          44.533,
+          59.515
+        ],
+        "weaponTip": [
+          28.876,
+          13.447
+        ],
+        "weaponGrip": [
+          43.077,
+          25.586
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.022,
+        "headDepth": 6.0723,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          56.109,
+          32.54
+        ],
+        "leftHand": [
+          48.498,
+          48.986
+        ],
+        "head": [
+          45.728,
+          36.017
+        ],
+        "chest": [
+          44.627,
+          41.764
+        ],
+        "hip": [
+          44.766,
+          54.107
+        ],
+        "frontFoot": [
+          45.243,
+          59.492
+        ],
+        "backFoot": [
+          43.169,
+          59.492
+        ],
+        "weaponTip": [
+          69.389,
+          18.936
+        ],
+        "weaponGrip": [
+          56.109,
+          32.54
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.045,
+        "headDepth": 6.1163,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          58.005,
+          42.009
+        ],
+        "leftHand": [
+          58.32,
+          49.258
+        ],
+        "head": [
+          51.261,
+          35.964
+        ],
+        "chest": [
+          51.144,
+          41.828
+        ],
+        "hip": [
+          50.972,
+          54.196
+        ],
+        "frontFoot": [
+          45.328,
+          59.33
+        ],
+        "backFoot": [
+          50.398,
+          58.46
+        ],
+        "weaponTip": [
+          72.206,
+          54.148
+        ],
+        "weaponGrip": [
+          58.005,
+          42.009
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": 0.044,
+        "headDepth": 5.9078,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          53.43,
+          49.81
+        ],
+        "leftHand": [
+          58.087,
+          49.152
+        ],
+        "head": [
+          51.153,
+          35.961
+        ],
+        "chest": [
+          51.015,
+          41.823
+        ],
+        "hip": [
+          50.823,
+          54.191
+        ],
+        "frontFoot": [
+          45.312,
+          59.378
+        ],
+        "backFoot": [
+          50.42,
+          58.579
+        ],
+        "weaponTip": [
+          56.441,
+          70.652
+        ],
+        "weaponGrip": [
+          53.43,
+          49.81
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": 0.039,
+        "headDepth": 5.9008,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          51.83,
+          49.711
+        ],
+        "leftHand": [
+          56.139,
+          48.863
+        ],
+        "head": [
+          49.768,
+          35.906
+        ],
+        "chest": [
+          49.64,
+          41.769
+        ],
+        "hip": [
+          49.462,
+          54.136
+        ],
+        "frontFoot": [
+          45.241,
+          59.524
+        ],
+        "backFoot": [
+          49.522,
+          59.123
+        ],
+        "weaponTip": [
+          61.773,
+          67.047
+        ],
+        "weaponGrip": [
+          51.83,
+          49.711
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.015,
+        "headDepth": 5.943,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          52.585,
+          47.139
+        ],
+        "leftHand": [
+          54.023,
+          48.799
+        ],
+        "head": [
+          48.0,
+          35.902
+        ],
+        "chest": [
+          48.0,
+          41.767
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.522
+        ],
+        "weaponTip": [
+          67.599,
+          57.721
+        ],
+        "weaponGrip": [
+          52.585,
+          47.139
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0,
+        "headVariant": "forward"
+      }
+    ],
+    "slam": [
+      {
+        "rightHand": [
+          52.585,
+          47.139
+        ],
+        "leftHand": [
+          54.023,
+          48.799
+        ],
+        "head": [
+          48.0,
+          35.902
+        ],
+        "chest": [
+          48.0,
+          41.767
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.522
+        ],
+        "weaponTip": [
+          67.599,
+          57.721
+        ],
+        "weaponGrip": [
+          52.585,
+          47.139
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          44.129,
+          25.939
+        ],
+        "leftHand": [
+          54.201,
+          48.312
+        ],
+        "head": [
+          47.672,
+          35.929
+        ],
+        "chest": [
+          47.794,
+          41.772
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.523
+        ],
+        "backFoot": [
+          48.823,
+          59.523
+        ],
+        "weaponTip": [
+          42.618,
+          4.856
+        ],
+        "weaponGrip": [
+          44.129,
+          25.939
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0305,
+        "headVariant": "back"
+      },
+      {
+        "rightHand": [
+          39.523,
+          26.399
+        ],
+        "leftHand": [
+          54.475,
+          47.664
+        ],
+        "head": [
+          47.677,
+          35.999
+        ],
+        "chest": [
+          47.725,
+          41.78
+        ],
+        "hip": [
+          48.0,
+          54.138
+        ],
+        "frontFoot": [
+          45.243,
+          59.523
+        ],
+        "backFoot": [
+          48.822,
+          59.526
+        ],
+        "weaponTip": [
+          38.012,
+          5.316
+        ],
+        "weaponGrip": [
+          39.523,
+          26.399
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0614,
+        "headVariant": "back"
+      },
+      {
+        "rightHand": [
+          51.625,
+          33.007
+        ],
+        "leftHand": [
+          54.952,
+          46.876
+        ],
+        "head": [
+          46.108,
+          36.22
+        ],
+        "chest": [
+          46.763,
+          41.886
+        ],
+        "hip": [
+          48.0,
+          54.141
+        ],
+        "frontFoot": [
+          45.243,
+          59.526
+        ],
+        "backFoot": [
+          48.842,
+          59.431
+        ],
+        "weaponTip": [
+          63.884,
+          18.042
+        ],
+        "weaponGrip": [
+          51.625,
+          33.007
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.01,
+        "headDepth": 6.111,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          48.524,
+          48.186
+        ],
+        "leftHand": [
+          55.039,
+          46.94
+        ],
+        "head": [
+          44.243,
+          36.447
+        ],
+        "chest": [
+          45.789,
+          41.775
+        ],
+        "hip": [
+          47.992,
+          53.705
+        ],
+        "frontFoot": [
+          45.243,
+          59.486
+        ],
+        "backFoot": [
+          48.909,
+          59.013
+        ],
+        "weaponTip": [
+          55.851,
+          67.366
+        ],
+        "weaponGrip": [
+          48.524,
+          48.186
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.051,
+        "headDepth": 6.1839,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          46.923,
+          49.798
+        ],
+        "leftHand": [
+          52.252,
+          48.458
+        ],
+        "head": [
+          46.097,
+          34.35
+        ],
+        "chest": [
+          46.652,
+          40.189
+        ],
+        "hip": [
+          47.95,
+          52.432
+        ],
+        "frontFoot": [
+          45.347,
+          58.23
+        ],
+        "backFoot": [
+          49.081,
+          57.918
+        ],
+        "weaponTip": [
+          49.934,
+          70.64
+        ],
+        "weaponGrip": [
+          46.923,
+          49.798
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": 0.61,
+        "headDepth": 6.0352,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          53.38,
+          51.52
+        ],
+        "leftHand": [
+          49.382,
+          48.313
+        ],
+        "head": [
+          51.032,
+          37.559
+        ],
+        "chest": [
+          49.867,
+          43.242
+        ],
+        "hip": [
+          48.748,
+          55.511
+        ],
+        "frontFoot": [
+          45.242,
+          59.528
+        ],
+        "backFoot": [
+          48.823,
+          59.527
+        ],
+        "weaponTip": [
+          60.707,
+          70.701
+        ],
+        "weaponGrip": [
+          53.38,
+          51.52
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.009,
+        "headDepth": 5.89,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          52.68,
+          48.969
+        ],
+        "leftHand": [
+          52.8,
+          48.894
+        ],
+        "head": [
+          48.91,
+          36.375
+        ],
+        "chest": [
+          48.589,
+          42.224
+        ],
+        "hip": [
+          48.246,
+          54.583
+        ],
+        "frontFoot": [
+          45.241,
+          59.521
+        ],
+        "backFoot": [
+          48.822,
+          59.521
+        ],
+        "weaponTip": [
+          65.961,
+          62.573
+        ],
+        "weaponGrip": [
+          52.68,
+          48.969
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.018,
+        "headDepth": 5.963,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          52.585,
+          47.139
+        ],
+        "leftHand": [
+          54.023,
+          48.799
+        ],
+        "head": [
+          48.0,
+          35.902
+        ],
+        "chest": [
+          48.0,
+          41.767
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.522
+        ],
+        "weaponTip": [
+          67.599,
+          57.721
+        ],
+        "weaponGrip": [
+          52.585,
+          47.139
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      }
+    ],
+    "leap": [
+      {
+        "rightHand": [
+          52.585,
+          47.139
+        ],
+        "leftHand": [
+          54.023,
+          48.799
+        ],
+        "head": [
+          48.0,
+          35.902
+        ],
+        "chest": [
+          48.0,
+          41.767
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.522
+        ],
+        "weaponTip": [
+          67.599,
+          57.721
+        ],
+        "weaponGrip": [
+          52.585,
+          47.139
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          45.02,
+          26.233
+        ],
+        "leftHand": [
+          54.12,
+          48.5
+        ],
+        "head": [
+          47.631,
+          35.919
+        ],
+        "chest": [
+          47.783,
+          41.771
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.523
+        ],
+        "weaponTip": [
+          43.509,
+          5.15
+        ],
+        "weaponGrip": [
+          45.02,
+          26.233
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0232,
+        "headVariant": "back"
+      },
+      {
+        "rightHand": [
+          41.571,
+          23.719
+        ],
+        "leftHand": [
+          54.369,
+          46.159
+        ],
+        "head": [
+          47.597,
+          34.235
+        ],
+        "chest": [
+          47.703,
+          40.034
+        ],
+        "hip": [
+          48.0,
+          52.392
+        ],
+        "frontFoot": [
+          45.243,
+          57.777
+        ],
+        "backFoot": [
+          48.822,
+          57.778
+        ],
+        "weaponTip": [
+          40.06,
+          2.636
+        ],
+        "weaponGrip": [
+          41.571,
+          23.719
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -1.759,
+        "headDepth": 6.0554,
+        "headVariant": "back"
+      },
+      {
+        "rightHand": [
+          48.382,
+          23.133
+        ],
+        "leftHand": [
+          54.766,
+          43.636
+        ],
+        "head": [
+          47.22,
+          32.563
+        ],
+        "chest": [
+          47.428,
+          38.31
+        ],
+        "hip": [
+          48.0,
+          50.65
+        ],
+        "frontFoot": [
+          45.243,
+          56.035
+        ],
+        "backFoot": [
+          48.837,
+          55.964
+        ],
+        "weaponTip": [
+          55.709,
+          3.953
+        ],
+        "weaponGrip": [
+          48.382,
+          23.133
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -3.502,
+        "headDepth": 6.0786,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          50.788,
+          31.324
+        ],
+        "leftHand": [
+          54.991,
+          42.703
+        ],
+        "head": [
+          44.581,
+          32.459
+        ],
+        "chest": [
+          45.897,
+          37.823
+        ],
+        "hip": [
+          48.0,
+          49.777
+        ],
+        "frontFoot": [
+          45.243,
+          55.162
+        ],
+        "backFoot": [
+          48.844,
+          55.052
+        ],
+        "weaponTip": [
+          64.989,
+          19.185
+        ],
+        "weaponGrip": [
+          50.788,
+          31.324
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -4.374,
+        "headDepth": 6.1869,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          50.689,
+          41.989
+        ],
+        "leftHand": [
+          54.704,
+          44.862
+        ],
+        "head": [
+          44.548,
+          32.866
+        ],
+        "chest": [
+          46.038,
+          38.378
+        ],
+        "hip": [
+          47.969,
+          50.446
+        ],
+        "frontFoot": [
+          45.256,
+          56.258
+        ],
+        "backFoot": [
+          49.037,
+          55.854
+        ],
+        "weaponTip": [
+          61.832,
+          58.201
+        ],
+        "weaponGrip": [
+          50.689,
+          41.989
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -2.225,
+        "headDepth": 6.1353,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          53.231,
+          50.526
+        ],
+        "leftHand": [
+          48.946,
+          46.589
+        ],
+        "head": [
+          51.224,
+          36.337
+        ],
+        "chest": [
+          49.954,
+          41.989
+        ],
+        "hip": [
+          48.773,
+          54.249
+        ],
+        "frontFoot": [
+          45.242,
+          58.218
+        ],
+        "backFoot": [
+          48.823,
+          58.218
+        ],
+        "weaponTip": [
+          57.717,
+          70.969
+        ],
+        "weaponGrip": [
+          53.231,
+          50.526
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -1.319,
+        "headDepth": 5.8849,
+        "headVariant": "forward"
+      },
+      {
+        "rightHand": [
+          53.245,
+          51.197
+        ],
+        "leftHand": [
+          50.749,
+          48.686
+        ],
+        "head": [
+          50.783,
+          37.222
+        ],
+        "chest": [
+          49.733,
+          42.943
+        ],
+        "hip": [
+          48.593,
+          55.225
+        ],
+        "frontFoot": [
+          45.242,
+          59.526
+        ],
+        "backFoot": [
+          48.822,
+          59.526
+        ],
+        "weaponTip": [
+          61.913,
+          69.525
+        ],
+        "weaponGrip": [
+          53.245,
+          51.197
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.012,
+        "headDepth": 5.9045,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          52.386,
+          48.799
+        ],
+        "leftHand": [
+          53.362,
+          48.859
+        ],
+        "head": [
+          48.702,
+          36.172
+        ],
+        "chest": [
+          48.445,
+          42.028
+        ],
+        "hip": [
+          48.141,
+          54.391
+        ],
+        "frontFoot": [
+          45.241,
+          59.52
+        ],
+        "backFoot": [
+          48.822,
+          59.521
+        ],
+        "weaponTip": [
+          65.666,
+          62.403
+        ],
+        "weaponGrip": [
+          52.386,
+          48.799
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.018,
+        "headDepth": 5.9742,
+        "headVariant": "neutral"
+      },
+      {
+        "rightHand": [
+          52.585,
+          47.139
+        ],
+        "leftHand": [
+          54.023,
+          48.799
+        ],
+        "head": [
+          48.0,
+          35.902
+        ],
+        "chest": [
+          48.0,
+          41.767
+        ],
+        "hip": [
+          48.0,
+          54.137
+        ],
+        "frontFoot": [
+          45.243,
+          59.522
+        ],
+        "backFoot": [
+          48.823,
+          59.522
+        ],
+        "weaponTip": [
+          67.599,
+          57.721
+        ],
+        "weaponGrip": [
+          52.585,
+          47.139
+        ],
+        "rightHandBone": "handslot.r",
+        "rootY": -0.014,
+        "headDepth": 6.0,
+        "headVariant": "neutral"
+      }
+    ]
+  },
+  "outline": [
+    23,
+    6,
+    4
+  ],
+  "palette": [
+    [
+      58,
+      38,
+      32
+    ],
+    [
+      66,
+      52,
+      48
+    ],
+    [
+      74,
+      50,
+      38
+    ],
+    [
+      78,
+      86,
+      88
+    ],
+    [
+      85,
+      100,
+      122
+    ],
+    [
+      88,
+      72,
+      64
+    ],
+    [
+      89,
+      63,
+      122
+    ],
+    [
+      90,
+      58,
+      44
+    ],
+    [
+      93,
+      97,
+      62
+    ],
+    [
+      110,
+      75,
+      51
+    ],
+    [
+      122,
+      82,
+      64
+    ],
+    [
+      124,
+      106,
+      94
+    ],
+    [
+      124,
+      133,
+      133
+    ],
+    [
+      127,
+      125,
+      72
+    ],
+    [
+      130,
+      89,
+      53
+    ],
+    [
+      135,
+      148,
+      167
+    ],
+    [
+      138,
+      107,
+      176
+    ],
+    [
+      148,
+      70,
+      52
+    ],
+    [
+      155,
+      149,
+      144
+    ],
+    [
+      160,
+      114,
+      67
+    ],
+    [
+      161,
+      153,
+      82
+    ],
+    [
+      167,
+      144,
+      117
+    ],
+    [
+      174,
+      180,
+      178
+    ],
+    [
+      177,
+      154,
+      216
+    ],
+    [
+      180,
+      115,
+      86
+    ],
+    [
+      191,
+      142,
+      79
+    ],
+    [
+      201,
+      211,
+      220
+    ],
+    [
+      202,
+      173,
+      146
+    ],
+    [
+      209,
+      106,
+      72
+    ],
+    [
+      216,
+      212,
+      210
+    ],
+    [
+      221,
+      199,
+      167
+    ],
+    [
+      224,
+      150,
+      115
+    ],
+    [
+      226,
+      211,
+      182
+    ],
+    [
+      233,
+      138,
+      94
+    ],
+    [
+      241,
+      200,
+      116
+    ],
+    [
+      244,
+      237,
+      211
+    ],
+    [
+      247,
+      199,
+      158
+    ],
+    [
+      251,
+      238,
+      215
+    ],
+    [
+      255,
+      253,
+      248
+    ]
+  ],
+  "drawOrder": {
+    "default": [
+      "body",
+      "legs",
+      "boots",
+      "chest",
+      "wrist",
+      "weapon",
+      "head",
+      "hat"
+    ],
+    "perFrame": {},
+    "occlusion": "3D surfaces use per-pixel native depth. Original 2D head and fitted hat overlay at snapped bone anchor."
+  },
+  "source": "Hybrid: original PixelLab head (existing AI asset) + NON-AI KayKit CC0 rig/body/animations + authored equipment",
+  "renderSeconds": 4.3397536277771,
+  "camera": {
+    "orthoScalePerFrame": 4.4,
+    "side": "anatomical right (-X)",
+    "sameCameraEveryPass": true
+  }
+}

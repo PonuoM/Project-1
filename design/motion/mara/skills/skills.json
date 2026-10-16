@@ -1,0 +1,34 @@
+{
+ "thrust": {
+  "arc": "thrust",
+  "hits": 1
+ },
+ "rising": {
+  "arc": "up",
+  "hits": 1
+ },
+ "spin": {
+  "arc": "spin",
+  "hits": 4
+ },
+ "leap": {
+  "arc": "down",
+  "hits": 1
+ },
+ "dash": {
+  "arc": "thrust",
+  "hits": 1
+ },
+ "ground": {
+  "arc": "down",
+  "hits": 1
+ },
+ "flurry": {
+  "arc": "thrust",
+  "hits": 7
+ },
+ "warcry": {
+  "arc": "spin",
+  "hits": 1
+ }
+}

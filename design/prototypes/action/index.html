@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- Throwaway UI/action prototype. Layouts via ?variant=A/B/C, hero art via ?art=clean/raw/code (PixelLab trial vs code-drawn). No game API or production assets. -->
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prototype · เดินทางและแอ็กชัน</title><link rel="stylesheet" href="prototype.css"></head>
+<body>
+<main class="review">
+  <header class="review-heading"><h1>เดินทางเล็ก ๆ จังหวะกระแทกชัด ๆ</h1><p>Prototype ทดลองภาพและจังหวะ · กด F ฟัน · Space ใช้สกิล · ลากฉากเพื่อเลื่อนกล้อง · ลากแถบชื่อเพื่อย้ายหน้าต่าง</p></header>
+  <div class="desktop" id="desktop">
+    <div class="desktop-note" aria-hidden="true">พื้นที่ทำงานของคุณ</div>
+    <section class="game-window" id="game-window" data-variant="A" aria-label="หน้าต่างเกมทดลอง">
+      <header class="windowbar" id="drag-handle"><span class="sigil" aria-hidden="true"></span><strong>ผู้เดินทางแห่งป่ามืด</strong><span class="windowbar-status">ด่าน <b id="stage">12</b></span></header>
+      <div class="game-body">
+        <div class="stage-wrap"><canvas id="scene" width="560" height="180" aria-label="ฉากป่าที่ตัวละครเดิน ต่อสู้ และใช้สกิล" tabindex="0"></canvas><div class="scene-top"><span>ป่ามืด</span><span id="phase">กำลังเดินทาง</span></div><div class="scene-bottom"><span class="health"><i id="hp-fill"></i></span><span id="hero-name">นักรบ · Lv. 12</span></div></div>
+        <aside class="inspector"><h2 id="inspector-name">นักรบ</h2><p class="gold">พลัง 1,540</p><div class="equipment"><span>อาวุธ</span><strong>ดาบผู้พิทักษ์</strong><small>III หายาก</small></div><div class="equipment"><span>เกราะ</span><strong>เกราะเหล็ก</strong><small>II ดี</small></div><h3>ทักษะ</h3><p>สะบั้นแผ่นดิน</p><p class="muted">พุ่งลงดาบ<br>ปล่อยคลื่นกระแทก</p><p class="muted inspector-note">ข้อมูลจำลอง<br>ไม่มีผลกับเซฟเกม</p></aside>
+      </div>
+      <footer class="actionbar"><span class="gold-counter"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2h8l2 3v6l-2 3H4l-2-3V5zM8 5v6M6 5h4"/></svg><b id="gold">12,345</b></span><span class="loot-counter">กล่อง <b id="boxes">3</b></span><button id="slash" title="ฟันเร็ว (F)">ฟัน</button><button class="skill-button" id="skill"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 3l2-1-1 4L6 17M3 12l5 5M4 16l-2 2"/></svg>สะบั้นแผ่นดิน <kbd>Space</kbd><i id="cooldown"></i></button></footer>
+    </section>
+  </div>
+  <section class="controls art-switch" aria-label="เลือกภาพตัวละคร"><span>ภาพนักดาบ</span><button class="art selected" data-art="clean" title="สำเนาที่ลบพิกเซลหลุดแล้ว (design/pixellab/swordsman/cleaned)">PixelLab · ปรับแล้ว</button><button class="art" data-art="raw" title="ไฟล์ต้นฉบับจาก PixelLab ไม่แก้ไข">PixelLab · ต้นฉบับ</button><button class="art" data-art="code" title="ตัวละครวาดด้วยโค้ดรอบก่อน">ภาพโค้ดเดิม</button></section>
+  <section class="controls" aria-label="ตัวควบคุม prototype"><button id="pause">พักภาพ</button><label><input id="auto" type="checkbox" checked> ต่อสู้อัตโนมัติ</label><label><input id="shake" type="checkbox" checked> แรงสะเทือน</label><label><input id="sound" type="checkbox"> เสียงกระแทก</label><label><input id="slow" type="checkbox"> ช้าลง 4 เท่า (ตรวจเฟรม)</label><button id="follow">กล้องตามตัวละคร</button><button id="restart">เริ่มใหม่</button></section>
+  <p class="readout" id="readout" aria-live="off"></p>
+  <p class="note"><span id="timing"></span><br>โจมตีเร็ว ไม่เร่งจำนวนรางวัลจริง · ตัวเลขทั้งหมดจำลอง · <a href="../../CLAUDE_HANDOFF_ACTION_PROTOTYPE.md">โน้ตส่งต่อ</a> · <a href="../../pixellab/swordsman/preview.html">ตัวเลือกนักดาบทั้ง 16 แบบ</a></p>
+  <p class="note load-note" id="load-note" aria-live="polite"></p>
+  <section class="limits" aria-label="ข้อจำกัดของภาพ PixelLab รอบนี้"><h2>ข้อจำกัดของภาพ PixelLab รอบนี้ (ยังไม่ใช่ภาพที่อนุมัติ)</h2><ul>
+    <li><b>ยังไม่มีท่าเดิน</b>: ตอนเดินและยืนใช้ภาพนิ่ง candidate-11 เลื่อนผ่านฉาก ไม่สลับไปใช้ภาพเก่า ขาจึงไม่ก้าว</li>
+    <li><b>ยังไม่มีท่าสกิล</b>: สกิลใช้ท่าฟันชุดเดียวกัน เพิ่มแค่ hit stop 60ms คลื่นฟันใหญ่ขึ้น และแรงสั่น</li>
+    <li>มอนยังเป็นภาพโค้ดเดิม 48×48 จึงละเอียดน้อยกว่านักดาบ</li>
+    <li>ตัวละครสูงราว 61px (มีขนนกและดาบ) สูงกว่าเป้า 48–54px</li>
+    <li>เฟรมแรกและเฟรมสุดท้ายของท่าฟันถูก PixelLab วาดใหม่ ต่างจาก candidate-11 ราว 21 พิกเซล ตอนเริ่มฟันจึงอาจเห็นภาพกระพริบเล็กน้อย</li>
+    <li>ท่าฟันเหวี่ยงจบไปทางด้านหลังตัว (ท่าที่ AI สร้าง) ดาบโดนช่วงเฟรม 3–4</li>
+    <li>สำเนา "ปรับแล้ว" ลบเฉพาะพิกเซลหลุด 14 จุดทางซ้าย ไม่เลื่อนเฟรม เพราะเท้าทุกเฟรมอยู่แถว 63 และเท้าหน้าขยับไม่เกิน 2px (ดู cleaned/inspection.json) ประกายขาวจากแสงฟันในเฟรม 4–5 เก็บไว้</li>
+    <li>ภาพจาก PixelLab สร้างด้วย AI ถ้าใช้ในเกมจริงต้องแจ้งในแบบสอบถาม AI ของ Steam</li>
+  </ul></section>
+</main>
+<nav class="prototype-switcher" aria-label="เลือก layout ทดลอง"><button id="previous" aria-label="layout ก่อนหน้า">←</button><button class="variant selected" data-variant="A">A · Widget</button><button class="variant" data-variant="B">B · ทางเดิน</button><button class="variant" data-variant="C">C · ฉาก + อุปกรณ์</button><button id="next" aria-label="layout ถัดไป">→</button></nav>
+<script src="prototype.js"></script></body></html>

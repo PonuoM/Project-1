@@ -1,0 +1,67 @@
+{
+ "about": "sella walk (group clip, 2 steps)",
+ "frameWidth": 73,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 39
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 40
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 41
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 42
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 43
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 44
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 45
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 46
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 47
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 48
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 49
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 50
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+# Pixel world map and animated stage-placement prototype
+
+2026-10-15. Codex (GPT-6), built-in image_gen. Status: unfinished, generation underway.
+
+User requests pixel world map, room to place stages, moving water/clouds. Uses the established five-region G10 world; an ancillary animation preview, not a replacement game UI or production integration. Explicit project brief provides audience, art direction and constraints; no root product/design files are changed. Motion goal: sea and clouds convey a living overworld; pins stay still and readable. Budget: one small native-resolution canvas, no external libraries, pause when hidden and reduced-motion support.
+
+Exact image prompt: prompt-v1.txt. Reference: ../worldmap-g10-codex/worldmap-v1.png, opened and used for existing geography/identities only. Request transparent sea so water, land and clouds can be separate. Map export target2048x1536, native256x192 enlarged8x. Planned stage model follows WORLD-MAP-v1.md:5 regions,4 zones each,5 stages per zone=100. All stage positions are prototype placements and require integration/balance review.
+
+Resume: save imagegen source as land-raw-v1.png, inspect transparency and landmarks, export exact-grid land-v1.png; create viewer.html with moving water/clouds, regional focus, stage selection and pause; save zones.json/stages.json and static overview. Validate viewer and write final inventory + limitations here and AGENT_LOG.md. Only this task folder is writable besides append-only agent log.
+
+## Completion — 2026-10-15
+
+Status: DONE as an art/interaction prototype requested by the owner. Recommended entry: **viewer-v3.html**, renderer viewer-v2.js and styles viewer-v2.css. Latest handoff is **README-v2.md** (corrected APNG frame count). Earlier viewer/code/readme drafts retained. Live AppServ URL: http://localhost/Projects-1/design/world/worldmap-pixel-g10-codex/viewer-v3.html . The folder also opens directly without a build step.
+
+Image tool: built-in image_gen, transparent_background=true, reference ../worldmap-g10-codex/worldmap-v1.png, exact prompt in prompt-v1.txt. Agent Codex (GPT-6); image model ID not exposed. Original generator output land-raw-v1.png is1448x1086 RGBA PNG. No external paid service, MiniMax or PixelLab used. Source and all exported attempts remain in this folder.
+
+Art/export: generated transparent continent mechanically normalized into246x184 content placed in256x192 native canvas with5px left/4px top inset.80-colour quantization, binary alpha, nearest-neighbour8x enlargement. land-native-v1.png256x192; land-v1.png2048x1536; overview-v1.png2048x1536 on static teal sea. Transparent sea allows live background animation; native blocks and alpha were independently verified. This is intentionally a world-map asset rather than a chroma-key character sheet; G10's map-background exception applies.
+
+Motion: separately drawn pixel sea-wave pass below land, and separate far/near pixel clouds above land. Terrain stays stationary. Live viewer draws at10 updates/sec, stops when hidden, and reduced-motion preference pauses initially. User can explicitly start/stop and toggle cloud/pin/route layers. Static interior rivers, waterfalls, lava, rift and windmill blades are NOT separately animated in this first prototype; dedicated masks/sprites are needed to extend those.
+
+Stage placement:30 landmark anchors,100 separate stage anchors (5 regions x4 zones x5 stages). Native coordinate convention in map-layout.json and README-v2.md; multiply x/y by8 for full PNG. All100 stage centres on opaque terrain, unique IDs,5 regional bosses. Each region exposes20 buttons plus canvas hit targets and keyboard arrows. These are proposed placements, not production unlock rules/collision-tested traversal. Some connectors cross scenery or run straight between zone clusters, and those should be moved to final road clearings by the integrator. No drag editor was requested or built; positions are editable in stages.json and the corresponding map-data.js.
+
+Verification: desktop and390px mobile visual inspection in2 bounded rounds; no horizontal overflow. Browser checked5x20 stage buttons and stage100 boss title. Pixel comparison between t0/t3 found5534 changed pixels; pause held clock constant. A single mechanical design detector run flagged the mobile title's small hierarchy gap; final CSS increases its size to23px. No broad UI style/refactor work outside the preview. Verification-final-v1.json records checks.
+
+Animated artifact: motion-preview-v1.png768x576 APNG,6seconds. Browser captured16 source frames; Pillow coalesced identical adjacent frames into13 stored frames while preserving6000ms total duration. An initial exact16-frame assertion failed because of this normal optimization; follow-up checked animated frame count>=2 and total duration6000ms. motion-still-v1.png768x576 is the first frame; captured-frames-v1.json preserves the16 PNG captures as base64. APNG repeats with a small cloud-position reset; live viewer continuously wraps clouds offscreen.
+
+Limitations: generator retained small clusters/dense detail despite request for broad pixel shapes. Exact8x8 export can abstract tiny icons; material ramps are not globally three-shade locked. The source clips part of the northern ridge and eastern rift; padding does not restore missing art. Purple rift haze weakens after binary-alpha/palette export. Static land water remains blue rather than transparent holes.80 colours cover all five regions; additional per-region palette polish could reduce speckling. These are documented art/integration refinements, not claimed as production-ready assets.
+
+Files with image sizes and frame counts are listed in files-v1.json. Main PNGs: land-raw-v1.png1448x1086, land-native-v1.png256x192, land-v1.png/overview-v1.png2048x1536, motion-preview-v1.png/motion-still-v1.png768x576; desktop/mobile screenshots retained as preview-*-v1/v2.png. Supporting files: stages.json, zones.json, map-data.js, map-layout.json, build-assets-v1.py, verification-v1.json, verification-final-v1.json, README-v2.md. No client/server/runtime manifest or game-loaded file edited.
+
+Remaining work for this prototype: none. Owner can review the visual and movement using the viewer. Claude can wire data/layers into the actual game and refine stage clearings; original illustrated G10 remains untouched.

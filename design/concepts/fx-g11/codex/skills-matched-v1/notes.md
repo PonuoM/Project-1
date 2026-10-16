@@ -1,0 +1,5 @@
+# Skill-specific weapon trails
+
+2026-10-15 · Codex / GPT-6, image_gen image model ID not exposed. Status unfinished (started). Owner subsequently excluded warcry because they are changing its animation. Work on thrust/rising/spin/leap/dash/ground/flurry only. Do not modify warcry or its inputs.
+
+Read AGENTS/log and motion guide; inspected all8 complete selected-frame strips via labelled motion-reference PNGs. motion-analysis-v1.json preserves source frame and anchor observations. Existing G11 shapes and generic HIT-1 triggering mismatch several actions: rising visible swing4 but HIT12; ground already planted1 but HIT7; dash rear blade cannot use a forward spear; flurry first HIT5 is a retract; spin needs sustained waist-level ellipse rather than4 independent circles. Planned new128x80 native2x2 four-key sheets so coordinates match hero source instead of oversized64x64 centred effects. Preserve all raw attempts and exact prompts. New assets, timing plan and synchronized preview/integration next; no production files.

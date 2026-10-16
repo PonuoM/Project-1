@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Combat Feel</title>
+<style>
+  :root { --bg:#14141c; --panel:#1e1e2a; --text:#e8e6f0; --muted:#9a98aa; --accent:#ffb347; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.4 system-ui, sans-serif; }
+  .wrap { max-width:900px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; margin:0 0 8px; }
+  canvas { width:100%; max-width:840px; image-rendering:pixelated; background:#0d0d14; border-radius:8px; display:block; }
+  .row { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0; align-items:center; }
+  .row b { width:70px; color:var(--muted); font-weight:500; }
+  button { background:var(--panel); color:var(--text); border:1px solid #33334a; border-radius:6px; padding:6px 10px; cursor:pointer; }
+  button.on { border-color:var(--accent); color:var(--accent); }
+  input[type=range] { width:180px; }
+  .note { color:var(--muted); font-size:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>ทดลองความแรง · Mara vs Kiki</h1>
+  <canvas id="c" width="280" height="120"></canvas>
+  <div class="row"><b>ท่า</b><span id="moves"></span></div>
+  <div class="row"><b>ธาตุ</b><span id="elems"></span></div>
+  <div class="row"><b>เอฟเฟกต์</b><span id="fxsets"></span></div>
+  <div class="row"><b>ดาบ</b><span id="blades"></span></div>
+  <div class="row"><b>หินเสริม</b><button id="boom">ระเบิด</button></div>
+  <div class="row"><b>ความเร็ว</b><input id="speed" type="range" min="0.6" max="1.6" step="0.05" value="1"><span id="speedv"></span></div>
+  <div class="row"><b>Hit stop</b><input id="stop" type="range" min="0" max="160" step="10" value="80"><span id="stopv"></span></div>
+  <div class="row"><b>จอสั่น</b><input id="shake" type="range" min="0" max="8" step="1" value="3"><span id="shakev"></span></div>
+  <div class="row"><b></b><button id="auto" class="on">ตีอัตโนมัติ</button><button id="ai">ต่อสู้อัตโนมัติ (AI)</button><button id="chain">รันทุกท่าต่อกัน</button><button id="hit">ตี 1 ครั้ง (Space)</button></div>
+  <p class="note">เอฟเฟกต์ใหม่: ระเบิด 16 เฟรม · ไฟ / น้ำแข็งแตก / พิษสาด อย่างละ 12 เฟรม · ปะทะตรงตัวมอน เลือกชุดเดิมเพื่อเทียบได้</p>
+</div>
+<script src="../../concepts/fx-g11/codex/skills-matched-v1/matched-arcs-v3.js"></script>
+<script>
+const M = '../../motion/';
+const MOVES = {
+  'sk-thrust': { label:'แทงพุ่ง', base:M+'mara/skills/thrust/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-rising': { label:'เสยขึ้น', base:M+'mara/skills/rising/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-spin': { label:'หมุน', base:M+'mara/skills/spin/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-leap': { label:'กระโดดฟาด', base:M+'mara/skills/leap/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-dash': { label:'พุ่งผ่าน', base:M+'mara/skills/dash/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-ground': { label:'ปักดาบ (บัฟ)', base:M+'mara/skills/ground/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-flurry': { label:'แทงรัว', base:M+'mara/skills/flurry/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  'sk-warcry': { label:'ตะโกน (บัฟ)', base:M+'mara/skills/warcry2/', raw:'strip-fast.png', blade:n=>n==7?'strip-fast-blade-7.png':'strip-fast.png', spec:'pick-fast.json' },
+  slash: { label:'ฟันปกติ', base:M+'mara/S01-slash-h3/', raw:'strip-manual.png', blade:n=>`strip-blade-${n}.png`, spec:'pick-manual.json',
+           ms:[40,30,30,30,40,70,20,25,45,40,35,35,50] },
+  combo: { label:'คอมโบ 3 จังหวะ', base:M+'mara/S03-combo/', raw:'chain-1-2-3.png', blade:n=>`chain-blade-${n}.png`, spec:'chain-1-2-3.json',
+           ms:[40,30,30,30,35,60,20,25,45,30, 25,25,25,45,30, 25,25,25,55,45, 35,35,35,35,50] },
+};
+const ELEMS = { none:'ไม่มี', fire:'ไฟ', ice:'น้ำแข็ง', poison:'พิษ', lightning:'สายฟ้า' };
+const RAMP = { fire:['#ffe178','#f06e1e','#962814'], ice:['#e1f8ff','#6ebef0','#285aa0'], poison:['#d2ff96','#6ed23c','#286e1e'],
+               lightning:['#ffffc8','#fadc46','#aa8214'], none:['#ffffff','#ffe9b0','#c0a070'] };
+const DRIFT = { fire:-1, poison:-1, ice:1, lightning:0, none:-1 };
+const BLADES = { raw:'ม่วง (ID)', 2:'เหล็กกล้า', 5:'คริสตัล', 6:'พายุ', 7:'ถ่านเพลิง' };
+const CHAIN = ['combo','sk-thrust','sk-rising','sk-dash','sk-spin','sk-flurry','sk-leap','sk-ground','sk-warcry'];
+let chainI = -1;
+// AI battle: skills on cooldown (ms); when nothing is ready the basic 3-hit combo plays. Recovery frames are skipped
+// whenever a next action is ready, so the hero never stands idle between attacks.
+const SKILLS = [ ['sk-warcry',16000], ['sk-ground',22000], ['sk-spin',7000], ['sk-dash',5000], ['sk-thrust',3500], ['sk-rising',4500], ['sk-flurry',8000], ['sk-leap',6000] ];
+const cd = {}; let ai = false, nextMove = null;
+function pickNext() { for (const [k, c] of SKILLS) if (!(cd[k] > 0)) { cd[k] = c; return k; } return 'combo'; }
+const st = { move:'combo', elem:'fire', blade:'7', auto:true, boom:false, fxset:'expanded' };
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (reducedMotion) st.auto = false;
+const cv = document.getElementById('c'), cx = cv.getContext('2d'); cx.imageSmoothingEnabled = false;
+const BUST = '?v=' + Date.now();                       // always load the newest files (no stale cache)
+const img = src => new Promise((resolve, reject) => { const i = new Image(); i.onload = () => resolve(i); i.onerror = () => reject(new Error('โหลดภาพไม่สำเร็จ: ' + src)); i.src = src + BUST; });
+const json = src => fetch(src + BUST, { cache: 'no-store' }).then(r => r.json());
+const A = {};
+async function load() {
+  A.blade = await json(M + 'mara/blade-points.json'); A.anchors = await json(M + 'mara/anchors.json');
+  for (const [k, m] of Object.entries(MOVES)) {
+    m.specData = await json(m.base + m.spec); if (!m.ms) m.ms = m.specData.frames.map(f => f.ms);
+    m.imgs = { raw: await img(m.base + m.raw) };
+    for (const n of [2,5,6,7]) m.imgs[n] = await img(m.base + m.blade(n)).catch(() => m.imgs.raw);
+    m.hits = m.specData.frames.map((f,i)=>/HIT|IMPACT/.test(f.note||'')?i:-1).filter(i=>i>=0);
+  }
+  A.fx = {};
+  for (const e of ['fire','ice','poison','lightning']) {
+    A.fx[e] = {};
+    for (const k of ['burst','loop']) {
+      const sp = await json(`${M}fx/elements-test/${e}/pick-${k}.json`);
+      A.fx[e][k] = { img: await img(`${M}fx/elements-test/${e}/strip-${k}.png`), w: sp.frameWidth, n: sp.frames.length };
+    }
+  }
+  const expandedBase = '../../concepts/fx-g10/codex/impact-expanded-v1/';
+  A.expanded = {};
+  for (const spec of await json(expandedBase + 'effects-v2.json')) {
+    const key = ({'ice-shatter':'ice', 'poison-slash':'poison'})[spec.effect] || spec.effect;
+    A.expanded[key] = { img: await img(expandedBase + spec.sheet), w:spec.frameWidth, h:spec.frameHeight,
+      cols:spec.cols, times:spec.frames.map(f=>f.durationMs), duration:spec.totalEffectMs, anchor:[32,32] };
+  }
+  A.expanded.lightning = { img:await img('../../concepts/fx-g10/codex/lightning-v2.png'),
+    w:256, h:256, cols:4, times:[20,30,25,45], duration:120, anchor:[32,52] };
+  A.hits = await json(M + 'fx/hits/hits.json');
+  for (const [e, list] of Object.entries(A.hits)) for (const h of list) h.img = await img(M + 'fx/hits/' + h.file);
+  A.kiki = [];
+  for (const i of [0,38,40,41,42,43,44,46]) A.kiki.push(await img(`${M}monsters/kiki/hurt-death/frames/frame-${String(i).padStart(2,'0')}.png`));
+}
+function buttons(id, opts, key) {
+  const el = document.getElementById(id); el.innerHTML = '';
+  for (const [k, v] of Object.entries(opts)) {
+    const b = document.createElement('button'); b.textContent = v; b.className = String(st[key]) === k ? 'on' : '';
+    b.onclick = () => { st[key] = k; buttons(id, opts, key); }; el.appendChild(b);
+  }
+}
+const G = 100, BURST_MS = 28, HIT_FROM = { fire:5, ice:5, poison:5, explosion:5, lightning:0 }, HIT_LEN = { fire:11, ice:11, poison:11, explosion:12, lightning:10 };   // hit burst = explosion only (~0.18 s)                                      // ground line
+let flashT = 0, atk = null, t = 0, stopUntil = 0, shakeT = 0, shakeA = 0, parts = [], texts = [], bursts = [];
+const foe = { max:9, hp:9, x:152, kb:0, flash:0, status:null, statusT:0, dead:-1 };
+const LABEL = { fire:'ติดไฟ', ice:'หนาว', poison:'พิษ', lightning:'ช็อต' };
+const TINT = { fire:'rgba(255,120,40,0.18)', ice:'rgba(120,200,255,0.45)', poison:'rgba(110,220,70,0.32)', lightning:'rgba(255,240,120,0.25)' };
+let spots = null, statusParts = [];
+function maskPoints(im) {                              // opaque pixels of the enemy sprite, for status spots
+  const o = new OffscreenCanvas(im.width, im.height), oc = o.getContext('2d'); oc.drawImage(im, 0, 0);
+  const d = oc.getImageData(0, 0, im.width, im.height).data, pts = [];
+  for (let y = 0; y < im.height; y++) for (let x = 0; x < im.width; x++) if (d[(y*im.width+x)*4+3] > 0) pts.push([x, y]);
+  return pts;
+}
+function drawStatus(k, fx, fy) {
+  if (!spots) spots = maskPoints(A.kiki[0]);
+  const e = foe.status, R = RAMP[e];
+  // 1 tint over the body only
+  const o = new OffscreenCanvas(k.width, k.height), oc = o.getContext('2d'); oc.drawImage(k, 0, 0);
+  oc.globalCompositeOperation = 'source-atop'; oc.fillStyle = TINT[e]; oc.fillRect(0, 0, k.width, k.height); cx.drawImage(o, fx, fy);
+  // 2 a few small spots on the body
+  if (Math.random() < 0.6) { const p = spots[Math.floor(Math.random() * spots.length)]; statusParts.push({ x: fx + p[0], y: fy + p[1], age: 0, e }); }
+  statusParts = statusParts.filter(p => p.age < 260 && p.e === e);
+  for (const p of statusParts) {
+    p.age += 16; const c = p.age < 80 ? R[0] : p.age < 170 ? R[1] : R[2];
+    if (e === 'fire')      { cx.fillStyle = c; cx.fillRect(Math.round(p.x), Math.round(p.y - p.age/40), 1, 2); cx.fillStyle = R[0]; cx.fillRect(Math.round(p.x), Math.round(p.y - p.age/40) - 1, 1, 1); }
+    if (e === 'poison')    { cx.fillStyle = c; cx.fillRect(Math.round(p.x), Math.round(p.y - p.age/30), 1, 1); }
+    if (e === 'ice')       { if (p.age < 120) { cx.fillStyle = '#fff'; cx.fillRect(Math.round(p.x), Math.round(p.y), 1, 1); } }
+    if (e === 'lightning') { if (p.age < 90) { cx.strokeStyle = R[0]; cx.beginPath(); cx.moveTo(p.x, p.y); cx.lineTo(p.x + 2, p.y + 2); cx.lineTo(p.x, p.y + 4); cx.stroke(); } }
+  }
+}
+// slash arcs: Codex G11 sheets (4 frames of 64x64, white/grey/dark roles), recoloured per element
+const ARC_FILES = { down:'arc-down', rl:'arc-sweep-rl', lr:'arc-sweep-lr', up:'arc-up', thrust:'arc-thrust', spin:'arc-spin' };
+const ARC_PLAN = {
+  'sk-thrust':[{k:'thrust',s:1.5}], 'sk-rising':[{k:'up',s:1.5}], 'sk-spin':[{k:'spin',s:1.4}], 'sk-leap':[{k:'down',s:1.6}],
+  'sk-dash':[{k:'thrust',s:1.9}], 'sk-ground':[{k:'down',s:1.4}], 'sk-flurry':[{k:'thrust',s:1.2}], 'sk-warcry':[{k:'spin',s:1.8}],
+  slash:[{k:'down',s:1.35}], combo:[{k:'down',s:1.35},{k:'rl',s:1.4},{k:'lr',s:1.8}] };
+const ARC_COL = { none:['#ffffff','#9fe8ff','#2f5fd0'], fire:['#fff6c8','#ff9a2e','#a8281a'], ice:['#ffffff','#7fe0ff','#2f5fd0'],
+                  poison:['#f2ffd0','#7be03c','#1f6a2a'], lightning:['#ffffff','#ffe95a','#7a4cff'] };
+const ARC_MS = 32; let arcs = [], ARCS = {};
+function hex(c) { return [1,3,5].map(i => parseInt(c.slice(i, i+2), 16)); }
+async function loadArcs() {
+  for (const [k, f] of Object.entries(ARC_FILES)) {
+    const im = await img(`../../concepts/fx-g11/codex/${f}-native-v3.png`); ARCS[k] = {};
+    for (const [e, cols] of Object.entries(ARC_COL)) {
+      const o = new OffscreenCanvas(im.width, im.height), oc = o.getContext('2d'); oc.drawImage(im, 0, 0);
+      const d = oc.getImageData(0, 0, im.width, im.height), p = d.data, C = cols.map(hex);
+      for (let i = 0; i < p.length; i += 4) {
+        const v = p[i];
+        if (v < 20) { p[i+3] = 0; continue; }
+        const c = v > 200 ? C[0] : v > 110 ? C[1] : C[2]; p[i] = c[0]; p[i+1] = c[1]; p[i+2] = c[2]; p[i+3] = 255;
+      }
+      oc.putImageData(d, 0, 0); ARCS[k][e] = o;
+    }
+  }
+}
+// flurry: every hit also fires extra thrust streaks on lanes above/below the main one, alternating, so it reads as many very fast stabs
+let streaks = [];
+const LANES = [[-8, 6], [9, -4], [-4, -6], [6, 8]];      // [dy, dx] alternating upper / lower
+function spawnStreaks(hi) {
+  const a = LANES[(2 * hi) % LANES.length], b = LANES[(2 * hi + 1) % LANES.length];
+  streaks.push({ dy: a[0], dx: a[1], life: 0 }, { dy: b[0], dx: b[1], life: -45 });
+}
+function drawStreaks() {
+  const p = MATCHED_ARCS['sk-flurry']; if (!p || !streaks.length) return;
+  const sheet = p.tints[st.elem];
+  for (const s of streaks) {
+    if (s.life < 0) continue;
+    const key = Math.min(3, Math.floor(s.life / 30));
+    cx.globalAlpha = key >= 2 ? 0.6 : 1;
+    cx.drawImage(sheet, (key % 2) * 128, Math.floor(key / 2) * 80, 128, 80, 20 + p.offset[0] + s.dx, G - 79 + p.offset[1] + s.dy, 128, 80);
+    cx.globalAlpha = 1;
+  }
+}
+function spawnArc(move, hi, hitFrame) {
+  if (move === 'sk-flurry') spawnStreaks(hi);
+  if (MATCHED_ARCS[move]) return;
+  const P = ARC_PLAN[move][Math.min(hi, ARC_PLAN[move].length - 1)], An = (A.anchors[move] || [])[hitFrame] || { body:[54,46], line:[60,46] };
+  const sz = 64 * P.s; let x, y;                       // same rule as tools/arc_check2.py
+  if (P.k === 'thrust') { x = An.line[0] - sz * 0.08; y = An.line[1] - sz / 2; }
+  else if (P.k === 'spin') {                           // side view: the blade circles flat around the waist -> wide, flat ellipse
+    const w = sz * 1.25, h = sz * (move === 'sk-warcry' ? 0.22 : 0.34), cy = move === 'sk-warcry' ? An.body[1] + 20 : An.line[1];
+    arcs.push({ k: P.k, flat: true, w, h, x: 20 + An.body[0] - w / 2, y: G - 79 + cy - h / 2, life: 0 }); return;
+  }
+  else { x = An.body[0] - sz * 0.22; y = An.body[1] - 4 - sz / 2; }
+  arcs.push({ k: P.k, sz, x: 20 + x, y: G - 79 + y, life: 0 });
+}
+function drawArcs(part) {
+  drawMatchedArcs(part);                              // part: 'back' (top half of flat rings, behind the hero) or 'front'
+  for (const a of arcs) {
+    const sheet = ARCS[a.k] && ARCS[a.k][st.elem]; if (!sheet) continue;
+    const f = Math.min(3, Math.floor(a.life / ARC_MS));
+    if (a.flat) {
+      const half = part === 'back' ? 0 : 32, dy = part === 'back' ? 0 : a.h / 2;
+      cx.drawImage(sheet, f * 64, half, 64, 32, Math.round(a.x), Math.round(a.y + dy), a.w, a.h / 2); continue;
+    }
+    if (part === 'back') continue;
+    cx.drawImage(sheet, f * 64, 0, 64, 64, Math.round(a.x), Math.round(a.y), a.sz, a.sz);
+  }
+}
+function startAttack() { if (!atk) atk = { move: st.move, f: 0, acc: 0, hitDone: new Set() }; }
+function refreshMoves() { buttons('moves', Object.fromEntries(Object.entries(MOVES).map(([k,v])=>[k,v.label])), 'move'); }
+const STEP = [ // per hit of the combo: hit stop, shake, knockback, burst size, damage, flash
+  { stop:0.6, shake:0.6, kb:5,  size:0.9, dmg:1.0, flash:90 },
+  { stop:0.8, shake:0.9, kb:7,  size:1.1, dmg:1.2, flash:100 },
+  { stop:1.6, shake:2.2, kb:16, size:1.6, dmg:2.2, flash:110 } ];
+function impact() {
+  const m = MOVES[atk.move], hi = m.hits.indexOf(atk.f), last = hi === m.hits.length - 1;
+  const S = m.hits.length > 1 ? STEP[Math.min(hi, 2)] : STEP[1];
+  stopUntil = t + +stop.value * S.stop; shakeA = +shake.value * S.shake; shakeT = last ? 260 : 160;
+  foe.flash = reducedMotion ? 0 : st.fxset === 'expanded' ? 25 : S.flash; foe.kb = S.kb; foe.hp--;
+  if (last && m.hits.length > 1) { flashT = reducedMotion ? 0 : st.fxset === 'expanded' ? 22 : 90; }
+  const dmg = Math.round((90 + Math.floor(Math.random() * 60)) * S.dmg), crit = last || Math.random() < 0.2;
+  texts.push({ x: foe.x + (hi - 1) * 12 + (Math.random()*4-2), y: G - 34 - Math.max(0, hi) * 7, v: crit ? dmg*2 : dmg, crit, life: 600, col: RAMP[st.elem][st.elem==='none'?2:0] });
+  const contact = { x:foe.x + foe.kb - 4, y:G - A.kiki[0].height * 0.52, kb:foe.kb, fxset:st.fxset };
+  bursts.push({ ...contact, e:st.elem, v:Math.floor(Math.random()*3), life:0, s:S.size });
+  if (st.boom) bursts.push({ ...contact, e:'explosion', v:Math.floor(Math.random()*3),
+    life:st.fxset === 'expanded' && st.elem !== 'none' ? -45 : 0, s:S.size * 0.9 });
+  if (st.elem !== 'none') { if (foe.status !== st.elem) texts.push({ x: foe.x, y: G - 44, v: LABEL[st.elem], crit:false, life: 700, col: RAMP[st.elem][1], small:true }); foe.status = st.elem; foe.statusT = 2600; }
+  if (foe.hp <= 0) { foe.dead = 0; }
+}
+let last = performance.now();
+function tick(now) {
+  let dt = Math.min(50, now - last); last = now; t += dt;
+  if (document.hidden) { requestAnimationFrame(tick); return; }
+  const frozen = t < stopUntil;
+  const spd = +speed.value;
+  if (!frozen) for (const k in cd) cd[k] -= dt;
+  if (atk && !frozen) {
+    const m = MOVES[atk.move]; atk.acc += dt * spd;
+    while (atk && atk.acc >= m.ms[atk.f]) {
+      atk.acc -= m.ms[atk.f]; atk.f++;
+      // AI: after the last hit, play the recovery FAST (every 2nd frame, 20 ms) instead of cutting it, then flow
+      // into the next move's first frames -> continuous motion, ~0.1 s of recovery
+      if (ai && !atk.rush && (m.hits.length && atk.f > m.hits[m.hits.length-1] + 1 || !m.hits.length && atk.f >= m.ms.length - 4)) atk.rush = true;
+      if (atk.rush) { atk.f += 1; atk.acc = Math.max(0, atk.acc - 20 + m.ms[Math.min(atk.f, m.ms.length-1)]); }
+      if (ai && atk.f >= m.ms.length - 1) {
+        const nx = pickNext(); st.move = nx; refreshMoves(); atk = { move: nx, f: 1, acc: 0, hitDone: new Set() }; break; }
+      if (atk.f >= m.ms.length) { atk = null;
+        if (chainI >= 0) { chainI++; if (chainI < CHAIN.length) { st.move = CHAIN[chainI]; refreshMoves(); atk = { move: st.move, f: 0, acc: 0, hitDone: new Set() }; } else { chainI = -1; } }
+        break; }
+      if (m.hits.includes(atk.f + 1) && !atk.arcDone?.has(atk.f)) { (atk.arcDone ||= new Set()).add(atk.f); spawnArc(atk.move, m.hits.indexOf(atk.f + 1), atk.f + 1); }
+      if (m.hits.includes(atk.f) && !atk.hitDone.has(atk.f)) { atk.hitDone.add(atk.f); impact(); break; }
+    }
+  }
+  if (!atk && chainI < 0 && st.auto && !frozen && foe.dead < 0) { idleT = (idleT||0) + dt; if (idleT > 260) { idleT = 0; startAttack(); } }
+  // blade particles
+  if (atk && st.elem !== 'none') {
+    const pts = (A.blade[atk.move] || A.blade[atk.move.replace(/^sk-/, 'sk-')] || [])[atk.f] || [];
+    for (let i = 0; i < Math.min(pts.length, frozen ? 2 : 7); i++) { const p = pts[Math.floor(Math.random()*pts.length)]; parts.push({ x: 20 + p[0], y: G - 79 + p[1], age: 0 }); }
+  }
+  if (!frozen) {
+    parts.forEach(p => { p.age += dt; p.y += DRIFT[st.elem] * dt / 40; if (st.elem==='lightning') p.x += (Math.random()*2-1); });
+    parts = parts.filter(p => p.age < 170);
+    foe.kb *= Math.pow(0.86, dt / 16); foe.flash -= dt; foe.statusT -= dt; if (foe.statusT <= 0) foe.status = null;
+    bursts.forEach(b => b.life += dt); arcs.forEach(a => a.life += dt); streaks.forEach(q => q.life += dt); streaks = streaks.filter(q => q.life < 120); arcs = arcs.filter(a => a.life < ARC_MS * 4); bursts = bursts.filter(b => b.life < (b.fxset === 'expanded' && A.expanded[b.e] ? A.expanded[b.e].duration : (HIT_LEN[b.e] || 8) * BURST_MS));
+    texts.forEach(s => { s.life -= dt; s.y -= dt / 40; }); texts = texts.filter(s => s.life > 0);
+    if (foe.dead >= 0) { foe.dead += dt; if (foe.dead > 1300) { foe.dead = -1; foe.max = ai ? 40 : 9; foe.hp = foe.max; if (ai && !atk) { st.move = pickNext(); refreshMoves(); startAttack(); } foe.status = null; statusParts = []; } }
+  }
+  if (frozen) arcs.forEach(a => a.life += dt * 0.25);
+  shakeT = Math.max(0, shakeT - dt); flashT = Math.max(0, flashT - dt);
+  draw(frozen);
+  requestAnimationFrame(tick);
+}
+let idleT = 0;
+function draw(frozen) {
+  const sx = !reducedMotion && shakeT > 0 ? (Math.random()*2-1) * shakeA * shakeT/160 : 0, sy = !reducedMotion && shakeT > 0 ? (Math.random()*2-1) * shakeA * shakeT/160 : 0;
+  cx.setTransform(1,0,0,1,Math.round(sx),Math.round(sy));
+  const g = cx.createLinearGradient(0,0,0,120); g.addColorStop(0,'#1b1830'); g.addColorStop(1,'#2a2236');
+  cx.fillStyle = g; cx.fillRect(-10,-10,300,140); cx.fillStyle = '#3b3048'; cx.fillRect(-10,G,300,30); cx.fillStyle='#4d405c'; cx.fillRect(-10,G,300,1);
+  // foe
+  const fi = foe.dead >= 0 ? Math.min(A.kiki.length-1, 1 + Math.floor(foe.dead/70)) : 0;
+  const k = A.kiki[fi], fx = Math.round(foe.x + foe.kb - k.width/2), fy = G - k.height;
+  if (foe.flash > 0) {
+    const o = new OffscreenCanvas(k.width, k.height), oc = o.getContext('2d'); oc.drawImage(k,0,0); oc.globalCompositeOperation='source-in'; oc.fillStyle='#fff'; oc.fillRect(0,0,k.width,k.height);
+    cx.drawImage(o, fx, fy);
+  } else cx.drawImage(k, fx, fy);
+  if (foe.status && foe.dead < 0) drawStatus(k, fx, fy);
+  // HP bar
+  if (foe.dead < 0) { const w = 26, x = Math.round(foe.x - w/2), y = fy - 5; cx.fillStyle = '#000'; cx.fillRect(x-1, y-1, w+2, 4);
+    cx.fillStyle = '#5a1010'; cx.fillRect(x, y, w, 2); cx.fillStyle = '#e03a3a'; cx.fillRect(x, y, Math.round(w * Math.max(0, foe.hp) / foe.max), 2); }
+  drawArcs('back'); drawMatchedArcs('back');
+  // hero
+  const m = MOVES[st.move], f = atk && atk.move === st.move ? atk.f : 0;
+  const im = m.imgs[st.blade] || m.imgs.raw;
+  cx.drawImage(im, f*128, 0, 128, 80, 20, G - 79, 128, 80);
+  drawArcs('front'); drawMatchedArcs('front'); drawStreaks();
+  // particles
+  const R = RAMP[st.elem];
+  parts.forEach(p => { cx.fillStyle = p.age < 50 ? R[0] : p.age < 110 ? R[1] : R[2]; cx.fillRect(Math.round(p.x), Math.round(p.y), 1, 1); });
+  // bursts (additive)
+  bursts.forEach(b => {
+    if (b.life < 0) return;
+    const sheet = b.fxset === 'expanded' && A.expanded[b.e];
+    if (sheet) {
+      let n=0, end=sheet.times[0];
+      while (n < sheet.times.length-1 && b.life >= end) end += sheet.times[++n];
+      // Native64px artwork, torso pivot; the first beat follows recoil, debris then detaches.
+      const scale = b.e === 'lightning' ? 1 : Math.min(1.25, 0.85 + (b.s-0.9)*0.45);
+      const follow = Math.max(0, 1-b.life/140);
+      const x = b.x + (foe.kb-b.kb)*follow;
+      const y = b.e === 'lightning' ? G : b.y;
+      cx.globalCompositeOperation='lighter';
+      cx.drawImage(sheet.img, (n%sheet.cols)*sheet.w, Math.floor(n/sheet.cols)*sheet.h, sheet.w,sheet.h,
+        Math.round(x-sheet.anchor[0]*scale),Math.round(y-sheet.anchor[1]*scale),Math.round(64*scale),Math.round(64*scale));
+      cx.globalCompositeOperation='source-over';
+      return;
+    }
+    cx.globalCompositeOperation = 'lighter';
+    const H = A.hits && A.hits[b.e] && A.hits[b.e][b.v];
+    if (H) { const n = Math.min(HIT_LEN[b.e]-1, Math.floor(b.life/BURST_MS)) + HIT_FROM[b.e], w = H.frameWidth, h = H.height;
+      const sc = (b.e === 'lightning' ? 0.6 : 0.9) * (b.e === 'lightning' ? 1 : (b.s || 1));
+      const dx = Math.round(b.x - w*sc/2), dy = b.e === 'lightning' ? Math.round(G - h*sc) : Math.round(b.y - h*sc*0.62);
+      cx.globalAlpha = n >= HIT_FROM[b.e] + HIT_LEN[b.e] - 2 ? 0.55 : 1;
+      cx.drawImage(H.img, n*w, 0, w, h, dx, dy, w*sc, h*sc); cx.globalAlpha = 1; }
+    else { cx.strokeStyle = '#fff'; const r = 4 + b.life/12; for (let a = 0; a < 8; a++) { const an = a*Math.PI/4; cx.beginPath(); cx.moveTo(b.x+Math.cos(an)*r*0.4, b.y-14+Math.sin(an)*r*0.4); cx.lineTo(b.x+Math.cos(an)*r, b.y-14+Math.sin(an)*r); cx.stroke(); } }
+    cx.globalCompositeOperation = 'source-over';
+  });
+  if (flashT > 0) { cx.fillStyle = `rgba(255,255,255,${flashT/220})`; cx.fillRect(-10,-10,300,140); }
+  // damage numbers
+  texts.forEach(s => { cx.font = (s.small ? 'bold 8px' : s.crit ? 'bold 13px' : 'bold 9px') + ' sans-serif'; cx.textAlign = 'center';
+    cx.fillStyle = '#000'; cx.fillText(s.v, s.x+1, s.y+1); cx.fillStyle = s.crit ? '#fff36a' : s.col; cx.fillText(s.v, s.x, s.y); });
+}
+const speed = document.getElementById('speed'), stop = document.getElementById('stop'), shake = document.getElementById('shake');
+for (const [el, out, fmt] of [[speed,'speedv',v=>v+'×'],[stop,'stopv',v=>v+' ms'],[shake,'shakev',v=>v+' px']]) {
+  const o = document.getElementById(out); const f = () => o.textContent = fmt(el.value); el.oninput = f; f();
+}
+document.getElementById('auto').onclick = e => { st.auto = !st.auto; e.target.className = st.auto ? 'on' : ''; };
+document.getElementById('boom').onclick = e => { st.boom = !st.boom; e.target.className = st.boom ? 'on' : ''; };
+document.getElementById('ai').onclick = e => { ai = !ai; e.target.className = ai ? 'on' : ''; if (ai) { foe.max = 40; foe.hp = 40; foe.dead = -1; st.auto = false; document.getElementById('auto').className = ''; if (!atk) { st.move = pickNext(); refreshMoves(); startAttack(); } } };
+document.getElementById('chain').onclick = () => { if (atk) return; chainI = 0; st.move = CHAIN[0]; refreshMoves(); foe.hp = 999; foe.max = 999; foe.dead = -1; startAttack(); };
+document.getElementById('hit').onclick = () => startAttack();
+addEventListener('keydown', e => { if (e.code === 'Space') { e.preventDefault(); startAttack(); } });
+load().then(loadArcs).then(loadMatchedArcs).then(() => {
+  buttons('moves', Object.fromEntries(Object.entries(MOVES).map(([k,v])=>[k,v.label])), 'move');
+  buttons('fxsets', {expanded:'ใหม่ · Sprite', original:'เดิม'}, 'fxset');
+  document.getElementById('auto').classList.toggle('on', st.auto);
+  buttons('elems', ELEMS, 'elem'); buttons('blades', BLADES, 'blade');
+  requestAnimationFrame(tick);
+}).catch(error => { document.querySelector('.note').textContent = error.message; console.error(error); });
+</script>
+</body>
+</html>

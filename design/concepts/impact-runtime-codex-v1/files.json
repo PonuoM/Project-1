@@ -1,0 +1,598 @@
+[
+  {
+    "path": "assets\\chop.png",
+    "bytes": 19491,
+    "width": 1200,
+    "height": 80,
+    "frames": 1
+  },
+  {
+    "path": "assets\\phaser-LICENSE.md",
+    "bytes": 1120
+  },
+  {
+    "path": "assets\\phaser.min.js",
+    "bytes": 1196122
+  },
+  {
+    "path": "assets\\slash.png",
+    "bytes": 17109,
+    "width": 1200,
+    "height": 80,
+    "frames": 1
+  },
+  {
+    "path": "assets\\slime_death.png",
+    "bytes": 621,
+    "width": 160,
+    "height": 32,
+    "frames": 1
+  },
+  {
+    "path": "assets\\slime_idle.png",
+    "bytes": 546,
+    "width": 128,
+    "height": 32,
+    "frames": 1
+  },
+  {
+    "path": "assets-check-v1.png",
+    "bytes": 6455,
+    "width": 600,
+    "height": 240,
+    "frames": 1
+  },
+  {
+    "path": "attack-driver.mjs",
+    "bytes": 3012
+  },
+  {
+    "path": "combo-contact-v1.png",
+    "bytes": 44035,
+    "width": 1280,
+    "height": 360,
+    "frames": 1
+  },
+  {
+    "path": "combo-contact-v2.png",
+    "bytes": 46087,
+    "width": 1280,
+    "height": 360,
+    "frames": 1
+  },
+  {
+    "path": "combo-preview-v2.png",
+    "bytes": 111965,
+    "width": 960,
+    "height": 360,
+    "frames": 25
+  },
+  {
+    "path": "demo-v2.mjs",
+    "bytes": 5073
+  },
+  {
+    "path": "demo.mjs",
+    "bytes": 5070
+  },
+  {
+    "path": "integration.md",
+    "bytes": 4259
+  },
+  {
+    "path": "live-frames\\frame-00.png",
+    "bytes": 3999,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-01.png",
+    "bytes": 7786,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-02.png",
+    "bytes": 6366,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-03.png",
+    "bytes": 5141,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-04.png",
+    "bytes": 5208,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-05.png",
+    "bytes": 5308,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-06.png",
+    "bytes": 7485,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-07.png",
+    "bytes": 6234,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-08.png",
+    "bytes": 5285,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-09.png",
+    "bytes": 5114,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-10.png",
+    "bytes": 5319,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-11.png",
+    "bytes": 4117,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-12.png",
+    "bytes": 8342,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-13.png",
+    "bytes": 6692,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-14.png",
+    "bytes": 6832,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-15.png",
+    "bytes": 5770,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-16.png",
+    "bytes": 5882,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-17.png",
+    "bytes": 4262,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-18.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-19.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-20.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-21.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-22.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-23.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-24.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-25.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-26.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-27.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-28.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-29.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-30.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames\\frame-31.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-00.png",
+    "bytes": 3999,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-01.png",
+    "bytes": 7838,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-02.png",
+    "bytes": 6291,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-03.png",
+    "bytes": 5045,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-04.png",
+    "bytes": 5098,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-05.png",
+    "bytes": 5338,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-06.png",
+    "bytes": 6642,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-07.png",
+    "bytes": 7689,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-08.png",
+    "bytes": 6380,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-09.png",
+    "bytes": 5233,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-10.png",
+    "bytes": 5397,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-11.png",
+    "bytes": 4065,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-12.png",
+    "bytes": 4117,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-13.png",
+    "bytes": 8883,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-14.png",
+    "bytes": 7392,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-15.png",
+    "bytes": 7071,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-16.png",
+    "bytes": 5625,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-17.png",
+    "bytes": 5736,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-18.png",
+    "bytes": 4055,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-19.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-20.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-21.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-22.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-23.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-24.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-25.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-26.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-27.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-28.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-29.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-30.png",
+    "bytes": 4036,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "live-frames-v2\\frame-31.png",
+    "bytes": 4048,
+    "width": 320,
+    "height": 120,
+    "frames": 1
+  },
+  {
+    "path": "make-preview-v2.py",
+    "bytes": 674
+  },
+  {
+    "path": "make-preview.py",
+    "bytes": 469
+  },
+  {
+    "path": "notes.md",
+    "bytes": 5211
+  },
+  {
+    "path": "pack-assets.py",
+    "bytes": 834
+  },
+  {
+    "path": "phaser-impact-v2.mjs",
+    "bytes": 3839
+  },
+  {
+    "path": "phaser-impact.mjs",
+    "bytes": 3593
+  },
+  {
+    "path": "preview-desktop-v1.png",
+    "bytes": 37364,
+    "width": 1425,
+    "height": 814,
+    "frames": 1
+  },
+  {
+    "path": "preview-desktop-v2.png",
+    "bytes": 37847,
+    "width": 1425,
+    "height": 814,
+    "frames": 1
+  },
+  {
+    "path": "preview-mobile-v2.png",
+    "bytes": 33127,
+    "width": 390,
+    "height": 844,
+    "frames": 1
+  },
+  {
+    "path": "reference-contact-v1.png",
+    "bytes": 2659547,
+    "width": 2156,
+    "height": 1698,
+    "frames": 1
+  },
+  {
+    "path": "RUN.ps1",
+    "bytes": 70
+  },
+  {
+    "path": "verify-runtime.mjs",
+    "bytes": 1313
+  },
+  {
+    "path": "viewer-v2.html",
+    "bytes": 3918
+  },
+  {
+    "path": "viewer.html",
+    "bytes": 3881
+  }
+]

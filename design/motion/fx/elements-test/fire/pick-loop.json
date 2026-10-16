@@ -1,0 +1,57 @@
+{
+ "about": "fire status loop",
+ "frameWidth": 36,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 32
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 33
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 34
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 35
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 36
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 37
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 38
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 39
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 40
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 41
+  }
+ ]
+}

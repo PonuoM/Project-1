@@ -1,0 +1,42 @@
+{
+ "about": "Tavi death",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 40
+  },
+  {
+   "note": "HIT",
+   "ms": 60,
+   "sourceFrame": 42
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 43
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 44
+  },
+  {
+   "note": "fall",
+   "ms": 70,
+   "sourceFrame": 45
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 46
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 48
+  }
+ ]
+}

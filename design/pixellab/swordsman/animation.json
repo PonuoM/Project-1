@@ -1,0 +1,13 @@
+{
+  "file": "attack.png",
+  "width": 64,
+  "height": 64,
+  "frames": 9,
+  "fps": 32,
+  "impact": 3,
+  "hitStopMs": 45,
+  "loopPauseMs": 650,
+  "source": "PixelLab animate-with-text-v3; original downloaded frames retained",
+  "requestedFrames": 8,
+  "returnedImages": 9
+}

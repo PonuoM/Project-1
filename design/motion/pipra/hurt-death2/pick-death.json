@@ -1,0 +1,72 @@
+{
+ "about": "Pipra death v2",
+ "frameWidth": 84,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 37
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 38
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 39
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 40
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 41
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 42
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 43
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 44
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 46
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 47
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 48
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 49
+  },
+  {
+   "note": "",
+   "ms": 600,
+   "sourceFrame": 50
+  }
+ ]
+}

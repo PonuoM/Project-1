@@ -1,0 +1,47 @@
+{
+ "about": "Sella walk (weak loop)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 22
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 23
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 24
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 25
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 26
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 27
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 28
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 29
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "fire": [
+  {
+   "file": "fire/strip-hit1.png",
+   "frameWidth": 24,
+   "height": 57,
+   "frames": 18
+  },
+  {
+   "file": "fire/strip-hit2.png",
+   "frameWidth": 24,
+   "height": 57,
+   "frames": 18
+  },
+  {
+   "file": "fire/strip-hit3.png",
+   "frameWidth": 24,
+   "height": 57,
+   "frames": 18
+  }
+ ],
+ "ice": [
+  {
+   "file": "ice/strip-hit1.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  },
+  {
+   "file": "ice/strip-hit2.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  },
+  {
+   "file": "ice/strip-hit3.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  }
+ ],
+ "poison": [
+  {
+   "file": "poison/strip-hit1.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  },
+  {
+   "file": "poison/strip-hit2.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  },
+  {
+   "file": "poison/strip-hit3.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  }
+ ],
+ "lightning": [
+  {
+   "file": "lightning/strip-hit1.png",
+   "frameWidth": 24,
+   "height": 159,
+   "frames": 18
+  },
+  {
+   "file": "lightning/strip-hit2.png",
+   "frameWidth": 24,
+   "height": 159,
+   "frames": 18
+  },
+  {
+   "file": "lightning/strip-hit3.png",
+   "frameWidth": 24,
+   "height": 159,
+   "frames": 18
+  }
+ ],
+ "explosion": [
+  {
+   "file": "explosion/strip-hit1.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  },
+  {
+   "file": "explosion/strip-hit2.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  },
+  {
+   "file": "explosion/strip-hit3.png",
+   "frameWidth": 24,
+   "height": 56,
+   "frames": 18
+  }
+ ]
+}

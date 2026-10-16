@@ -1,0 +1,110 @@
+[
+  {
+    "id": "kiki",
+    "canvas": 384,
+    "height": 28,
+    "palette": {
+      "skin": [
+        "#3c5268",
+        "#7893aa",
+        "#b2c8d6"
+      ],
+      "knife": [
+        "#8b3d21",
+        "#cf6b2f",
+        "#f5aa56"
+      ],
+      "cloth": [
+        "#531e2a",
+        "#852d39",
+        "#b94b50"
+      ],
+      "eye": [
+        "#ff393e"
+      ]
+    },
+    "detail": "48x48 logical pixel canvas shown at8x (384x384). KIKI a small hunched goblin, TOTAL28 pixels tall, head10 pixels high with two short thick horns and long pointed ears. Dominant ASH BLUE-GREY skin, angry big RED2x2 eye, dark open jagged mouth with one light fang (reuse skin highlight for fang). No hair tufts. One large short rusty ORANGE triangular knife extends LEFT from forward fist, orange blade at least6x3 logical pixels. Tiny dark red loincloth. Short chunky limbs, only one big highlight patch per limb. Skin occupies most of silhouette. Feet at native row45.",
+    "prompt": "Create ONE exceptionally simple LOW-RESOLUTION game sprite, designed directly on a tiny native pixel canvas and shown at exactly8x nearest-neighbor zoom. Every logical pixel is a clearly visible LARGE square block. NOT a high-resolution illustration reduced afterward. Flat large contiguous shapes and clean one-pixel stair steps. Fierce dark fairy-tale enemy, not cute smiling. Strict SIDE PROFILE facing LEFT; whole body and weapon visible, idle-ready combat stance. Head about ONE THIRD of total height, a big luminous eye block at least2x2 logical pixels, clear mouth or teeth silhouette. Warm one-logical-pixel outline #2e1816. Solid chroma green background #00B140. No texture, fur strands, straw fibres, wood grain, dithering, speckling, noise, gradients, anti-aliasing, halo, floor, shadow, scenery, text, labels, grid lines or border. Each material only a flat base, one shadow and one highlight; at most12 total colors INCLUDING background and outline. Large simple readable silhouette that works filled black. Weapons held visibly in hand and attached to body. No projectiles or attack effects. Never use violet #7a3cff. Feet bottom with2 logical pixels empty below, at least2 logical pixels clear on all other sides. 48x48 logical pixel canvas shown at8x (384x384). KIKI a small hunched goblin, TOTAL28 pixels tall, head10 pixels high with two short thick horns and long pointed ears. Dominant ASH BLUE-GREY skin, angry big RED2x2 eye, dark open jagged mouth with one light fang (reuse skin highlight for fang). No hair tufts. One large short rusty ORANGE triangular knife extends LEFT from forward fist, orange blade at least6x3 logical pixels. Tiny dark red loincloth. Short chunky limbs, only one big highlight patch per limb. Skin occupies most of silhouette. Feet at native row45. Exact allowed content colors: skin #3c5268, #7893aa, #b2c8d6; knife #8b3d21, #cf6b2f, #f5aa56; cloth #531e2a, #852d39, #b94b50; eye #ff393e. Use no other colors beyond background/outline."
+  },
+  {
+    "id": "thornboar",
+    "canvas": 384,
+    "height": 30,
+    "palette": {
+      "fur": [
+        "#20212a",
+        "#343743",
+        "#505562"
+      ],
+      "tusks": [
+        "#948b71",
+        "#d8cfac",
+        "#fff0c9"
+      ],
+      "vines": [
+        "#12672b",
+        "#45c52d",
+        "#a1ed45"
+      ],
+      "eye": [
+        "#ffe447"
+      ]
+    },
+    "detail": "48x48 logical pixel canvas shown at8x (384x384). THORNBOAR a thick FOUR-LEGGED wild boar, TOTAL30 pixels tall and40 pixels long. Dominant near-black CHARCOAL body with only ONE broad grey shadow/highlight patch, ABSOLUTELY NO fur texture. Huge head with snout facingLEFT, angry clear2x2 YELLOW eye. Two huge bright IVORY tusks in a clean upcurved silhouette, lowered for charging. Across back ONE SIMPLE THICK BRIGHT GREEN thorny vine,3 pixels thick, with just3 large triangular thorns, no tangled fibres. Four short separate thick legs. Feet native row45.",
+    "prompt": "Create ONE exceptionally simple LOW-RESOLUTION game sprite, designed directly on a tiny native pixel canvas and shown at exactly8x nearest-neighbor zoom. Every logical pixel is a clearly visible LARGE square block. NOT a high-resolution illustration reduced afterward. Flat large contiguous shapes and clean one-pixel stair steps. Fierce dark fairy-tale enemy, not cute smiling. Strict SIDE PROFILE facing LEFT; whole body and weapon visible, idle-ready combat stance. Head about ONE THIRD of total height, a big luminous eye block at least2x2 logical pixels, clear mouth or teeth silhouette. Warm one-logical-pixel outline #2e1816. Solid chroma green background #00B140. No texture, fur strands, straw fibres, wood grain, dithering, speckling, noise, gradients, anti-aliasing, halo, floor, shadow, scenery, text, labels, grid lines or border. Each material only a flat base, one shadow and one highlight; at most12 total colors INCLUDING background and outline. Large simple readable silhouette that works filled black. Weapons held visibly in hand and attached to body. No projectiles or attack effects. Never use violet #7a3cff. Feet bottom with2 logical pixels empty below, at least2 logical pixels clear on all other sides. 48x48 logical pixel canvas shown at8x (384x384). THORNBOAR a thick FOUR-LEGGED wild boar, TOTAL30 pixels tall and40 pixels long. Dominant near-black CHARCOAL body with only ONE broad grey shadow/highlight patch, ABSOLUTELY NO fur texture. Huge head with snout facingLEFT, angry clear2x2 YELLOW eye. Two huge bright IVORY tusks in a clean upcurved silhouette, lowered for charging. Across back ONE SIMPLE THICK BRIGHT GREEN thorny vine,3 pixels thick, with just3 large triangular thorns, no tangled fibres. Four short separate thick legs. Feet native row45. Exact allowed content colors: fur #20212a, #343743, #505562; tusks #948b71, #d8cfac, #fff0c9; vines #12672b, #45c52d, #a1ed45; eye #ffe447. Use no other colors beyond background/outline."
+  },
+  {
+    "id": "hex-scarecrow",
+    "canvas": 384,
+    "height": 42,
+    "palette": {
+      "straw": [
+        "#a58a43",
+        "#dcc16b",
+        "#fff0ac"
+      ],
+      "rags": [
+        "#272530",
+        "#46404c",
+        "#655b68"
+      ],
+      "crow": [
+        "#211d32",
+        "#403352",
+        "#655075"
+      ],
+      "eye": [
+        "#ff8d2c"
+      ]
+    },
+    "detail": "48x48 logical pixel canvas shown at8x (384x384). HEX SCARECROW, TOTAL42 pixels tall, leaning tall thin straw humanoid with a LARGE PALE STRAW-YELLOW SACK HEAD14 pixels high, big2x2 ORANGE eye on left-facing profile, broad dark stitched grin with only3 square stitches. Dominant pale straw yellow head and torso, dark charcoal rags limited to shoulder and waist. No huge floppy hat; small torn cap only if needed and within42 total height. Short thick straw hands, no fingers or straw fibres. ONE ARM raised forward to LEFT and horizontal, visibly supporting a LARGE PURPLE-BLACK CROW at least9 pixels long and8 pixels tall. Crow is a simple bold recognizable bird with left-pointing thick beak, rounded head, folded wing, stout tail, two feet touching forearm. Bird must be spatially separate from sack head with a clear green gap. No flying birds. Feet native row45.",
+    "prompt": "Create ONE exceptionally simple LOW-RESOLUTION game sprite, designed directly on a tiny native pixel canvas and shown at exactly8x nearest-neighbor zoom. Every logical pixel is a clearly visible LARGE square block. NOT a high-resolution illustration reduced afterward. Flat large contiguous shapes and clean one-pixel stair steps. Fierce dark fairy-tale enemy, not cute smiling. Strict SIDE PROFILE facing LEFT; whole body and weapon visible, idle-ready combat stance. Head about ONE THIRD of total height, a big luminous eye block at least2x2 logical pixels, clear mouth or teeth silhouette. Warm one-logical-pixel outline #2e1816. Solid chroma green background #00B140. No texture, fur strands, straw fibres, wood grain, dithering, speckling, noise, gradients, anti-aliasing, halo, floor, shadow, scenery, text, labels, grid lines or border. Each material only a flat base, one shadow and one highlight; at most12 total colors INCLUDING background and outline. Large simple readable silhouette that works filled black. Weapons held visibly in hand and attached to body. No projectiles or attack effects. Never use violet #7a3cff. Feet bottom with2 logical pixels empty below, at least2 logical pixels clear on all other sides. 48x48 logical pixel canvas shown at8x (384x384). HEX SCARECROW, TOTAL42 pixels tall, leaning tall thin straw humanoid with a LARGE PALE STRAW-YELLOW SACK HEAD14 pixels high, big2x2 ORANGE eye on left-facing profile, broad dark stitched grin with only3 square stitches. Dominant pale straw yellow head and torso, dark charcoal rags limited to shoulder and waist. No huge floppy hat; small torn cap only if needed and within42 total height. Short thick straw hands, no fingers or straw fibres. ONE ARM raised forward to LEFT and horizontal, visibly supporting a LARGE PURPLE-BLACK CROW at least9 pixels long and8 pixels tall. Crow is a simple bold recognizable bird with left-pointing thick beak, rounded head, folded wing, stout tail, two feet touching forearm. Bird must be spatially separate from sack head with a clear green gap. No flying birds. Feet native row45. Exact allowed content colors: straw #a58a43, #dcc16b, #fff0ac; rags #272530, #46404c, #655b68; crow #211d32, #403352, #655075; eye #ff8d2c. Use no other colors beyond background/outline."
+  },
+  {
+    "id": "bridge-troll",
+    "canvas": 512,
+    "height": 44,
+    "palette": {
+      "skin": [
+        "#385339",
+        "#6f9252",
+        "#a8bc75"
+      ],
+      "club": [
+        "#525963",
+        "#939c9e",
+        "#dbe1da"
+      ],
+      "tusks": [
+        "#b6bba7",
+        "#e4e5d3",
+        "#fffdf0"
+      ],
+      "eye": [
+        "#ffe25a"
+      ]
+    },
+    "detail": "64x64 logical pixel canvas shown at8x (512x512). BRIDGE TROLL, TOTAL44 pixels high, squat broad humanoid with enormous head15 pixels high, nose facingLEFT, angry2x2 YELLOW eye, clear huge dark UNDERBITE with exactlyTWO big white tusks. Dominant FLAT MOSS-GREEN SKIN, broad smooth color patches and no spots, warts or moss texture. Short thick limbs, large bare feet. Grips ONE PALE GREY STONE-AND-STUMP CLUB in forward hand, stump-shaped with grey stone head3 big blunt blocks and short thick grey wooden handle; no brown grain. Club extends toLEFT at waist height, ready for heavy smash. Minimal dark loincloth reuses skin shadow/outline to keep12 colors maximum. Feet native row61.",
+    "prompt": "Create ONE exceptionally simple LOW-RESOLUTION game sprite, designed directly on a tiny native pixel canvas and shown at exactly8x nearest-neighbor zoom. Every logical pixel is a clearly visible LARGE square block. NOT a high-resolution illustration reduced afterward. Flat large contiguous shapes and clean one-pixel stair steps. Fierce dark fairy-tale enemy, not cute smiling. Strict SIDE PROFILE facing LEFT; whole body and weapon visible, idle-ready combat stance. Head about ONE THIRD of total height, a big luminous eye block at least2x2 logical pixels, clear mouth or teeth silhouette. Warm one-logical-pixel outline #2e1816. Solid chroma green background #00B140. No texture, fur strands, straw fibres, wood grain, dithering, speckling, noise, gradients, anti-aliasing, halo, floor, shadow, scenery, text, labels, grid lines or border. Each material only a flat base, one shadow and one highlight; at most12 total colors INCLUDING background and outline. Large simple readable silhouette that works filled black. Weapons held visibly in hand and attached to body. No projectiles or attack effects. Never use violet #7a3cff. Feet bottom with2 logical pixels empty below, at least2 logical pixels clear on all other sides. 64x64 logical pixel canvas shown at8x (512x512). BRIDGE TROLL, TOTAL44 pixels high, squat broad humanoid with enormous head15 pixels high, nose facingLEFT, angry2x2 YELLOW eye, clear huge dark UNDERBITE with exactlyTWO big white tusks. Dominant FLAT MOSS-GREEN SKIN, broad smooth color patches and no spots, warts or moss texture. Short thick limbs, large bare feet. Grips ONE PALE GREY STONE-AND-STUMP CLUB in forward hand, stump-shaped with grey stone head3 big blunt blocks and short thick grey wooden handle; no brown grain. Club extends toLEFT at waist height, ready for heavy smash. Minimal dark loincloth reuses skin shadow/outline to keep12 colors maximum. Feet native row61. Exact allowed content colors: skin #385339, #6f9252, #a8bc75; club #525963, #939c9e, #dbe1da; tusks #b6bba7, #e4e5d3, #fffdf0; eye #ffe25a. Use no other colors beyond background/outline."
+  }
+]

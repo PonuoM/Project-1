@@ -1,0 +1,42 @@
+{
+ "about": "Tavi hurt",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 0
+  },
+  {
+   "note": "HIT",
+   "ms": 70,
+   "sourceFrame": 2
+  },
+  {
+   "note": "recoil",
+   "ms": 60,
+   "sourceFrame": 3
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 4
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 6
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 8
+  },
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 10
+  }
+ ]
+}

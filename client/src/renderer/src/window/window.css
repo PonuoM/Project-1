@@ -1,0 +1,155 @@
+/* Game-side additions on top of Codex's tokens.css + window.css (loaded first, at runtime). */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* The BrowserWindow is exactly the mockup's 960×600, so the window shell fills it. */
+.tb-window {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.tb-drag {
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+.tb-window-actions {
+  -webkit-app-region: no-drag;
+}
+
+.tb-main {
+  position: relative;
+}
+
+/* Looping sprite sheets: one step per frame across the horizontal strip. */
+.tb-anim {
+  animation: tb-play var(--dur) steps(var(--frames), jump-none) infinite;
+}
+
+@keyframes tb-play {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
+
+.tb-up {
+  color: var(--tb-palette-green_light);
+}
+
+.tb-button-row {
+  display: flex;
+  gap: var(--tb-spacing-md);
+}
+
+/* ---------- bag ---------- */
+
+.tb-inventory-cell.is-selected {
+  outline: var(--tb-focus-width) solid var(--tb-ui-accent);
+  outline-offset: var(--tb-spacing-xs);
+}
+
+/* One floating compare card positioned by script, so it is never clipped by the scrolling grid. */
+.tb-compare.is-floating {
+  display: block;
+  position: fixed;
+  pointer-events: none;
+}
+
+.tb-compare.is-floating[hidden] {
+  display: none;
+}
+
+.tb-empty {
+  flex: 1;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: var(--tb-spacing-md);
+  color: var(--tb-ui-textMuted);
+  text-align: center;
+}
+
+.tb-actionbar {
+  margin-top: auto;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: var(--tb-spacing-lg);
+  flex: none;
+}
+
+.tb-actionbar .tb-grow {
+  flex: 1;
+  min-width: 0;
+}
+
+.tb-auto-sell .tb-grow {
+  flex: 1;
+}
+
+/* ---------- boxes ---------- */
+
+.tb-odds {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--tb-spacing-md) 0;
+}
+
+.tb-odds th,
+.tb-odds td {
+  text-align: left;
+  padding: var(--tb-spacing-xs) var(--tb-spacing-md);
+  border-bottom: 1px solid var(--tb-ui-panelBorder);
+}
+
+.tb-odds td + td,
+.tb-odds th + th {
+  text-align: right;
+}
+
+/* ---------- toasts ---------- */
+
+.toasts {
+  position: absolute;
+  right: var(--tb-spacing-xl);
+  bottom: var(--tb-spacing-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--tb-spacing-md);
+  pointer-events: none;
+  z-index: 60;
+}
+
+.toast {
+  min-width: 240px;
+  max-width: 420px;
+  padding: var(--tb-spacing-md) var(--tb-spacing-lg);
+  background: var(--tb-ui-panelBg);
+  border: 2px solid var(--tb-tier, var(--tb-ui-panelBorder));
+  display: flex;
+  gap: var(--tb-spacing-md);
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  animation: toast-in 150ms ease-out;
+}
+
+.toast.is-error {
+  --tb-tier: var(--tb-ui-danger);
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}

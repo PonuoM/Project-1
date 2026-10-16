@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Idle Loot — แผนที่พิกเซล</title><link rel="stylesheet" href="viewer.css"></head>
+<body><main>
+<header><div><h1>โลกของ Idle Loot</h1><p>แผนที่พิกเซล · เลือกภูมิภาค แล้วลองกดหมุดด่าน</p></div><button id="pause" type="button" aria-pressed="false">หยุดภาพเคลื่อนไหว</button></header>
+<nav id="regions" aria-label="เลือกภูมิภาค"></nav>
+<div class="map-wrap"><canvas id="map" width="1024" height="768" tabindex="0" aria-label="แผนที่โลก เลือกหมุดด้วยเมาส์ หรือใช้ปุ่มด่านด้านล่าง"></canvas><p id="load-state" role="status">กำลังเปิดแผนที่…</p></div>
+<div class="tools"><label><input id="clouds" type="checkbox" checked> เมฆ</label><label><input id="pins" type="checkbox" checked> หมุดด่าน</label><label><input id="routes" type="checkbox" checked> เส้นทางด่าน</label><button id="reset" type="button">ดูทั้งโลก</button></div>
+<section class="selection" aria-live="polite"><div><h2 id="stage-title">เลือกด่านบนแผนที่</h2><p id="stage-description">5 ภูมิภาค · 20 โซน · 100 ด่าน</p></div><span id="stage-count"></span></section>
+<section id="stage-list" aria-label="ด่านในภูมิภาคที่เลือก"></section>
+<footer>ตัวอย่างการวางด่านและบรรยากาศแผนที่ · ยังไม่เชื่อมการต่อสู้หรือความคืบหน้าในเกม</footer>
+</main><script src="map-data.js"></script><script src="viewer.js"></script></body></html>

@@ -1,0 +1,51 @@
+{
+  "knight_idle": {
+    "file": "knight_idle.png",
+    "width": 64,
+    "height": 64,
+    "frames": 4,
+    "fps": 8
+  },
+  "knight_walk": {
+    "file": "knight_walk.png",
+    "width": 64,
+    "height": 64,
+    "frames": 6,
+    "fps": 14
+  },
+  "knight_slash": {
+    "file": "knight_slash.png",
+    "width": 64,
+    "height": 64,
+    "frames": 6,
+    "fps": 24
+  },
+  "knight_skill": {
+    "file": "knight_skill.png",
+    "width": 64,
+    "height": 64,
+    "frames": 8,
+    "fps": 24
+  },
+  "foe_idle": {
+    "file": "foe_idle.png",
+    "width": 48,
+    "height": 48,
+    "frames": 4,
+    "fps": 8
+  },
+  "foe_walk": {
+    "file": "foe_walk.png",
+    "width": 48,
+    "height": 48,
+    "frames": 6,
+    "fps": 12
+  },
+  "foe_death": {
+    "file": "foe_death.png",
+    "width": 48,
+    "height": 48,
+    "frames": 4,
+    "fps": 12
+  }
+}

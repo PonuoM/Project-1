@@ -1,0 +1,97 @@
+[
+  {
+    "file": "mage-summoner-v1.png",
+    "rawSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "bottomRow": 62,
+    "verticalShift": 0,
+    "bounds": [
+      11,
+      2,
+      56,
+      62
+    ]
+  },
+  {
+    "file": "melee-assassin-v1.png",
+    "rawSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "bottomRow": 62,
+    "verticalShift": 0,
+    "bounds": [
+      6,
+      9,
+      49,
+      62
+    ]
+  },
+  {
+    "file": "melee-brawler-v1.png",
+    "rawSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "bottomRow": 62,
+    "verticalShift": 0,
+    "bounds": [
+      13,
+      13,
+      47,
+      62
+    ]
+  },
+  {
+    "file": "ranged-gunner-dual-v1.png",
+    "rawSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "bottomRow": 62,
+    "verticalShift": 0,
+    "bounds": [
+      14,
+      11,
+      49,
+      62
+    ]
+  },
+  {
+    "file": "ranged-gunner-laser-v1.png",
+    "rawSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "bottomRow": 62,
+    "verticalShift": 0,
+    "bounds": [
+      14,
+      11,
+      60,
+      62
+    ]
+  }
+]

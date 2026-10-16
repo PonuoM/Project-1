@@ -1,0 +1,17 @@
+{
+  "artSource": "actual PixelLab generated body, equipment and native animation frames",
+  "nativePoseSamples": 43,
+  "slotRemovalChecks": 258,
+  "slotRemovalFailures": 0,
+  "bodyImmutableAcrossWardrobeChanges": true,
+  "boundaryTouchFrames": 0,
+  "jewelryChangesPixels": false,
+  "actionsWithOneImpact": ["attack", "slam", "leap"],
+  "mobileHorizontalOverflow": false,
+  "referenceImageLoaded": true,
+  "frames": {"idle":1,"walk":9,"attack":9,"slam":11,"leap":13},
+  "generationUsage": 24.1,
+  "subscriptionBalanceAfterGeneration": 3.65,
+  "status": "isolated art and wardrobe trial, owner acceptance pending",
+  "limitations": "Generated wearable textures are positioned by per-frame anchors. No claim of production-perfect occlusion or garment seams."
+}

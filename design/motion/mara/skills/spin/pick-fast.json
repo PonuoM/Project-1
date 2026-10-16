@@ -1,0 +1,182 @@
+{
+ "about": "spin fast cut (manual)",
+ "frameWidth": 128,
+ "impactFrame": 7,
+ "frames": [
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 0
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 18
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 19
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 20
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 21
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 22
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 23
+  },
+  {
+   "note": "HIT",
+   "ms": 45,
+   "sourceFrame": 24
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 25
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 26
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 27
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 28
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 29
+  },
+  {
+   "note": "HIT",
+   "ms": 45,
+   "sourceFrame": 30
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 31
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 32
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 33
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 34
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 35
+  },
+  {
+   "note": "HIT",
+   "ms": 45,
+   "sourceFrame": 36
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 37
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 38
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 39
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 40
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 41
+  },
+  {
+   "note": "HIT",
+   "ms": 45,
+   "sourceFrame": 42
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 43
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 44
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 45
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 46
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 47
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 48
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 49
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 50
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 61
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task_id": "452238026912125",
+ "response": {
+  "task_id": "452238026912125"
+ },
+ "request": {
+  "model": "MiniMax-H3",
+  "content": [
+   {
+    "type": "text",
+    "text": "2D side-view pixel-art game sprite animation on a plain flat light grey background. Static locked-off camera: no camera movement, no zoom, no pan, no cut. The small chibi swordsman (teal bob hair, ivory hooded mantle, moss-green tunic, terracotta sash, short ivory sword) performs one heavy overhead sword chop: he crouches slightly, raises the sword high behind his head and holds it for a beat, then steps forward and chops down hard so the blade strikes the ground in front of him, holds the impact pose briefly, then steps back and returns to exactly his starting ready stance. Keep the same character, outfit, colours and size in every frame, chunky crisp pixel-art style with hard edges, no motion blur, no particles, no shadows, no text, no new objects, background stays flat grey."
+   },
+   {
+    "type": "image_url",
+    "image_url": "<image>",
+    "role": "first_frame"
+   },
+   {
+    "type": "image_url",
+    "image_url": "<image>",
+    "role": "last_frame"
+   }
+  ],
+  "resolution": "768P",
+  "duration": 5
+ },
+ "inputs": {
+  "--first": "design/pixellab/chibi-motion/diy-test/minimax-first-frame-1280x720.png",
+  "--last": "design/pixellab/chibi-motion/diy-test/minimax-first-frame-1280x720.png",
+  "--prompt-file": "design/pixellab/chibi-motion/diy-test/chop-prompt.txt"
+ }
+}

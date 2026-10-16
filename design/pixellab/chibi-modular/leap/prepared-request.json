@@ -1,0 +1,12 @@
+{
+  "endpoint": "animate-with-text-v3",
+  "description": "One RIGHT-facing jumping dash attack: crouch, jump with tucked legs, lean forward in midair and swing the empty gripping hand down-forward, land with bent knees, recover to the original pose. Hand is reserved for a separate weapon layer. Preserve chibi identity and base clothes. Animate pose only, no large horizontal displacement (game moves root). Keep all pixels inside 64x64, no weapon or effects, transparent.",
+  "image_size": {
+    "width": 64,
+    "height": 64
+  },
+  "no_background": true,
+  "status": "prepared only; no generation submitted",
+  "frame_count": 12,
+  "first_frame_file": "C:\\AppServ\\www\\Projects-1\\design\\pixellab\\chibi-modular\\base\\candidate-01.png"
+}

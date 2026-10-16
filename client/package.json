@@ -1,0 +1,27 @@
+{
+  "name": "idle-loot-client",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Prototype: idle loot RPG that lives above the Windows taskbar",
+  "main": "out/main/index.js",
+  "scripts": {
+    "sync-design": "node scripts/sync-design.mjs",
+    "predev": "node scripts/sync-design.mjs",
+    "dev": "node scripts/run.mjs dev",
+    "prebuild": "node scripts/sync-design.mjs",
+    "build": "electron-vite build",
+    "start": "node scripts/run.mjs preview",
+    "pretypecheck": "node scripts/sync-design.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "electron": "44.7.0",
+    "electron-vite": "5.0.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}

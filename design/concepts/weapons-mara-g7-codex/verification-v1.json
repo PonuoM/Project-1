@@ -1,0 +1,204 @@
+{
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "savedSize": [
+    1024,
+    512
+  ],
+  "gridBlockPx": 8,
+  "background": "#00B140",
+  "outline": "#2e1816",
+  "allChecksPassed": true,
+  "blades": [
+    {
+      "cell": 1,
+      "name": "worn iron",
+      "tier": "common",
+      "lengthPx": 13,
+      "widthPx": 3,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        17,
+        18
+      ],
+      "palette": [
+        "#534b49",
+        "#827a71",
+        "#b6afa0"
+      ]
+    },
+    {
+      "cell": 2,
+      "name": "fullered steel",
+      "tier": "uncommon",
+      "lengthPx": 14,
+      "widthPx": 3,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        18,
+        18
+      ],
+      "palette": [
+        "#465465",
+        "#8c98a8",
+        "#c4cfde"
+      ]
+    },
+    {
+      "cell": 3,
+      "name": "sky-port sabre",
+      "tier": "rare",
+      "lengthPx": 15,
+      "widthPx": 4,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        19,
+        19
+      ],
+      "palette": [
+        "#5d6775",
+        "#8c98a8",
+        "#c4cfde",
+        "#8c6224",
+        "#c49238",
+        "#e8be5a"
+      ]
+    },
+    {
+      "cell": 4,
+      "name": "broad cleaver",
+      "tier": "rare",
+      "lengthPx": 14,
+      "widthPx": 4,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        18,
+        19
+      ],
+      "palette": [
+        "#465465",
+        "#8c98a8",
+        "#c4cfde"
+      ]
+    },
+    {
+      "cell": 5,
+      "name": "frost crystal",
+      "tier": "epic",
+      "lengthPx": 15,
+      "widthPx": 4,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        19,
+        19
+      ],
+      "palette": [
+        "#398a9c",
+        "#80ccdc",
+        "#d5f6ff"
+      ]
+    },
+    {
+      "cell": 6,
+      "name": "storm blade",
+      "tier": "epic",
+      "lengthPx": 15,
+      "widthPx": 4,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        19,
+        19
+      ],
+      "palette": [
+        "#465465",
+        "#8c98a8",
+        "#c4cfde",
+        "#1859aa",
+        "#268ee8",
+        "#79d5ff"
+      ]
+    },
+    {
+      "cell": 7,
+      "name": "ember blade",
+      "tier": "legendary",
+      "lengthPx": 16,
+      "widthPx": 4,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        20,
+        19
+      ],
+      "palette": [
+        "#302e36",
+        "#4d4851",
+        "#6c6266",
+        "#b6431a",
+        "#ed7823",
+        "#ffc453"
+      ]
+    },
+    {
+      "cell": 8,
+      "name": "captains gilded blade",
+      "tier": "legendary",
+      "lengthPx": 16,
+      "widthPx": 4,
+      "basePx": [
+        4,
+        16
+      ],
+      "boundsPx": [
+        4,
+        15,
+        20,
+        19
+      ],
+      "palette": [
+        "#8d9eaf",
+        "#cbd9e5",
+        "#f1f7ff",
+        "#8c6224",
+        "#c49238",
+        "#e8be5a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+[
+ {
+  "label": "Mara ฟัน · ธาตุไฟ + ดาบถ่านเพลิง (ใหม่ 25fps)",
+  "strip": "../../motion/mara/S01-slash-h3/burn-fire-ember.png",
+  "spec": "../../motion/mara/S01-slash-h3/burn-fire-ember.json"
+ },
+ {
+  "label": "Mara ฟัน · ธาตุไฟ (ใหม่ 25fps)",
+  "strip": "../../motion/mara/S01-slash-h3/burn-fire.png",
+  "spec": "../../motion/mara/S01-slash-h3/burn-fire.json"
+ },
+ {
+  "label": "Mara ฟัน · ธาตุน้ำแข็ง + ดาบคริสตัล (ใหม่ 25fps)",
+  "strip": "../../motion/mara/S01-slash-h3/burn-ice-crystal.png",
+  "spec": "../../motion/mara/S01-slash-h3/burn-ice-crystal.json"
+ },
+ {
+  "label": "Mara ฟัน · ธาตุพิษ (ใหม่ 25fps)",
+  "strip": "../../motion/mara/S01-slash-h3/burn-poison.png",
+  "spec": "../../motion/mara/S01-slash-h3/burn-poison.json"
+ },
+ {
+  "label": "Mara ฟัน · ธาตุสายฟ้า + ดาบพายุ (ใหม่ 25fps)",
+  "strip": "../../motion/mara/S01-slash-h3/burn-lightning-storm.png",
+  "spec": "../../motion/mara/S01-slash-h3/burn-lightning-storm.json"
+ },
+ {
+  "label": "FX · ไฟ · ปะทุตอนโดน",
+  "strip": "../../motion/fx/elements-test/fire/strip-burst.png",
+  "spec": "../../motion/fx/elements-test/fire/pick-burst.json"
+ },
+ {
+  "label": "FX · ไฟ · สถานะวน",
+  "strip": "../../motion/fx/elements-test/fire/strip-loop.png",
+  "spec": "../../motion/fx/elements-test/fire/pick-loop.json"
+ },
+ {
+  "label": "FX · น้ำแข็ง · ปะทุตอนโดน",
+  "strip": "../../motion/fx/elements-test/ice/strip-burst.png",
+  "spec": "../../motion/fx/elements-test/ice/pick-burst.json"
+ },
+ {
+  "label": "FX · น้ำแข็ง · สถานะวน",
+  "strip": "../../motion/fx/elements-test/ice/strip-loop.png",
+  "spec": "../../motion/fx/elements-test/ice/pick-loop.json"
+ },
+ {
+  "label": "FX · พิษ · ปะทุตอนโดน",
+  "strip": "../../motion/fx/elements-test/poison/strip-burst.png",
+  "spec": "../../motion/fx/elements-test/poison/pick-burst.json"
+ },
+ {
+  "label": "FX · พิษ · สถานะวน",
+  "strip": "../../motion/fx/elements-test/poison/strip-loop.png",
+  "spec": "../../motion/fx/elements-test/poison/pick-loop.json"
+ },
+ {
+  "label": "FX · สายฟ้า · ปะทุตอนโดน",
+  "strip": "../../motion/fx/elements-test/lightning/strip-burst.png",
+  "spec": "../../motion/fx/elements-test/lightning/pick-burst.json"
+ },
+ {
+  "label": "FX · สายฟ้า · สถานะวน",
+  "strip": "../../motion/fx/elements-test/lightning/strip-loop.png",
+  "spec": "../../motion/fx/elements-test/lightning/pick-loop.json"
+ },
+ {
+  "label": "มอน · Kiki · เดิน",
+  "strip": "../../motion/monsters/kiki/idle-walk-480/strip-walk.png",
+  "spec": "../../motion/monsters/kiki/idle-walk-480/pick-walk.json"
+ },
+ {
+  "label": "มอน · Kiki · โจมตี",
+  "strip": "../../motion/monsters/kiki/attack/strip-auto.png",
+  "spec": "../../motion/monsters/kiki/attack/pick-auto.json"
+ },
+ {
+  "label": "มอน · Kiki · โดนตี+ตาย",
+  "strip": "../../motion/monsters/kiki/hurt-death/strip-auto.png",
+  "spec": "../../motion/monsters/kiki/hurt-death/pick-auto.json"
+ },
+ {
+  "label": "มอน · Thornboar · เดิน",
+  "strip": "../../motion/monsters/thornboar/idle-walk-480/strip-walk.png",
+  "spec": "../../motion/monsters/thornboar/idle-walk-480/pick-walk.json"
+ },
+ {
+  "label": "มอน · Thornboar · โจมตี",
+  "strip": "../../motion/monsters/thornboar/attack/strip-auto.png",
+  "spec": "../../motion/monsters/thornboar/attack/pick-auto.json"
+ },
+ {
+  "label": "มอน · Thornboar · โดนตี+ตาย",
+  "strip": "../../motion/monsters/thornboar/hurt-death/strip-auto.png",
+  "spec": "../../motion/monsters/thornboar/hurt-death/pick-auto.json"
+ },
+ {
+  "label": "มอน · Hex-scarecrow · เดิน",
+  "strip": "../../motion/monsters/hex-scarecrow/idle-walk-480/strip-walk.png",
+  "spec": "../../motion/monsters/hex-scarecrow/idle-walk-480/pick-walk.json"
+ },
+ {
+  "label": "มอน · Hex-scarecrow · โจมตี",
+  "strip": "../../motion/monsters/hex-scarecrow/attack/strip-auto.png",
+  "spec": "../../motion/monsters/hex-scarecrow/attack/pick-auto.json"
+ },
+ {
+  "label": "มอน · Hex-scarecrow · โดนตี+ตาย",
+  "strip": "../../motion/monsters/hex-scarecrow/hurt-death/strip-auto.png",
+  "spec": "../../motion/monsters/hex-scarecrow/hurt-death/pick-auto.json"
+ },
+ {
+  "label": "มอน · Bridge-troll · เดิน",
+  "strip": "../../motion/monsters/bridge-troll/idle-walk-480/strip-walk.png",
+  "spec": "../../motion/monsters/bridge-troll/idle-walk-480/pick-walk.json"
+ },
+ {
+  "label": "มอน · Bridge-troll · โจมตี",
+  "strip": "../../motion/monsters/bridge-troll/attack/strip-auto.png",
+  "spec": "../../motion/monsters/bridge-troll/attack/pick-auto.json"
+ },
+ {
+  "label": "มอน · Bridge-troll · โดนตี+ตาย",
+  "strip": "../../motion/monsters/bridge-troll/hurt-death/strip-auto.png",
+  "spec": "../../motion/monsters/bridge-troll/hurt-death/pick-auto.json"
+ },
+ {
+  "label": "มอน · Grimfang (บอส) · เดิน",
+  "strip": "../../motion/monsters/grimfang/idle-walk-480/strip-walk.png",
+  "spec": "../../motion/monsters/grimfang/idle-walk-480/pick-walk.json"
+ },
+ {
+  "label": "มอน · Grimfang (บอส) · โจมตี",
+  "strip": "../../motion/monsters/grimfang/attack/strip-auto.png",
+  "spec": "../../motion/monsters/grimfang/attack/pick-auto.json"
+ },
+ {
+  "label": "มอน · Grimfang (บอส) · ท่าพิเศษ",
+  "strip": "../../motion/monsters/grimfang/special/strip-auto.png",
+  "spec": "../../motion/monsters/grimfang/special/pick-auto.json"
+ },
+ {
+  "label": "มอน · Grimfang (บอส) · โดนตี+ตาย",
+  "strip": "../../motion/monsters/grimfang/hurt-death/strip-auto.png",
+  "spec": "../../motion/monsters/grimfang/hurt-death/pick-auto.json"
+ },
+ {
+  "label": "มอน · Thunderhead (บอสใหญ่) · เดิน",
+  "strip": "../../motion/monsters/thunderhead/idle-walk/strip-walk.png",
+  "spec": "../../motion/monsters/thunderhead/idle-walk/pick-walk.json"
+ },
+ {
+  "label": "มอน · Thunderhead (บอสใหญ่) · โจมตี",
+  "strip": "../../motion/monsters/thunderhead/attack/strip-auto.png",
+  "spec": "../../motion/monsters/thunderhead/attack/pick-auto.json"
+ },
+ {
+  "label": "มอน · Thunderhead (บอสใหญ่) · ท่าพิเศษ",
+  "strip": "../../motion/monsters/thunderhead/special/strip-auto.png",
+  "spec": "../../motion/monsters/thunderhead/special/pick-auto.json"
+ },
+ {
+  "label": "มอน · Thunderhead (บอสใหญ่) · โดนตี+ตาย",
+  "strip": "../../motion/monsters/thunderhead/hurt-death/strip-auto.png",
+  "spec": "../../motion/monsters/thunderhead/hurt-death/pick-auto.json"
+ },
+ {
+  "label": "Pipra · เดิน (ใหม่ จากคลิปกลุ่ม)",
+  "strip": "../../motion/pipra/walk2/strip-walk.png",
+  "spec": "../../motion/pipra/walk2/pick-walk.json"
+ },
+ {
+  "label": "Noll · เดิน (ใหม่ จากคลิปกลุ่ม)",
+  "strip": "../../motion/noll/walk2/strip-walk.png",
+  "spec": "../../motion/noll/walk2/pick-walk.json"
+ },
+ {
+  "label": "Tavi · เดิน (ใหม่ จากคลิปกลุ่ม)",
+  "strip": "../../motion/tavi/walk2/strip-walk.png",
+  "spec": "../../motion/tavi/walk2/pick-walk.json"
+ },
+ {
+  "label": "Ilen · เดิน (ใหม่ จากคลิปกลุ่ม)",
+  "strip": "../../motion/ilen/walk2/strip-walk.png",
+  "spec": "../../motion/ilen/walk2/pick-walk.json"
+ },
+ {
+  "label": "Sella · เดิน (ใหม่ จากคลิปกลุ่ม)",
+  "strip": "../../motion/sella/walk2/strip-walk.png",
+  "spec": "../../motion/sella/walk2/pick-walk.json"
+ },
+ {
+  "label": "Ilen · ยืน",
+  "strip": "../../motion/ilen/move/strip-idle.png",
+  "spec": "../../motion/ilen/move/pick-idle.json"
+ },
+ {
+  "label": "Ilen · วิ่ง",
+  "strip": "../../motion/ilen/move/strip-run.png",
+  "spec": "../../motion/ilen/move/pick-run.json"
+ },
+ {
+  "label": "Ilen · โดนตี",
+  "strip": "../../motion/ilen/hurt-death/strip-hurt.png",
+  "spec": "../../motion/ilen/hurt-death/pick-hurt.json"
+ },
+ {
+  "label": "Ilen · ตาย",
+  "strip": "../../motion/ilen/hurt-death/strip-death.png",
+  "spec": "../../motion/ilen/hurt-death/pick-death.json"
+ },
+ {
+  "label": "Bramble · ยืน",
+  "strip": "../../motion/bramble/move/strip-idle.png",
+  "spec": "../../motion/bramble/move/pick-idle.json"
+ },
+ {
+  "label": "Bramble · เดิน",
+  "strip": "../../motion/bramble/move/strip-walk.png",
+  "spec": "../../motion/bramble/move/pick-walk.json"
+ },
+ {
+  "label": "Bramble · วิ่ง",
+  "strip": "../../motion/bramble/move/strip-run.png",
+  "spec": "../../motion/bramble/move/pick-run.json"
+ },
+ {
+  "label": "Bramble · โดนตี",
+  "strip": "../../motion/bramble/hurt-death/strip-hurt.png",
+  "spec": "../../motion/bramble/hurt-death/pick-hurt.json"
+ },
+ {
+  "label": "Bramble · ตาย",
+  "strip": "../../motion/bramble/hurt-death/strip-death.png",
+  "spec": "../../motion/bramble/hurt-death/pick-death.json"
+ },
+ {
+  "label": "Noll · ยืน",
+  "strip": "../../motion/noll/move/strip-idle.png",
+  "spec": "../../motion/noll/move/pick-idle.json"
+ },
+ {
+  "label": "Noll · วิ่ง",
+  "strip": "../../motion/noll/move/strip-run.png",
+  "spec": "../../motion/noll/move/pick-run.json"
+ },
+ {
+  "label": "Noll · โดนตี",
+  "strip": "../../motion/noll/hurt-death/strip-hurt.png",
+  "spec": "../../motion/noll/hurt-death/pick-hurt.json"
+ },
+ {
+  "label": "Noll · ตาย",
+  "strip": "../../motion/noll/hurt-death/strip-death.png",
+  "spec": "../../motion/noll/hurt-death/pick-death.json"
+ },
+ {
+  "label": "Tavi · ยืน",
+  "strip": "../../motion/tavi/move/strip-idle.png",
+  "spec": "../../motion/tavi/move/pick-idle.json"
+ },
+ {
+  "label": "Tavi · วิ่ง",
+  "strip": "../../motion/tavi/move/strip-run.png",
+  "spec": "../../motion/tavi/move/pick-run.json"
+ },
+ {
+  "label": "Tavi · โดนตี (ใหม่)",
+  "strip": "../../motion/tavi/hurt-death2/strip-hurt.png",
+  "spec": "../../motion/tavi/hurt-death2/pick-hurt.json"
+ },
+ {
+  "label": "Tavi · ตาย (ใหม่)",
+  "strip": "../../motion/tavi/hurt-death2/strip-death.png",
+  "spec": "../../motion/tavi/hurt-death2/pick-death.json"
+ },
+ {
+  "label": "Pipra · ยืน",
+  "strip": "../../motion/pipra/move/strip-idle.png",
+  "spec": "../../motion/pipra/move/pick-idle.json"
+ },
+ {
+  "label": "Pipra · วิ่ง",
+  "strip": "../../motion/pipra/move/strip-run.png",
+  "spec": "../../motion/pipra/move/pick-run.json"
+ },
+ {
+  "label": "Pipra · โดนตี (ใหม่)",
+  "strip": "../../motion/pipra/hurt-death2/strip-hurt.png",
+  "spec": "../../motion/pipra/hurt-death2/pick-hurt.json"
+ },
+ {
+  "label": "Pipra · ตาย (ใหม่)",
+  "strip": "../../motion/pipra/hurt-death2/strip-death.png",
+  "spec": "../../motion/pipra/hurt-death2/pick-death.json"
+ },
+ {
+  "label": "Vessa · ยืน",
+  "strip": "../../motion/vessa/move/strip-idle.png",
+  "spec": "../../motion/vessa/move/pick-idle.json"
+ },
+ {
+  "label": "Vessa · เดิน",
+  "strip": "../../motion/vessa/move/strip-walk.png",
+  "spec": "../../motion/vessa/move/pick-walk.json"
+ },
+ {
+  "label": "Vessa · วิ่ง",
+  "strip": "../../motion/vessa/move/strip-run.png",
+  "spec": "../../motion/vessa/move/pick-run.json"
+ },
+ {
+  "label": "Vessa · โดนตี",
+  "strip": "../../motion/vessa/hurt-death/strip-hurt.png",
+  "spec": "../../motion/vessa/hurt-death/pick-hurt.json"
+ },
+ {
+  "label": "Vessa · ตาย",
+  "strip": "../../motion/vessa/hurt-death/strip-death.png",
+  "spec": "../../motion/vessa/hurt-death/pick-death.json"
+ },
+ {
+  "label": "Sella · ยืน",
+  "strip": "../../motion/sella/move/strip-idle.png",
+  "spec": "../../motion/sella/move/pick-idle.json"
+ },
+ {
+  "label": "Sella · วิ่ง",
+  "strip": "../../motion/sella/move/strip-run.png",
+  "spec": "../../motion/sella/move/pick-run.json"
+ },
+ {
+  "label": "Sella · โดนตี",
+  "strip": "../../motion/sella/hurt-death/strip-hurt.png",
+  "spec": "../../motion/sella/hurt-death/pick-hurt.json"
+ },
+ {
+  "label": "Sella · ตาย",
+  "strip": "../../motion/sella/hurt-death/strip-death.png",
+  "spec": "../../motion/sella/hurt-death/pick-death.json"
+ },
+ {
+  "label": "Yara · ยืน",
+  "strip": "../../motion/yara/move/strip-idle.png",
+  "spec": "../../motion/yara/move/pick-idle.json"
+ },
+ {
+  "label": "Yara · เดิน",
+  "strip": "../../motion/yara/move/strip-walk.png",
+  "spec": "../../motion/yara/move/pick-walk.json"
+ },
+ {
+  "label": "Yara · วิ่ง",
+  "strip": "../../motion/yara/move/strip-run.png",
+  "spec": "../../motion/yara/move/pick-run.json"
+ },
+ {
+  "label": "Yara · โดนตี",
+  "strip": "../../motion/yara/hurt-death/strip-hurt.png",
+  "spec": "../../motion/yara/hurt-death/pick-hurt.json"
+ },
+ {
+  "label": "Yara · ตาย",
+  "strip": "../../motion/yara/hurt-death/strip-death.png",
+  "spec": "../../motion/yara/hurt-death/pick-death.json"
+ },
+ {
+  "label": "Rika · โดนตี",
+  "strip": "../../motion/rika/hurt/strip-hurt.png",
+  "spec": "../../motion/rika/hurt/pick-hurt.json"
+ },
+ {
+  "label": "Rika · ตาย",
+  "strip": "../../motion/rika/death/strip-death.png",
+  "spec": "../../motion/rika/death/pick-death.json"
+ },
+ {
+  "label": "Rika · วิ่ง (วน)",
+  "strip": "../../motion/rika/run/strip-run.png",
+  "spec": "../../motion/rika/run/pick-run.json"
+ },
+ {
+  "label": "Rika · เดิน (วน)",
+  "strip": "../../motion/rika/idle-walk/strip-walk.png",
+  "spec": "../../motion/rika/idle-walk/pick-walk.json"
+ },
+ {
+  "label": "Rika · ยืน (วน)",
+  "strip": "../../motion/rika/idle-walk/strip-idle.png",
+  "spec": "../../motion/rika/idle-walk/pick-idle.json"
+ },
+ {
+  "label": "Mara · โดนตี",
+  "strip": "../../motion/mara/A03-hurt/strip-hurt.png",
+  "spec": "../../motion/mara/A03-hurt/pick-hurt.json"
+ },
+ {
+  "label": "Mara · ยืน (วน)",
+  "strip": "../../motion/mara/A01-idle-walk/strip-idle.png",
+  "spec": "../../motion/mara/A01-idle-walk/pick-idle.json"
+ },
+ {
+  "label": "Mara · เดิน (วน)",
+  "strip": "../../motion/mara/A01-idle-walk/strip-walk.png",
+  "spec": "../../motion/mara/A01-idle-walk/pick-walk.json"
+ },
+ {
+  "label": "Mara · วิ่ง (วน) ใช้ตอนวิ่งไปหามอน",
+  "strip": "../../motion/mara/A02-run/strip-run.png",
+  "spec": "../../motion/mara/A02-run/pick-run.json"
+ },
+ {
+  "label": "Mara · ตาย",
+  "strip": "../../motion/mara/A04-death/strip-death.png",
+  "spec": "../../motion/mara/A04-death/pick-death.json"
+ },
+ {
+  "label": "Mara คอมโบ · กด 1 → 2 → 3 (ครบชุด)",
+  "strip": "../../motion/mara/S03-combo/chain-1-2-3.png",
+  "spec": "../../motion/mara/S03-combo/chain-1-2-3.json"
+ },
+ {
+  "label": "Mara คอมโบ · กด 1 → 2 (ต่อกันไม่กลับท่ายืน)",
+  "strip": "../../motion/mara/S03-combo/chain-1-2.png",
+  "spec": "../../motion/mara/S03-combo/chain-1-2.json"
+ },
+ {
+  "label": "Mara คอมโบ · กด 1 อย่างเดียว",
+  "strip": "../../motion/mara/S03-combo/chain-1.png",
+  "spec": "../../motion/mara/S03-combo/chain-1.json"
+ },
+ {
+  "label": "Mara (ตัวละครจริง) · H3 ฟันปกติ · ดาบม่วงไว้เปลี่ยนอาวุธ",
+  "strip": "../../motion/mara/S01-slash-h3/strip-manual.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนสีชุด · เขียวป่า (ดาบถ่านเพลิง)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-outfit-forest.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนสีชุด · ม่วงพลัม (ดาบถ่านเพลิง)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-outfit-plum.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนสีชุด · แดงเข้ม (ดาบถ่านเพลิง)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-outfit-crimson.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 1 ธรรมดา · เหล็กเก่า",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-1.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 2 ดีขึ้น · เหล็กกล้า",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-2.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 3 หายาก · ดาบโค้งท่าเรือเหาะ",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-3.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 4 หายาก · ใบกว้าง",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-4.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 5 มหากาพย์ · คริสตัลน้ำแข็ง",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-5.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 6 มหากาพย์ · ใบพายุ",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-6.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 7 ตำนาน · ถ่านเพลิง",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-7.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · ใบดาบ Codex 8 ตำนาน · ดาบกัปตันทอง",
+  "strip": "../../motion/mara/S01-slash-h3/strip-blade-8.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนรูปอาวุธ · ดาบโค้ง (เงิน)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-swap-sabre.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนรูปอาวุธ · ดาบปังตอ (เหล็ก ออร่าส้ม)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-swap-cleaver.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนรูปอาวุธ · ดาบคริสตัล (ฟ้า)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-swap-crystal.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · เปลี่ยนรูปอาวุธ · ดาบเพลิง (ไฟ)",
+  "strip": "../../motion/mara/S01-slash-h3/strip-swap-flame.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · H3 ฟัน · ดาบเหล็ก",
+  "strip": "../../motion/mara/S01-slash-h3/strip-manual-steel.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · H3 ฟัน · ดาบไฟ",
+  "strip": "../../motion/mara/S01-slash-h3/strip-manual-fire.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "Mara · H3 ฟัน · ดาบน้ำแข็ง",
+  "strip": "../../motion/mara/S01-slash-h3/strip-manual-ice.png",
+  "spec": "../../motion/mara/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "PixelLab text v3 (1 gen) · S01 ฟัน · prompt ละเอียด v2",
+  "strip": "../../motion/swordsman/S01-slash-pixellab-v2/strip-manual.png",
+  "spec": "../../motion/swordsman/S01-slash-pixellab-v2/pick-manual.json"
+ },
+ {
+  "label": "PixelLab text v3 (1 gen) · S01 ฟัน · prompt แบบเดียวกับวิดีโอ",
+  "strip": "../../motion/swordsman/S01-slash-pixellab/strip-manual.png",
+  "spec": "../../motion/swordsman/S01-slash-pixellab/pick-manual.json"
+ },
+ {
+  "label": "SpriteFlow (ฟรี 10 เครดิต) · S01 ฟันปกติ · เลือกเฟรมเอง",
+  "strip": "../../motion/swordsman/S01-slash-spriteflow/strip-manual.png",
+  "spec": "../../motion/swordsman/S01-slash-spriteflow/pick-manual.json"
+ },
+ {
+  "label": "MiniMax Design (H3 768P) · S01 ฟันปกติ · เลือกเฟรมเอง",
+  "strip": "../../motion/swordsman/S01-slash-mmd768/strip-manual.png",
+  "spec": "../../motion/swordsman/S01-slash-mmd768/pick-manual.json"
+ },
+ {
+  "label": "H3 · S01 ฟันปกติ · เลือกเฟรมเอง (ไว)",
+  "strip": "../../motion/swordsman/S01-slash-h3/strip-manual.png",
+  "spec": "../../motion/swordsman/S01-slash-h3/pick-manual.json"
+ },
+ {
+  "label": "H3 · S02 แทง · เลือกเฟรมเอง (ไว)",
+  "strip": "../../motion/swordsman/S02-thrust-h3/strip-manual.png",
+  "spec": "../../motion/swordsman/S02-thrust-h3/pick-manual.json"
+ },
+ {
+  "label": "S01 ฟันปกติ · เลือกเฟรมเอง (ไว)",
+  "strip": "../../motion/swordsman/S01-slash/strip-manual.png",
+  "spec": "../../motion/swordsman/S01-slash/pick-manual.json"
+ },
+ {
+  "label": "S02 แทง · เลือกเฟรมเอง (ไว)",
+  "strip": "../../motion/swordsman/S02-thrust/strip-manual.png",
+  "spec": "../../motion/swordsman/S02-thrust/pick-manual.json"
+ },
+ {
+  "label": "S04 หมุนลูกข่าง · เลือกเฟรมเอง (ไว)",
+  "strip": "../../motion/swordsman/S04-spin/strip-manual.png",
+  "spec": "../../motion/swordsman/S04-spin/pick-manual.json"
+ },
+ {
+  "label": "S01 ฟันปกติ · อัตโนมัติ (ช้า, วิดีโอเต็ม)",
+  "strip": "../../motion/swordsman/S01-slash/strip-auto.png",
+  "spec": "../../motion/swordsman/S01-slash/pick-auto.json"
+ },
+ {
+  "label": "S02 แทง · อัตโนมัติ (ช้า, วิดีโอเต็ม)",
+  "strip": "../../motion/swordsman/S02-thrust/strip-auto.png",
+  "spec": "../../motion/swordsman/S02-thrust/pick-auto.json"
+ },
+ {
+  "label": "S04 หมุนลูกข่าง · อัตโนมัติ (ช้า, วิดีโอเต็ม)",
+  "strip": "../../motion/swordsman/S04-spin/strip-auto.png",
+  "spec": "../../motion/swordsman/S04-spin/pick-auto.json"
+ }
+]

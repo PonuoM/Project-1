@@ -1,0 +1,47 @@
+{
+ "about": "Pipra walk",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 17
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 18
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 19
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 20
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 21
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 22
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 23
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 24
+  }
+ ]
+}

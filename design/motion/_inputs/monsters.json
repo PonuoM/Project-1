@@ -1,0 +1,56 @@
+{
+ "kiki": {
+  "source": "concepts/monsters-g8-codex/kiki-v3.png",
+  "frame": 48,
+  "scale": 8,
+  "origin": [
+   596,
+   296
+  ]
+ },
+ "thornboar": {
+  "source": "concepts/monsters-g8-codex/thornboar-v4.png",
+  "frame": 48,
+  "scale": 8,
+  "origin": [
+   596,
+   296
+  ]
+ },
+ "hex-scarecrow": {
+  "source": "concepts/monsters-g8-codex/hex-scarecrow-v4.png",
+  "frame": 48,
+  "scale": 8,
+  "origin": [
+   596,
+   296
+  ]
+ },
+ "bridge-troll": {
+  "source": "concepts/monsters-g8-codex/bridge-troll-v3.png",
+  "frame": 64,
+  "scale": 8,
+  "origin": [
+   468,
+   168
+  ]
+ },
+ "grimfang": {
+  "source": "concepts/monsters-g8-codex/grimfang-v2.png",
+  "frame": 128,
+  "scale": 4,
+  "origin": [
+   468,
+   168
+  ]
+ },
+ "thunderhead": {
+  "source": "concepts/monsters-g8-codex/thunderhead-v2.png",
+  "frame": 160,
+  "scale": 4,
+  "origin": [
+   340,
+   40
+  ]
+ }
+}

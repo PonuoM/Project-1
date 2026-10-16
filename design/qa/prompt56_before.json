@@ -1,0 +1,450 @@
+{
+  "manifest": {
+    "version": 1,
+    "sheets": {
+      "hero_melee_idle": {
+        "file": "hero_melee_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "hero_melee_walk": {
+        "file": "hero_melee_walk.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 10,
+        "loop": true
+      },
+      "hero_melee_attack": {
+        "file": "hero_melee_attack.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 14,
+        "loop": false,
+        "events": {
+          "impact": 3
+        }
+      },
+      "hero_melee_hurt": {
+        "file": "hero_melee_hurt.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 2,
+        "fps": 10,
+        "loop": false
+      },
+      "hero_melee_death": {
+        "file": "hero_melee_death.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 8,
+        "loop": false
+      },
+      "hero_mage_idle": {
+        "file": "hero_mage_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "hero_mage_walk": {
+        "file": "hero_mage_walk.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 10,
+        "loop": true
+      },
+      "hero_mage_attack": {
+        "file": "hero_mage_attack.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 14,
+        "loop": false,
+        "events": {
+          "impact": 3
+        }
+      },
+      "hero_mage_hurt": {
+        "file": "hero_mage_hurt.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 2,
+        "fps": 10,
+        "loop": false
+      },
+      "hero_mage_death": {
+        "file": "hero_mage_death.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 8,
+        "loop": false
+      },
+      "hero_ranged_idle": {
+        "file": "hero_ranged_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "hero_ranged_walk": {
+        "file": "hero_ranged_walk.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 10,
+        "loop": true
+      },
+      "hero_ranged_attack": {
+        "file": "hero_ranged_attack.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 14,
+        "loop": false,
+        "events": {
+          "impact": 3
+        }
+      },
+      "hero_ranged_hurt": {
+        "file": "hero_ranged_hurt.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 2,
+        "fps": 10,
+        "loop": false
+      },
+      "hero_ranged_death": {
+        "file": "hero_ranged_death.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 8,
+        "loop": false
+      },
+      "slime_idle": {
+        "file": "slime_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "slime_walk": {
+        "file": "slime_walk.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 10,
+        "loop": true
+      },
+      "slime_attack": {
+        "file": "slime_attack.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 10,
+        "loop": false,
+        "events": {
+          "impact": 2
+        }
+      },
+      "slime_death": {
+        "file": "slime_death.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 10,
+        "loop": false
+      },
+      "goblin_idle": {
+        "file": "goblin_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "goblin_walk": {
+        "file": "goblin_walk.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 10,
+        "loop": true
+      },
+      "goblin_attack": {
+        "file": "goblin_attack.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 10,
+        "loop": false,
+        "events": {
+          "impact": 2
+        }
+      },
+      "goblin_death": {
+        "file": "goblin_death.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 10,
+        "loop": false
+      },
+      "skeleton_idle": {
+        "file": "skeleton_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "skeleton_walk": {
+        "file": "skeleton_walk.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 10,
+        "loop": true
+      },
+      "skeleton_attack": {
+        "file": "skeleton_attack.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 10,
+        "loop": false,
+        "events": {
+          "impact": 2
+        }
+      },
+      "skeleton_death": {
+        "file": "skeleton_death.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 10,
+        "loop": false
+      },
+      "box_wood_idle": {
+        "file": "box_wood_idle.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "box_wood_open": {
+        "file": "box_wood_open.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 5,
+        "fps": 12,
+        "loop": false
+      },
+      "box_gold_locked": {
+        "file": "box_gold_locked.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "box_gold_ready": {
+        "file": "box_gold_ready.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 8,
+        "loop": true
+      },
+      "box_gold_open": {
+        "file": "box_gold_open.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 12,
+        "loop": false
+      },
+      "icon_box_wood": {
+        "file": "icon_box_wood.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_box_gold": {
+        "file": "icon_box_gold.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_coin": {
+        "file": "icon_coin.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_power": {
+        "file": "icon_power.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_stage": {
+        "file": "icon_stage.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_expand": {
+        "file": "icon_expand.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_close": {
+        "file": "icon_close.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_settings": {
+        "file": "icon_settings.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_weapon": {
+        "file": "icon_weapon.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_armor": {
+        "file": "icon_armor.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "icon_ring": {
+        "file": "icon_ring.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "coin_spin": {
+        "file": "coin_spin.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 6,
+        "fps": 12,
+        "loop": true
+      },
+      "fx_hit": {
+        "file": "fx_hit.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 4,
+        "fps": 16,
+        "loop": false
+      },
+      "fx_levelup": {
+        "file": "fx_levelup.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frames": 6,
+        "fps": 12,
+        "loop": false
+      },
+      "fx_arrow": {
+        "file": "fx_arrow.png",
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frames": 2,
+        "fps": 12,
+        "loop": true
+      }
+    }
+  },
+  "hashes": {
+    "hero_melee_idle.png": "553b844f342e1528e2780dc44687a605231286ce212e075fbfde01b24f5b6b41",
+    "hero_melee_walk.png": "25c0dfab906667c5d8c3311ccb56b676937ffc12a840ace42e18c4a1ef9828fb",
+    "hero_melee_attack.png": "e8554e5e5bd41f985925599a9d83699f35e8cf7660e653907612cd48df6333bf",
+    "hero_melee_hurt.png": "a0f52bf00d68bc89244f6f67b10f565ac6f2254c653490eabc1bcf082d15233b",
+    "hero_melee_death.png": "03ef7af1209875c1ebe977190533caeb469c6ce4de5e2710e5578cfe8098c008",
+    "hero_mage_idle.png": "03e870b0175e2af88513258bcd552caf894e3ed081608d88c7f1d85911c0660f",
+    "hero_mage_walk.png": "0b5d1b20931a439cc93cdb8bfa4893e644cf6416738005de64c7cdc31d22243b",
+    "hero_mage_attack.png": "8228145864e2a80c633238eed6575532a48baaee967b1a576e14d8630ae52b79",
+    "hero_mage_hurt.png": "1b3ca90f460fe851553a71c6b0235b34993535533d1cfedd9565460f23726746",
+    "hero_mage_death.png": "e787ada715047957de3aeb1653305363da7d0ab61101c7bfc0d92806220e0f13",
+    "hero_ranged_idle.png": "02421fbf8b18979e0fba33ec6d0f7ef66ebff9aba7784a76d5d2b10b095441c0",
+    "hero_ranged_walk.png": "25cd47f406e28956e078a9a80e8f40423ffacb3e32aae221af90b547ed6e499b",
+    "hero_ranged_attack.png": "2e454a8e9dfa57b021918e1538910733bbbf0dd7e39bab718908a0d3606926e7",
+    "hero_ranged_hurt.png": "cea5c18644b15b968a256575a9577b9084030a5fac1e28ec6cae4435954f7599",
+    "hero_ranged_death.png": "7a30f4bb201d38c0a0ebc12e3adce09182cd64cfb47022c74a8ebc7982aa5b16",
+    "slime_idle.png": "a6f79ab8abcb71cef43e0cdd50bd913a738e68f68b3b2c76384a1fd682d2371e",
+    "slime_walk.png": "176623cf33aa765ef11021fd89be234425ec19039a3118e5bdaab8fc18ac22df",
+    "slime_attack.png": "538428d8c7039a4a11ef4cc0504c513d777b61760c6e1e8a8c2d564e5ab3be27",
+    "slime_death.png": "cd07156ae3e130c15e14a8e4cad91381b1f5c73ca3c7b2ad29ba128590a71f41",
+    "goblin_idle.png": "24e8b17ff1751f5842727229cda39341860124621a525024eff1d2704cd444b5",
+    "goblin_walk.png": "651176067746416afd965dda6ea99945433b9d3ecfd3b40705bd99afa9520f79",
+    "goblin_attack.png": "ff15d0d721b63646456c624149ac9057aab156794726879abb1ab50c87908e68",
+    "goblin_death.png": "dabc3f1807e4ef5ed05d53df73e82800989bca1af1b37ee672be4750759a224e",
+    "skeleton_idle.png": "1bda4a41cfdf4b697cd7c3285128ce3fe1172dcd4eb640f80c7affa49f817bd7",
+    "skeleton_walk.png": "0f3f0f4decd283436b7b6ae43c344b084d2512f1fb86e45e477b3e96ece0c3d0",
+    "skeleton_attack.png": "f95b7c8f476bfa8dc46bac50714a2fabf86e01845fdc3312d6925aa58403ebae",
+    "skeleton_death.png": "16b102f9f109ff86bd0717f444eec1d6a26e25877c7a89cf49ef6df2632557b6",
+    "box_wood_idle.png": "f37ca0feee0212d81da42df4ecb58cb3ecf89d9bf98cbd4e2c05cb03ff1165ba",
+    "box_wood_open.png": "6e589bb694b5ecc108bc07e25403755c2f356de93b61c09a427d07f5ff163143",
+    "box_gold_locked.png": "692a9ef62e85d28f7f099904091268b557952a0df039bbdbc0151f35c90c676a",
+    "box_gold_ready.png": "c5e640e68c737d0b57afafaf000a0d26a0e23a1947cf706758ddae3fcda20c44",
+    "box_gold_open.png": "221c6cd1ee15006ab15c53e3a3eb64ef7a15335b9fb52a4ef891f12ea908bc7e",
+    "icon_box_wood.png": "a36e09133f7111048bc39be99815b30b7d802e4bc6d9d4cda902b707285b05be",
+    "icon_box_gold.png": "56b38ed039bf554fe78dafab803ccc3b05596a49d1d5350a11c36c0a4338e9ca",
+    "icon_coin.png": "3a48cd02a0174d21d2643bb8d7942beca24164db4d0fabd3e4ffeb45a55175c3",
+    "icon_power.png": "8defcccbbf49d6ac810747c81171d0841dd7dc1eb406db82e32cd658c0a677fe",
+    "icon_stage.png": "c04a289dd79d2550d1448e93912b67d67de694f3c8235233a297adc471fc3755",
+    "icon_expand.png": "b219173312b03849e07e8b41acf70d38794c135ad1a8fcf51e0759eae91bcf14",
+    "icon_close.png": "2a649bd92614d70490f44c9ef512ed22ed2275505c69afa113c3a7c06b773416",
+    "icon_settings.png": "47ab3f95289f34b082e93b9f75ee29357857f3654fd659671108af6fbc68a59c",
+    "icon_weapon.png": "077978884f8e91031333c10655f43a5064b0975606a0e8f397bf647f43159e60",
+    "icon_armor.png": "1d4907d5e06b2e435b6218db9ee0384fc20f70c0ff458574958b751f3c0ef917",
+    "icon_ring.png": "236bd532a25aacc36af533847ee6da3fe1f0e55cb867ba011383f583673bcbf3",
+    "coin_spin.png": "af2ad601115a663ecacb2a5dba5f8f98972afe117f936828410a56ed23f74d26",
+    "fx_hit.png": "5a058b9bde1ec448329a810c04802fae9a6fe443eae7d9e476a1527224425ac8",
+    "fx_levelup.png": "24fd08b132bde1ddc21b946fcb8f297645a528ccc8d91a30432011720798ec58",
+    "fx_arrow.png": "2ace44662d3828ae7d0cd0f963cce7bcf4b191e23b6ca603fe1e1edd4eed416b"
+  }
+}

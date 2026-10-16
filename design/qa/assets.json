@@ -1,0 +1,467 @@
+{
+  "result": "pass",
+  "sheets": 74,
+  "totalFrames": 307,
+  "paletteColors": 30,
+  "preservedOriginalSheets": 47,
+  "checks": [
+    "required keys",
+    "frame size/count",
+    "fps/loop/impact",
+    "RGBA binary alpha",
+    "palette membership",
+    "color budget",
+    "animated frame variation",
+    "floor/floating baseline",
+    "ground seams",
+    "region references",
+    "original PNG hashes and entries",
+    "palette swatch order"
+  ],
+  "details": [
+    {
+      "key": "hero_melee_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 15
+    },
+    {
+      "key": "hero_melee_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 15
+    },
+    {
+      "key": "hero_melee_attack",
+      "frames": 6,
+      "uniqueFrames": 3,
+      "colors": 16
+    },
+    {
+      "key": "hero_melee_hurt",
+      "frames": 2,
+      "uniqueFrames": 2,
+      "colors": 16
+    },
+    {
+      "key": "hero_melee_death",
+      "frames": 5,
+      "uniqueFrames": 3,
+      "colors": 16
+    },
+    {
+      "key": "hero_mage_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 16
+    },
+    {
+      "key": "hero_mage_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 16
+    },
+    {
+      "key": "hero_mage_attack",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 17
+    },
+    {
+      "key": "hero_mage_hurt",
+      "frames": 2,
+      "uniqueFrames": 2,
+      "colors": 17
+    },
+    {
+      "key": "hero_mage_death",
+      "frames": 5,
+      "uniqueFrames": 3,
+      "colors": 17
+    },
+    {
+      "key": "hero_ranged_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 15
+    },
+    {
+      "key": "hero_ranged_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 15
+    },
+    {
+      "key": "hero_ranged_attack",
+      "frames": 6,
+      "uniqueFrames": 5,
+      "colors": 15
+    },
+    {
+      "key": "hero_ranged_hurt",
+      "frames": 2,
+      "uniqueFrames": 2,
+      "colors": 16
+    },
+    {
+      "key": "hero_ranged_death",
+      "frames": 5,
+      "uniqueFrames": 3,
+      "colors": 16
+    },
+    {
+      "key": "slime_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 5
+    },
+    {
+      "key": "slime_walk",
+      "frames": 6,
+      "uniqueFrames": 2,
+      "colors": 5
+    },
+    {
+      "key": "slime_attack",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 5
+    },
+    {
+      "key": "slime_death",
+      "frames": 5,
+      "uniqueFrames": 5,
+      "colors": 5
+    },
+    {
+      "key": "goblin_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 9
+    },
+    {
+      "key": "goblin_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 9
+    },
+    {
+      "key": "goblin_attack",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 9
+    },
+    {
+      "key": "goblin_death",
+      "frames": 5,
+      "uniqueFrames": 3,
+      "colors": 9
+    },
+    {
+      "key": "skeleton_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 7
+    },
+    {
+      "key": "skeleton_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 7
+    },
+    {
+      "key": "skeleton_attack",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 7
+    },
+    {
+      "key": "skeleton_death",
+      "frames": 5,
+      "uniqueFrames": 3,
+      "colors": 7
+    },
+    {
+      "key": "box_wood_idle",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 6
+    },
+    {
+      "key": "box_wood_open",
+      "frames": 5,
+      "uniqueFrames": 5,
+      "colors": 8
+    },
+    {
+      "key": "box_gold_locked",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 7
+    },
+    {
+      "key": "box_gold_ready",
+      "frames": 4,
+      "uniqueFrames": 4,
+      "colors": 5
+    },
+    {
+      "key": "box_gold_open",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 6
+    },
+    {
+      "key": "icon_box_wood",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 5
+    },
+    {
+      "key": "icon_box_gold",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 5
+    },
+    {
+      "key": "icon_coin",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 4
+    },
+    {
+      "key": "icon_power",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 2
+    },
+    {
+      "key": "icon_stage",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 5
+    },
+    {
+      "key": "icon_expand",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 2
+    },
+    {
+      "key": "icon_close",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 2
+    },
+    {
+      "key": "icon_settings",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 3
+    },
+    {
+      "key": "icon_weapon",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 5
+    },
+    {
+      "key": "icon_armor",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 4
+    },
+    {
+      "key": "icon_ring",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 4
+    },
+    {
+      "key": "coin_spin",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 4
+    },
+    {
+      "key": "fx_hit",
+      "frames": 4,
+      "uniqueFrames": 4,
+      "colors": 4
+    },
+    {
+      "key": "fx_levelup",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 4
+    },
+    {
+      "key": "fx_arrow",
+      "frames": 2,
+      "uniqueFrames": 2,
+      "colors": 4
+    },
+    {
+      "key": "wolf_idle",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 8
+    },
+    {
+      "key": "wolf_walk",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 8
+    },
+    {
+      "key": "wolf_attack",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 8
+    },
+    {
+      "key": "wolf_death",
+      "frames": 5,
+      "uniqueFrames": 5,
+      "colors": 8
+    },
+    {
+      "key": "spider_idle",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 8
+    },
+    {
+      "key": "spider_walk",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 8
+    },
+    {
+      "key": "spider_attack",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 9
+    },
+    {
+      "key": "spider_death",
+      "frames": 5,
+      "uniqueFrames": 5,
+      "colors": 10
+    },
+    {
+      "key": "ghost_idle",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 6
+    },
+    {
+      "key": "ghost_walk",
+      "frames": 6,
+      "uniqueFrames": 3,
+      "colors": 6
+    },
+    {
+      "key": "ghost_attack",
+      "frames": 4,
+      "uniqueFrames": 3,
+      "colors": 7
+    },
+    {
+      "key": "ghost_death",
+      "frames": 5,
+      "uniqueFrames": 5,
+      "colors": 6
+    },
+    {
+      "key": "boss_kingslime_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 8
+    },
+    {
+      "key": "boss_kingslime_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 8
+    },
+    {
+      "key": "boss_kingslime_attack",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 8
+    },
+    {
+      "key": "boss_kingslime_death",
+      "frames": 8,
+      "uniqueFrames": 8,
+      "colors": 9
+    },
+    {
+      "key": "boss_treant_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 7
+    },
+    {
+      "key": "boss_treant_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 7
+    },
+    {
+      "key": "boss_treant_attack",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 8
+    },
+    {
+      "key": "boss_treant_death",
+      "frames": 8,
+      "uniqueFrames": 8,
+      "colors": 8
+    },
+    {
+      "key": "boss_lich_idle",
+      "frames": 4,
+      "uniqueFrames": 2,
+      "colors": 10
+    },
+    {
+      "key": "boss_lich_walk",
+      "frames": 6,
+      "uniqueFrames": 6,
+      "colors": 10
+    },
+    {
+      "key": "boss_lich_attack",
+      "frames": 6,
+      "uniqueFrames": 4,
+      "colors": 10
+    },
+    {
+      "key": "boss_lich_death",
+      "frames": 8,
+      "uniqueFrames": 8,
+      "colors": 10
+    },
+    {
+      "key": "ground_grassland",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 4
+    },
+    {
+      "key": "ground_darkforest",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 4
+    },
+    {
+      "key": "ground_crypt",
+      "frames": 1,
+      "uniqueFrames": 1,
+      "colors": 3
+    }
+  ]
+}

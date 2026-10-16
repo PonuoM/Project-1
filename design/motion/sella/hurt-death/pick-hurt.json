@@ -1,0 +1,47 @@
+{
+ "about": "Sella hurt (frames 1-3 skipped: attacker spear drawn in violet)",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 0
+  },
+  {
+   "note": "HIT",
+   "ms": 70,
+   "sourceFrame": 4
+  },
+  {
+   "note": "recoil",
+   "ms": 50,
+   "sourceFrame": 5
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 6
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 8
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 10
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 13
+  },
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 16
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+Image-to-video on Hailuo/MiniMax (first frame = minimax-first-frame-1280x720.png)
+
+A) heavy attack
+Static camera, locked-off side view, plain light grey background that never changes. The chibi pixel-art swordsman raises the sword high behind his head, pauses for a moment, then steps forward and chops down hard so the blade hits the ground in front of him, holds the pose, then returns to his starting stance. Keep the chunky pixel-art look, same character, same outfit, same size, no camera movement, no zoom, no motion blur, no new objects.
+
+B) idle (loop)
+Static camera, locked-off side view, plain light grey background. The chibi pixel-art swordsman stands ready and breathes slowly, shoulders rising and falling slightly, cape and hair moving a little. No walking, no camera movement, no zoom. Ends in the same pose it starts in.

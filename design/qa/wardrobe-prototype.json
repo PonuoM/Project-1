@@ -1,0 +1,21 @@
+{
+  "artifact": "design/prototypes/wardrobe/index.html",
+  "artStatus": "temporary code-authored paper doll; actual PixelLab generation pending connection/key",
+  "independentLayerChecks": 30,
+  "layerFailures": 0,
+  "bodyUnchangedWhenRemovingEachSlot": true,
+  "jewelryChangesPixels": false,
+  "actionsWithOneImpact": ["attack", "slam", "leap"],
+  "mirrorAndScaleControlsVerified": true,
+  "weaponBoundarySamples": 410,
+  "weaponBoundaryFailures": 0,
+  "sharedFrameSize": [96, 96],
+  "logicalRigSize": [64, 64],
+  "transparentGutter": 16,
+  "viewports": [[1440, 1000], [390, 900]],
+  "mobileHorizontalOverflow": false,
+  "referenceImageLoaded": true,
+  "pageErrors": [],
+  "designDetectorFindings": [],
+  "screenshots": [".impeccable/review/wardrobe/desktop.png", ".impeccable/review/wardrobe/mobile.png", ".impeccable/review/wardrobe/bare.png", ".impeccable/review/wardrobe/leap.png", ".impeccable/review/wardrobe/axe-extreme.png"]
+}

@@ -1,0 +1,18 @@
+{
+  "icons": {
+    "sections": 9,
+    "images": 36,
+    "broken": [],
+    "mobileOverflow": false
+  },
+  "sprites": {
+    "entries": 74,
+    "views": 444,
+    "broken": [],
+    "animationChanges": true,
+    "nonLoopStops": true,
+    "mobileOverflow": false
+  },
+  "errors": [],
+  "result": "pass"
+}

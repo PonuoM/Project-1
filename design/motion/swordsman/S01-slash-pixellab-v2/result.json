@@ -1,0 +1,31 @@
+{
+ "usage": {
+  "type": "generations",
+  "generations": 1.0
+ },
+ "id": "aff69f52-9022-4f43-91b8-005a4a55a4f8",
+ "status": "completed",
+ "created_at": "2026-10-14T15:21:01.908153+00:00",
+ "last_response": {
+  "seed": 77,
+  "type": "message_done",
+  "usage": {
+   "usd": 0.0,
+   "type": "generations",
+   "generations": 1,
+   "cost_if_paid": 0.03250919193691677
+  },
+  "images": "13 images -> frame-NN.png",
+  "status": "completed",
+  "progress": 0.8947368421052632,
+  "flow_kind": "animation",
+  "billing_usage": {
+   "type": "generations",
+   "generations": 1.0
+  },
+  "generation_id": "01e4ab45-287b-415f-8ed2-d224ed2b8688",
+  "queue_position": 0,
+  "billing_charged": true,
+  "generation_started_at": "2026-10-14T15:21:30.228034+00:00"
+ }
+}

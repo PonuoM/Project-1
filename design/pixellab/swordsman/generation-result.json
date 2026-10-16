@@ -1,0 +1,82 @@
+{
+  "id": "1f124af7-1d19-47e7-a22b-eadb795ef1a5",
+  "status": "completed",
+  "usage": {
+    "type": "generations",
+    "generations": 10
+  },
+  "imageCount": 16,
+  "lastResponseMetadata": {
+    "seed": 27183,
+    "type": "message_done",
+    "action": "Touching up pixels",
+    "progress": 0.85,
+    "billing_usage": {
+      "usd": 0,
+      "type": "generations",
+      "generations": 10
+    },
+    "generation_id": "9153960d-dd94-4382-8ff2-9da75b6d342c",
+    "usage_cost_usd": 0.08,
+    "billing_charged": true,
+    "style_reference": "Elf mage, dark outline, retro-16",
+    "style_selection": {
+      "style_reference_id": "70d0d103-4581-43d7-949b-c69f53bf5f84",
+      "style_reference_name": "Elf mage, dark outline, retro-16",
+      "style_catalog_revision": 402,
+      "style_reference_frames": [
+        {
+          "width": 64,
+          "height": 64,
+          "opaque": false,
+          "sha256": "71849c54210770b7e54c4cd57e142299adad01c5c288f075d7d029b26aa9f374",
+          "direction": null,
+          "content_box": [
+            19,
+            2,
+            45,
+            64
+          ]
+        }
+      ],
+      "style_reference_intent": {
+        "camera": "eye-level side camera",
+        "facing": "east",
+        "framing": "full-body sprite",
+        "inferred": [
+          "medieval fantasy",
+          "16-bit pixel art",
+          "right-facing side profile",
+          "detailed steel plate armor",
+          "crimson plume",
+          "burgundy cape",
+          "longsword",
+          "kite shield",
+          "one-pixel outline",
+          "top-left lighting"
+        ],
+        "asset_kind": "veteran swordsman knight sprite in combat stance",
+        "asset_family": "humanoid",
+        "rendering_traits": [
+          "not cute",
+          "not chibi"
+        ]
+      },
+      "style_reference_reason": "This sprite shares the target side-view orientation and has realistic human-like proportions, offering a solid template for the swordsman's athletic build and layered equipment rendering.",
+      "style_reference_direction": null,
+      "style_reference_cropped_to": null,
+      "style_reference_description": "This sprite features a slender elf character in a fantasy robe with realistic human-like proportions. It uses a consistent dark outline for the edges and features rich, stepped shading to define fabric folds and facial features. The muted earth-tone palette and detailed sprite work suggest a professional 16-bit role-playing game aesthetic.",
+      "style_reference_missing_traits": [
+        "plate armor",
+        "shield",
+        "longsword",
+        "cape",
+        "plume"
+      ]
+    },
+    "style_reference_path": null,
+    "generation_started_at": "2026-10-13T16:27:54.675127+00:00",
+    "original_image_n_colors": 104,
+    "quantized_image_n_colors": 251
+  }
+}

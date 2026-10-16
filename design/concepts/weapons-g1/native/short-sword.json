@@ -1,0 +1,10 @@
+{
+ "grip": [
+  2.32,
+  16.88
+ ],
+ "angle": -45.4,
+ "length": 26.2,
+ "source": "design\\concepts\\weapons-g1\\sheet-raw-v3.jpg",
+ "note": "weapons_from_sheet.py: grid rebuilt from the AI sheet; grip = fraction along the long axis from the handle end"
+}

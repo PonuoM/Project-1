@@ -1,0 +1,101 @@
+{
+ "about": "idle loop (frames 2-19)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 2
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 3
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 4
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 5
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 6
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 7
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 8
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 9
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 10
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 11
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 12
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 13
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 14
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 15
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 16
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 17
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 18
+  },
+  {
+   "note": "idle",
+   "ms": 70,
+   "sourceFrame": 19
+  }
+ ],
+ "loop": [
+  0,
+  17
+ ]
+}

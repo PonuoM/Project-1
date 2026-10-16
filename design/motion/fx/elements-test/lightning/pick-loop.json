@@ -1,0 +1,92 @@
+{
+ "about": "lightning status loop",
+ "frameWidth": 40,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 46
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 47
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 48
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 49
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 50
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 51
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 52
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 53
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 54
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 55
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 56
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 57
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 58
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 59
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 60
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 61
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 62
+  }
+ ]
+}

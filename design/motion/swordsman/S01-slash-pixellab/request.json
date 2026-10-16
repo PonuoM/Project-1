@@ -1,0 +1,9 @@
+{
+ "endpoint": "animate-with-text-v3",
+ "firstFrameFile": "base.png",
+ "lastFrameFile": "base.png",
+ "action": "Side view facing right, stays in place. He takes a small step forward and slashes the violet sword ONCE in a fast diagonal arc from high behind his shoulder down to low in front of him: quick wind-up with the sword raised behind the head and a short pause at the top, very fast strike, short hold on impact with the blade low in front, then returns to the exact starting pose. Same character, same grey bodysuit, the sword keeps exactly the same short length and violet colour in every frame, chunky pixel art, transparent background.",
+ "frame_count": 16,
+ "no_background": true,
+ "seed": 2026
+}

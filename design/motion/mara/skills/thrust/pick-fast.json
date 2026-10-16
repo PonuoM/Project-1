@@ -1,0 +1,122 @@
+{
+ "about": "thrust fast cut (manual)",
+ "frameWidth": 128,
+ "impactFrame": 5,
+ "frames": [
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 0
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 10
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 11
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 12
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 13
+  },
+  {
+   "note": "HIT",
+   "ms": 70,
+   "sourceFrame": 14
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 15
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 16
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 17
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 18
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 19
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 20
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 21
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 22
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 23
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 24
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 25
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 26
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 27
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 28
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 29
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 30
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 61
+  }
+ ]
+}

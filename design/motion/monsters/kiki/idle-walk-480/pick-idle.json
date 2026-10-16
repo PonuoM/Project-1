@@ -1,0 +1,62 @@
+{
+ "about": "kiki idle",
+ "frameWidth": 60,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 0
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 1
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 2
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 3
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 4
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 5
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 6
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 7
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 8
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 9
+  },
+  {
+   "note": "idle",
+   "ms": 90,
+   "sourceFrame": 10
+  }
+ ]
+}

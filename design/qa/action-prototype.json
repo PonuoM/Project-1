@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "walked": true,
+  "pauseStable": true,
+  "slashHp": 84,
+  "skillHp": 2,
+  "cameraPan": -40,
+  "B": {
+    "url": "?variant=B",
+    "canvas": [
+      800,
+      160
+    ]
+  },
+  "C": {
+    "url": "?variant=C",
+    "canvas": [
+      560,
+      240
+    ]
+  },
+  "mobileRootOverflow": false,
+  "scope": "Manual browser smoke check of isolated visual prototype; no gameplay/production validation",
+  "result": "pass"
+}

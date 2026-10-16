@@ -1,0 +1,102 @@
+{
+ "about": "fire hit burst (play once)",
+ "frameWidth": 36,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 2
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 3
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 4
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 5
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 6
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 7
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 8
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 9
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 10
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 11
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 12
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 13
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 14
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 15
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 16
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 17
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 18
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 19
+  },
+  {
+   "note": "burst",
+   "ms": 40,
+   "sourceFrame": 20
+  }
+ ]
+}

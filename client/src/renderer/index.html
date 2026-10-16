@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' http://localhost:* http://127.0.0.1:* ws://localhost:*"
+    />
+    <title>Idle Loot</title>
+  </head>
+  <body>
+    <!-- The always-on-top widget (GAME_BRIEF §7.1). Class names are the contract with Codex's design/mockups/widget.css. -->
+    <div class="tw-popups" id="popups" aria-live="polite"></div>
+    <section class="tw-widget" id="widget" aria-label="Idle Loot">
+      <header class="tw-titlebar" id="titlebar" title="ลากเพื่อย้าย">
+        <span class="tw-sigil" aria-hidden="true"></span>
+        <strong class="tw-title" id="region"></strong>
+        <span class="tw-stage" id="stage"></span>
+      </header>
+      <div class="tw-scene" id="scene">
+        <div id="game"></div>
+        <div class="tw-scene-top">
+          <span id="hero-line"></span>
+          <span class="tw-phase" id="phase"></span>
+        </div>
+        <div class="tw-error" id="error" hidden></div>
+      </div>
+      <footer class="tw-actionbar">
+        <span class="tw-gold" id="gold"></span>
+        <button class="tw-box tw-box-wood" id="wood" type="button"></button>
+        <button class="tw-openall" id="openall" type="button"></button>
+        <button class="tw-box tw-box-gold" id="goldbox" type="button"></button>
+        <span class="tw-grow"></span>
+        <button class="tw-skill" id="skill" type="button"></button>
+        <button class="tw-expand" id="expand" type="button"></button>
+      </footer>
+    </section>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

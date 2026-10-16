@@ -1,0 +1,52 @@
+{
+ "about": "Pipra death (frames by measurement)",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 33
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 35
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 36
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 37
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 38
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 40
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 41
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 42
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 44
+  }
+ ]
+}

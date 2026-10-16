@@ -1,0 +1,77 @@
+{
+ "about": "grimfang walk",
+ "frameWidth": 139,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 34
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 35
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 36
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 37
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 38
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 39
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 40
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 41
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 42
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 43
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 44
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 45
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 46
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 47
+  }
+ ]
+}

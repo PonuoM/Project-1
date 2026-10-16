@@ -1,0 +1,47 @@
+{
+ "about": "Noll walk (weak loop)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 18
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 19
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 20
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 21
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 22
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 23
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 24
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 25
+  }
+ ]
+}

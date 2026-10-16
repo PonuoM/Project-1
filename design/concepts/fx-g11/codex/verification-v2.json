@@ -1,0 +1,620 @@
+[
+  {
+    "id": "arc-down",
+    "rawSize": [
+      1983,
+      793
+    ],
+    "sheet": "arc-down-v2.png",
+    "sheetSize": [
+      1024,
+      256
+    ],
+    "cellSize": [
+      256,
+      256
+    ],
+    "nativeCellSize": [
+      64,
+      64
+    ],
+    "cols": 4,
+    "frameCount": 4,
+    "anchorArtPx": [
+      8,
+      32
+    ],
+    "suggestedFrameMs": [
+      25,
+      40,
+      35,
+      30
+    ],
+    "previewBlackHoldMs": 600,
+    "peakSpanArtPx": 58,
+    "suggestedWorldScaleFor80pxPeak": 1.379,
+    "frames": [
+      {
+        "frame": 0,
+        "area": 246,
+        "bounds": [
+          11,
+          3,
+          52,
+          23
+        ],
+        "colourCounts": {
+          "0": 3850,
+          "60": 85,
+          "154": 99,
+          "255": 62
+        }
+      },
+      {
+        "frame": 1,
+        "area": 1092,
+        "bounds": [
+          10,
+          3,
+          57,
+          61
+        ],
+        "colourCounts": {
+          "0": 3004,
+          "60": 327,
+          "154": 456,
+          "255": 309
+        }
+      },
+      {
+        "frame": 2,
+        "area": 450,
+        "bounds": [
+          7,
+          14,
+          57,
+          61
+        ],
+        "colourCounts": {
+          "0": 3646,
+          "60": 151,
+          "154": 160,
+          "255": 139
+        }
+      },
+      {
+        "frame": 3,
+        "area": 55,
+        "bounds": [
+          35,
+          38,
+          53,
+          61
+        ],
+        "colourCounts": {
+          "0": 4041,
+          "60": 20,
+          "154": 16,
+          "255": 19
+        }
+      }
+    ],
+    "exact4xGrid": true,
+    "blackGutters": true
+  },
+  {
+    "id": "arc-sweep-rl",
+    "rawSize": [
+      2172,
+      724
+    ],
+    "sheet": "arc-sweep-rl-v2.png",
+    "sheetSize": [
+      1024,
+      256
+    ],
+    "cellSize": [
+      256,
+      256
+    ],
+    "nativeCellSize": [
+      64,
+      64
+    ],
+    "cols": 4,
+    "frameCount": 4,
+    "anchorArtPx": [
+      8,
+      32
+    ],
+    "suggestedFrameMs": [
+      25,
+      40,
+      35,
+      30
+    ],
+    "previewBlackHoldMs": 600,
+    "peakSpanArtPx": 58,
+    "suggestedWorldScaleFor80pxPeak": 1.379,
+    "frames": [
+      {
+        "frame": 0,
+        "area": 249,
+        "bounds": [
+          16,
+          19,
+          61,
+          37
+        ],
+        "colourCounts": {
+          "0": 3847,
+          "60": 85,
+          "154": 108,
+          "255": 56
+        }
+      },
+      {
+        "frame": 1,
+        "area": 754,
+        "bounds": [
+          3,
+          19,
+          61,
+          45
+        ],
+        "colourCounts": {
+          "0": 3342,
+          "60": 247,
+          "154": 363,
+          "255": 144
+        }
+      },
+      {
+        "frame": 2,
+        "area": 380,
+        "bounds": [
+          5,
+          20,
+          61,
+          44
+        ],
+        "colourCounts": {
+          "0": 3716,
+          "60": 104,
+          "154": 177,
+          "255": 99
+        }
+      },
+      {
+        "frame": 3,
+        "area": 60,
+        "bounds": [
+          9,
+          28,
+          35,
+          41
+        ],
+        "colourCounts": {
+          "0": 4036,
+          "60": 19,
+          "154": 29,
+          "255": 12
+        }
+      }
+    ],
+    "exact4xGrid": true,
+    "blackGutters": true
+  },
+  {
+    "id": "arc-sweep-lr",
+    "rawSize": [
+      2172,
+      724
+    ],
+    "sheet": "arc-sweep-lr-v2.png",
+    "sheetSize": [
+      1024,
+      256
+    ],
+    "cellSize": [
+      256,
+      256
+    ],
+    "nativeCellSize": [
+      64,
+      64
+    ],
+    "cols": 4,
+    "frameCount": 4,
+    "anchorArtPx": [
+      8,
+      32
+    ],
+    "suggestedFrameMs": [
+      25,
+      40,
+      35,
+      30
+    ],
+    "previewBlackHoldMs": 600,
+    "peakSpanArtPx": 58,
+    "suggestedWorldScaleFor80pxPeak": 1.379,
+    "frames": [
+      {
+        "frame": 0,
+        "area": 269,
+        "bounds": [
+          6,
+          31,
+          58,
+          47
+        ],
+        "colourCounts": {
+          "0": 3827,
+          "60": 66,
+          "154": 110,
+          "255": 93
+        }
+      },
+      {
+        "frame": 1,
+        "area": 786,
+        "bounds": [
+          3,
+          14,
+          61,
+          49
+        ],
+        "colourCounts": {
+          "0": 3310,
+          "60": 137,
+          "154": 401,
+          "255": 248
+        }
+      },
+      {
+        "frame": 2,
+        "area": 488,
+        "bounds": [
+          5,
+          18,
+          61,
+          47
+        ],
+        "colourCounts": {
+          "0": 3608,
+          "60": 102,
+          "154": 236,
+          "255": 150
+        }
+      },
+      {
+        "frame": 3,
+        "area": 54,
+        "bounds": [
+          27,
+          32,
+          57,
+          47
+        ],
+        "colourCounts": {
+          "0": 4042,
+          "60": 12,
+          "154": 32,
+          "255": 10
+        }
+      }
+    ],
+    "exact4xGrid": true,
+    "blackGutters": true
+  },
+  {
+    "id": "arc-up",
+    "rawSize": [
+      2172,
+      724
+    ],
+    "sheet": "arc-up-v2.png",
+    "sheetSize": [
+      1024,
+      256
+    ],
+    "cellSize": [
+      256,
+      256
+    ],
+    "nativeCellSize": [
+      64,
+      64
+    ],
+    "cols": 4,
+    "frameCount": 4,
+    "anchorArtPx": [
+      8,
+      32
+    ],
+    "suggestedFrameMs": [
+      25,
+      40,
+      35,
+      30
+    ],
+    "previewBlackHoldMs": 600,
+    "peakSpanArtPx": 58,
+    "suggestedWorldScaleFor80pxPeak": 1.379,
+    "frames": [
+      {
+        "frame": 0,
+        "area": 214,
+        "bounds": [
+          12,
+          35,
+          50,
+          58
+        ],
+        "colourCounts": {
+          "0": 3882,
+          "60": 80,
+          "154": 72,
+          "255": 62
+        }
+      },
+      {
+        "frame": 1,
+        "area": 841,
+        "bounds": [
+          10,
+          3,
+          57,
+          61
+        ],
+        "colourCounts": {
+          "0": 3255,
+          "60": 219,
+          "154": 341,
+          "255": 281
+        }
+      },
+      {
+        "frame": 2,
+        "area": 463,
+        "bounds": [
+          7,
+          4,
+          57,
+          52
+        ],
+        "colourCounts": {
+          "0": 3633,
+          "60": 108,
+          "154": 216,
+          "255": 139
+        }
+      },
+      {
+        "frame": 3,
+        "area": 45,
+        "bounds": [
+          7,
+          8,
+          52,
+          29
+        ],
+        "colourCounts": {
+          "0": 4051,
+          "60": 7,
+          "154": 19,
+          "255": 19
+        }
+      }
+    ],
+    "exact4xGrid": true,
+    "blackGutters": true
+  },
+  {
+    "id": "arc-thrust",
+    "rawSize": [
+      2172,
+      724
+    ],
+    "sheet": "arc-thrust-v2.png",
+    "sheetSize": [
+      1024,
+      256
+    ],
+    "cellSize": [
+      256,
+      256
+    ],
+    "nativeCellSize": [
+      64,
+      64
+    ],
+    "cols": 4,
+    "frameCount": 4,
+    "anchorArtPx": [
+      8,
+      32
+    ],
+    "suggestedFrameMs": [
+      25,
+      40,
+      35,
+      30
+    ],
+    "previewBlackHoldMs": 600,
+    "peakSpanArtPx": 55,
+    "suggestedWorldScaleFor80pxPeak": 1.455,
+    "frames": [
+      {
+        "frame": 0,
+        "area": 169,
+        "bounds": [
+          8,
+          26,
+          40,
+          37
+        ],
+        "colourCounts": {
+          "0": 3927,
+          "60": 82,
+          "154": 64,
+          "255": 23
+        }
+      },
+      {
+        "frame": 1,
+        "area": 460,
+        "bounds": [
+          5,
+          25,
+          60,
+          39
+        ],
+        "colourCounts": {
+          "0": 3636,
+          "60": 161,
+          "154": 212,
+          "255": 87
+        }
+      },
+      {
+        "frame": 2,
+        "area": 225,
+        "bounds": [
+          13,
+          26,
+          59,
+          39
+        ],
+        "colourCounts": {
+          "0": 3871,
+          "60": 85,
+          "154": 88,
+          "255": 52
+        }
+      },
+      {
+        "frame": 3,
+        "area": 19,
+        "bounds": [
+          42,
+          30,
+          56,
+          32
+        ],
+        "colourCounts": {
+          "0": 4077,
+          "60": 3,
+          "154": 12,
+          "255": 4
+        }
+      }
+    ],
+    "exact4xGrid": true,
+    "blackGutters": true
+  },
+  {
+    "id": "arc-spin",
+    "rawSize": [
+      1983,
+      793
+    ],
+    "sheet": "arc-spin-v2.png",
+    "sheetSize": [
+      1024,
+      256
+    ],
+    "cellSize": [
+      256,
+      256
+    ],
+    "nativeCellSize": [
+      64,
+      64
+    ],
+    "cols": 4,
+    "frameCount": 4,
+    "anchorArtPx": [
+      32,
+      32
+    ],
+    "suggestedFrameMs": [
+      25,
+      40,
+      35,
+      30
+    ],
+    "previewBlackHoldMs": 600,
+    "peakSpanArtPx": 58,
+    "suggestedWorldScaleFor80pxPeak": 1.379,
+    "frames": [
+      {
+        "frame": 0,
+        "area": 553,
+        "bounds": [
+          14,
+          3,
+          60,
+          40
+        ],
+        "colourCounts": {
+          "0": 3543,
+          "60": 150,
+          "154": 269,
+          "255": 134
+        }
+      },
+      {
+        "frame": 1,
+        "area": 1672,
+        "bounds": [
+          3,
+          4,
+          61,
+          61
+        ],
+        "colourCounts": {
+          "0": 2424,
+          "60": 367,
+          "154": 877,
+          "255": 428
+        }
+      },
+      {
+        "frame": 2,
+        "area": 1091,
+        "bounds": [
+          6,
+          4,
+          61,
+          60
+        ],
+        "colourCounts": {
+          "0": 3005,
+          "60": 261,
+          "154": 549,
+          "255": 281
+        }
+      },
+      {
+        "frame": 3,
+        "area": 183,
+        "bounds": [
+          25,
+          30,
+          55,
+          59
+        ],
+        "colourCounts": {
+          "0": 3913,
+          "60": 36,
+          "154": 89,
+          "255": 58
+        }
+      }
+    ],
+    "exact4xGrid": true,
+    "blackGutters": true
+  }
+]

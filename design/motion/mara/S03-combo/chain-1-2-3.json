@@ -1,0 +1,132 @@
+{
+ "about": "combo 1-2-3 (Claude); links: hit1 f40 = hit2 f0, hit2 f10 = hit3 f0",
+ "frameWidth": 128,
+ "impactFrame": 18,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 0
+  },
+  {
+   "note": "shift",
+   "ms": 50,
+   "sourceFrame": 1
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 2
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 3
+  },
+  {
+   "note": "wind",
+   "ms": 60,
+   "sourceFrame": 4
+  },
+  {
+   "note": "HOLD high",
+   "ms": 100,
+   "sourceFrame": 5
+  },
+  {
+   "note": "launch",
+   "ms": 30,
+   "sourceFrame": 6
+  },
+  {
+   "note": "swing",
+   "ms": 40,
+   "sourceFrame": 7
+  },
+  {
+   "note": "HIT 1",
+   "ms": 90,
+   "sourceFrame": 8
+  },
+  {
+   "note": "link 1-2",
+   "ms": 60,
+   "sourceFrame": 9
+  },
+  {
+   "note": "lift",
+   "ms": 40,
+   "sourceFrame": 10
+  },
+  {
+   "note": "sweep",
+   "ms": 40,
+   "sourceFrame": 11
+  },
+  {
+   "note": "sweep smear",
+   "ms": 40,
+   "sourceFrame": 12
+  },
+  {
+   "note": "HIT 2",
+   "ms": 90,
+   "sourceFrame": 13
+  },
+  {
+   "note": "link 2-3",
+   "ms": 60,
+   "sourceFrame": 14
+  },
+  {
+   "note": "pull",
+   "ms": 40,
+   "sourceFrame": 15
+  },
+  {
+   "note": "smear",
+   "ms": 40,
+   "sourceFrame": 16
+  },
+  {
+   "note": "sweep smear",
+   "ms": 40,
+   "sourceFrame": 17
+  },
+  {
+   "note": "HIT 3",
+   "ms": 100,
+   "sourceFrame": 18
+  },
+  {
+   "note": "follow",
+   "ms": 90,
+   "sourceFrame": 19
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 20
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 21
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 22
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 23
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 24
+  }
+ ]
+}

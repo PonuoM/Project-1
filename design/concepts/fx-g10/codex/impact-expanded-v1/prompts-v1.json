@@ -1,0 +1,114 @@
+[
+  {
+    "id": "explosion",
+    "rows": 4,
+    "count": 16,
+    "palette": [
+      "#59616b",
+      "#c45324",
+      "#ff9c42",
+      "#fff1bc"
+    ],
+    "times": [
+      20,
+      20,
+      25,
+      30,
+      35,
+      35,
+      40,
+      40,
+      45,
+      45,
+      50,
+      55,
+      60,
+      65,
+      75,
+      90
+    ],
+    "detail": "EXACT16 cells,4 columns x4 rows,1024x1024 PNG. Reading order LEFT to RIGHT, then next row. Preserve the approved separate SHOCKWAVE RING, compact orange/white star and angular debris, then grey smoke. NO mushroom cloud, giant solid orange ball or fire tongues. Radial explosion centred at(32,32). Frames1-16:1 tiny compressed white-orange contact star;2 star expands6px and tiny ring begins;3 fast white/orange star opens10px;4 star peaks and thin ring radius11 separates by a black gap;5 ring radius15,core shrinks,debris emerges;6 ring radius18,black centre grows;7 ring radius21 and begins breaking;8 radius23,ring breaks into5 arcs,debris further outward;9 core gone,5 moving arc fragments and6 debris pieces;10 arcs become3 short fragments,grey wisps begin;11 arcs vanish,4 debris chips and2 upward grey curls;12 only3 debris and2 thinner curls;13 curls shortened/darker,2 chips;14 two sparse fading grey curls;15 only2 tiny grey fragments;16 almost entirely black,one dim grey pixel. Ring expands monotonically frames3-8, no reset. Particle shapes shrink as they travel. Smoke fades to black by16.",
+    "prompt": "Use case: stylized-concept. Create a NEW pixel-art ANIMATION SPRITE SHEET expanding the approved4-key design in supplied image. It is a style/material reference ONLY; DO NOT repeat its4-panel layout. Every frame evolves continuously from the previous, same impact pivot, coherent particle trajectories and continuous shape change, no random unrelated poses. One art pixel=4x4 image pixels, native64x64 per256x256 cell. Pure flat BLACK #000000 background, additive-game VFX. Four flat content colours, crisp big pixel clusters. NO characters, weapons, text, numbers, labels, borders, grid lines, antialiasing, blurred glow, gradients, floor or scenery. At least3 native pixels black margin around every cell. Fixed hit pivot at native(32,32), image(128,128) LOCAL TO EACH CELL: this effect strikes the monster's TORSO, NOT its feet. Imaginary ground is nativey54, never draw a floor line. Peak fits x5..59,y5..58 and about40-48px diameter. Keep BLACK gaps within the effect so a monster remains readable. First frame small visible ignition/contact, LAST frame visually EMPTY except at most1-2 tiny dim pixels. All intermediate frames needed, no duplicated groups, no extra frames. EXACT16 cells,4 columns x4 rows,1024x1024 PNG. Reading order LEFT to RIGHT, then next row. Preserve the approved separate SHOCKWAVE RING, compact orange/white star and angular debris, then grey smoke. NO mushroom cloud, giant solid orange ball or fire tongues. Radial explosion centred at(32,32). Frames1-16:1 tiny compressed white-orange contact star;2 star expands6px and tiny ring begins;3 fast white/orange star opens10px;4 star peaks and thin ring radius11 separates by a black gap;5 ring radius15,core shrinks,debris emerges;6 ring radius18,black centre grows;7 ring radius21 and begins breaking;8 radius23,ring breaks into5 arcs,debris further outward;9 core gone,5 moving arc fragments and6 debris pieces;10 arcs become3 short fragments,grey wisps begin;11 arcs vanish,4 debris chips and2 upward grey curls;12 only3 debris and2 thinner curls;13 curls shortened/darker,2 chips;14 two sparse fading grey curls;15 only2 tiny grey fragments;16 almost entirely black,one dim grey pixel. Ring expands monotonically frames3-8, no reset. Particle shapes shrink as they travel. Smoke fades to black by16. Allowed colours ONLY black plus #59616b, #c45324, #ff9c42, #fff1bc. Match approved chunky colour blocks, not the old4-frame composition."
+  },
+  {
+    "id": "fire",
+    "rows": 3,
+    "count": 12,
+    "palette": [
+      "#b52e25",
+      "#f36b27",
+      "#ffbd45",
+      "#fff3ae"
+    ],
+    "times": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      65,
+      75,
+      85,
+      100
+    ],
+    "detail": "EXACT12 cells,4 columns x3 rows,1024x768 PNG. Reading order LEFT to RIGHT, then next row. FIRE SLASH IMPACT: flame bursts OUT from torso hit pivot(32,32) toward the RIGHT along an up-right sword slash, then rises. Not a ground bonfire, not an explosion ring. 1 tiny hot contact slash atpivot;2 short white/yellow diagonal flash;3 orange flame fan starts frompivot and sweeps right/up;4 impact peak,3 asymmetrical flame ribbons flare toward upper-right with torn pointed tips, black slits between ribbons,short counterflame left;5 fan opens farther,white centre shrinks;6 flame tongues tear away from the pivot;7 detached fiery ribbons curl upward,body begins clearing;8 ribbons shorten and4 embers rise;9 only small flame curls and4 upward embers;10 only3 embers higher up;11 two dim red/orange flecks;12 almost black withone dim red pixel. Broad directional material on contact then upward dissipation. Never circular ball or round shockwave.",
+    "prompt": "Use case: stylized-concept. Create a NEW pixel-art ANIMATION SPRITE SHEET expanding the approved4-key design in supplied image. It is a style/material reference ONLY; DO NOT repeat its4-panel layout. Every frame evolves continuously from the previous, same impact pivot, coherent particle trajectories and continuous shape change, no random unrelated poses. One art pixel=4x4 image pixels, native64x64 per256x256 cell. Pure flat BLACK #000000 background, additive-game VFX. Four flat content colours, crisp big pixel clusters. NO characters, weapons, text, numbers, labels, borders, grid lines, antialiasing, blurred glow, gradients, floor or scenery. At least3 native pixels black margin around every cell. Fixed hit pivot at native(32,32), image(128,128) LOCAL TO EACH CELL: this effect strikes the monster's TORSO, NOT its feet. Imaginary ground is nativey54, never draw a floor line. Peak fits x5..59,y5..58 and about40-48px diameter. Keep BLACK gaps within the effect so a monster remains readable. First frame small visible ignition/contact, LAST frame visually EMPTY except at most1-2 tiny dim pixels. All intermediate frames needed, no duplicated groups, no extra frames. EXACT12 cells,4 columns x3 rows,1024x768 PNG. Reading order LEFT to RIGHT, then next row. FIRE SLASH IMPACT: flame bursts OUT from torso hit pivot(32,32) toward the RIGHT along an up-right sword slash, then rises. Not a ground bonfire, not an explosion ring. 1 tiny hot contact slash atpivot;2 short white/yellow diagonal flash;3 orange flame fan starts frompivot and sweeps right/up;4 impact peak,3 asymmetrical flame ribbons flare toward upper-right with torn pointed tips, black slits between ribbons,short counterflame left;5 fan opens farther,white centre shrinks;6 flame tongues tear away from the pivot;7 detached fiery ribbons curl upward,body begins clearing;8 ribbons shorten and4 embers rise;9 only small flame curls and4 upward embers;10 only3 embers higher up;11 two dim red/orange flecks;12 almost black withone dim red pixel. Broad directional material on contact then upward dissipation. Never circular ball or round shockwave. Allowed colours ONLY black plus #b52e25, #f36b27, #ffbd45, #fff3ae. Match approved chunky colour blocks, not the old4-frame composition."
+  },
+  {
+    "id": "ice-shatter",
+    "rows": 3,
+    "count": 12,
+    "palette": [
+      "#164f9c",
+      "#248cd0",
+      "#65dfef",
+      "#f0ffff"
+    ],
+    "times": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      65,
+      75,
+      85,
+      100
+    ],
+    "detail": "EXACT12 cells,4 columns x3 rows,1024x768 PNG. Reading order LEFT to RIGHT, then next row. ICE SHATTER HIT: expand the THIRD FRAME of approved sheet into main animation, large sharp triangular shards driven OUT from torso pivot(32,32), NOT a growing floor spike. Approved crystal-formation frames are for another spell and must NOT dominate this hit. 1 tiny cyan contact crack;2 short white angular cross and3 compact crystalline plates aroundpivot;3 plates fracture withwhite zigzags;4 SHATTER PEAK:7 large long triangular cyan/white/deep-blue shards radiate outward, especially upper-right,centre black withsmall crack star;5 shards travel farther in STRAIGHT LINES frompivot maintaining shape;6 largest shard fragments into2 splinters,central flash gone;7 shard spread wider,black centre now clear;8 shards shrink into angular chips and start arcing down;9 just6 small chips,near bottom but insideframe;10 just4 tiny cyan chips;11 two deepblue flecks;12 almost emptyblack withone darkblue pixel. Keep3-4 major shards large/readable in frames4-7. No glowing sphere, snowcloud, ground crystal tower.",
+    "prompt": "Use case: stylized-concept. Create a NEW pixel-art ANIMATION SPRITE SHEET expanding the approved4-key design in supplied image. It is a style/material reference ONLY; DO NOT repeat its4-panel layout. Every frame evolves continuously from the previous, same impact pivot, coherent particle trajectories and continuous shape change, no random unrelated poses. One art pixel=4x4 image pixels, native64x64 per256x256 cell. Pure flat BLACK #000000 background, additive-game VFX. Four flat content colours, crisp big pixel clusters. NO characters, weapons, text, numbers, labels, borders, grid lines, antialiasing, blurred glow, gradients, floor or scenery. At least3 native pixels black margin around every cell. Fixed hit pivot at native(32,32), image(128,128) LOCAL TO EACH CELL: this effect strikes the monster's TORSO, NOT its feet. Imaginary ground is nativey54, never draw a floor line. Peak fits x5..59,y5..58 and about40-48px diameter. Keep BLACK gaps within the effect so a monster remains readable. First frame small visible ignition/contact, LAST frame visually EMPTY except at most1-2 tiny dim pixels. All intermediate frames needed, no duplicated groups, no extra frames. EXACT12 cells,4 columns x3 rows,1024x768 PNG. Reading order LEFT to RIGHT, then next row. ICE SHATTER HIT: expand the THIRD FRAME of approved sheet into main animation, large sharp triangular shards driven OUT from torso pivot(32,32), NOT a growing floor spike. Approved crystal-formation frames are for another spell and must NOT dominate this hit. 1 tiny cyan contact crack;2 short white angular cross and3 compact crystalline plates aroundpivot;3 plates fracture withwhite zigzags;4 SHATTER PEAK:7 large long triangular cyan/white/deep-blue shards radiate outward, especially upper-right,centre black withsmall crack star;5 shards travel farther in STRAIGHT LINES frompivot maintaining shape;6 largest shard fragments into2 splinters,central flash gone;7 shard spread wider,black centre now clear;8 shards shrink into angular chips and start arcing down;9 just6 small chips,near bottom but insideframe;10 just4 tiny cyan chips;11 two deepblue flecks;12 almost emptyblack withone darkblue pixel. Keep3-4 major shards large/readable in frames4-7. No glowing sphere, snowcloud, ground crystal tower. Allowed colours ONLY black plus #164f9c, #248cd0, #65dfef, #f0ffff. Match approved chunky colour blocks, not the old4-frame composition."
+  },
+  {
+    "id": "poison-slash",
+    "rows": 3,
+    "count": 12,
+    "palette": [
+      "#176735",
+      "#39b83d",
+      "#a3e835",
+      "#e6ff92"
+    ],
+    "times": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      55,
+      65,
+      75,
+      90,
+      110,
+      130
+    ],
+    "detail": "EXACT12 cells,4 columns x3 rows,1024x768 PNG. Reading order LEFT to RIGHT, then next row. POISON LIQUID SLASH: sword strikes monster torso pivot(32,32), thick ACID GREEN WATER bursts sideways in a directional splash towardRIGHT. No physical sword or monster drawn. NOT gas, smoke, flames or ground fountain. 1 tiny green diagonal contact smear atpivot;2 bright slash-shaped liquid streak;3 thick curved green water sheet flungright andup;4 SPLASH PEAK: broad asymmetrical translucent-looking but FLAT COLOUR green liquid fan,3 coherent curved jets to right andone short counter-splash left,5 fat teardrops separate,bright pale lime highlights;5 fan stretchesright,skin tears into black holes;6 liquid sheet breaks into7 large teardrops;7 droplets travel outward/down under gravity;8 droplets fall towardgroundy54;9 drops hit near ground into low ripples andsmall puddle under/right ofpivot;10 only small puddle withonebubble;11 tiny darkgreen wet trace;12 almost black,one dim green dot. Fat waterlike droplets and smooth curved silhouettes represented in pixel stair steps. No upward drifting green clouds.",
+    "prompt": "Use case: stylized-concept. Create a NEW pixel-art ANIMATION SPRITE SHEET expanding the approved4-key design in supplied image. It is a style/material reference ONLY; DO NOT repeat its4-panel layout. Every frame evolves continuously from the previous, same impact pivot, coherent particle trajectories and continuous shape change, no random unrelated poses. One art pixel=4x4 image pixels, native64x64 per256x256 cell. Pure flat BLACK #000000 background, additive-game VFX. Four flat content colours, crisp big pixel clusters. NO characters, weapons, text, numbers, labels, borders, grid lines, antialiasing, blurred glow, gradients, floor or scenery. At least3 native pixels black margin around every cell. Fixed hit pivot at native(32,32), image(128,128) LOCAL TO EACH CELL: this effect strikes the monster's TORSO, NOT its feet. Imaginary ground is nativey54, never draw a floor line. Peak fits x5..59,y5..58 and about40-48px diameter. Keep BLACK gaps within the effect so a monster remains readable. First frame small visible ignition/contact, LAST frame visually EMPTY except at most1-2 tiny dim pixels. All intermediate frames needed, no duplicated groups, no extra frames. EXACT12 cells,4 columns x3 rows,1024x768 PNG. Reading order LEFT to RIGHT, then next row. POISON LIQUID SLASH: sword strikes monster torso pivot(32,32), thick ACID GREEN WATER bursts sideways in a directional splash towardRIGHT. No physical sword or monster drawn. NOT gas, smoke, flames or ground fountain. 1 tiny green diagonal contact smear atpivot;2 bright slash-shaped liquid streak;3 thick curved green water sheet flungright andup;4 SPLASH PEAK: broad asymmetrical translucent-looking but FLAT COLOUR green liquid fan,3 coherent curved jets to right andone short counter-splash left,5 fat teardrops separate,bright pale lime highlights;5 fan stretchesright,skin tears into black holes;6 liquid sheet breaks into7 large teardrops;7 droplets travel outward/down under gravity;8 droplets fall towardgroundy54;9 drops hit near ground into low ripples andsmall puddle under/right ofpivot;10 only small puddle withonebubble;11 tiny darkgreen wet trace;12 almost black,one dim green dot. Fat waterlike droplets and smooth curved silhouettes represented in pixel stair steps. No upward drifting green clouds. Allowed colours ONLY black plus #176735, #39b83d, #a3e835, #e6ff92. Match approved chunky colour blocks, not the old4-frame composition."
+  }
+]

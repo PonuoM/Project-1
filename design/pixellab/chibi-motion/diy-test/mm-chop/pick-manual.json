@@ -1,0 +1,83 @@
+{
+ "about": "MiniMax H3 image-to-video (first = last frame = hero-ref-64 x8), converted with video_to_sprite.py, 15 key frames picked by hand from 62 candidates (12 fps).",
+ "source": "frames/",
+ "frameWidth": 112,
+ "impactFrame": 9,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 0
+  },
+  {
+   "note": "raise front",
+   "ms": 60,
+   "sourceFrame": 5
+  },
+  {
+   "note": "raise",
+   "ms": 60,
+   "sourceFrame": 7
+  },
+  {
+   "note": "behind head",
+   "ms": 70,
+   "sourceFrame": 8
+  },
+  {
+   "note": "HOLD",
+   "ms": 110,
+   "sourceFrame": 12
+  },
+  {
+   "note": "launch",
+   "ms": 40,
+   "sourceFrame": 27
+  },
+  {
+   "note": "over head",
+   "ms": 40,
+   "sourceFrame": 28
+  },
+  {
+   "note": "smear",
+   "ms": 30,
+   "sourceFrame": 29
+  },
+  {
+   "note": "chop",
+   "ms": 30,
+   "sourceFrame": 30
+  },
+  {
+   "note": "IMPACT",
+   "ms": 50,
+   "sourceFrame": 31
+  },
+  {
+   "note": "follow HOLD",
+   "ms": 90,
+   "sourceFrame": 34
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "sourceFrame": 46
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "sourceFrame": 48
+  },
+  {
+   "note": "lower",
+   "ms": 60,
+   "sourceFrame": 55
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 58
+  }
+ ]
+}

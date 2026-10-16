@@ -1,0 +1,47 @@
+{
+ "about": "poison status loop",
+ "frameWidth": 38,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 58
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 59
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 60
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 61
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 62
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 63
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 64
+  },
+  {
+   "note": "loop",
+   "ms": 60,
+   "sourceFrame": 65
+  }
+ ]
+}

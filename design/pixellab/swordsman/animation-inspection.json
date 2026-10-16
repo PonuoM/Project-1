@@ -1,0 +1,110 @@
+{
+  "result": "pass",
+  "nativeDimensions": [
+    64,
+    64
+  ],
+  "returnedImages": 9,
+  "exactRGBASheetCopy": true,
+  "frames": [
+    {
+      "file": "frame-01.png",
+      "colors": 32,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        3,
+        59,
+        64
+      ]
+    },
+    {
+      "file": "frame-02.png",
+      "colors": 46,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        3,
+        60,
+        64
+      ]
+    },
+    {
+      "file": "frame-03.png",
+      "colors": 42,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        3,
+        59,
+        64
+      ]
+    },
+    {
+      "file": "frame-04.png",
+      "colors": 44,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        2,
+        59,
+        64
+      ]
+    },
+    {
+      "file": "frame-05.png",
+      "colors": 44,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        2,
+        60,
+        64
+      ]
+    },
+    {
+      "file": "frame-06.png",
+      "colors": 45,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        1,
+        55,
+        64
+      ]
+    },
+    {
+      "file": "frame-07.png",
+      "colors": 43,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        2,
+        59,
+        64
+      ]
+    },
+    {
+      "file": "frame-08.png",
+      "colors": 46,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        2,
+        60,
+        64
+      ]
+    },
+    {
+      "file": "frame-09.png",
+      "colors": 32,
+      "alphaLevels": 2,
+      "bounds": [
+        0,
+        3,
+        59,
+        64
+      ]
+    }
+  ]
+}

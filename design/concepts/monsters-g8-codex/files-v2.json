@@ -1,0 +1,130 @@
+[
+  {
+    "file": "bridge-troll-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "bridge-troll-v2.png",
+    "size": [
+      512,
+      512
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "grimfang-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "grimfang-v2.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "hex-scarecrow-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "hex-scarecrow-v2.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "kiki-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "kiki-v1.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "kiki-v2.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v1.png",
+    "size": [
+      3960,
+      1216
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v2.png",
+    "size": [
+      3960,
+      1216
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-v1.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-v2.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thunderhead-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thunderhead-v2.png",
+    "size": [
+      1280,
+      1280
+    ],
+    "format": "PNG"
+  }
+]

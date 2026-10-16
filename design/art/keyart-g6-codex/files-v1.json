@@ -1,0 +1,218 @@
+[
+  {
+    "file": "bramble-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2514495,
+    "format": "PNG"
+  },
+  {
+    "file": "bramble-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2514495,
+    "format": "PNG"
+  },
+  {
+    "file": "bramble-v2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2609574,
+    "format": "PNG"
+  },
+  {
+    "file": "ilen-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2722994,
+    "format": "PNG"
+  },
+  {
+    "file": "ilen-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2722994,
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v1.png",
+    "size": [
+      1600,
+      960
+    ],
+    "bytes": 3328802,
+    "format": "PNG"
+  },
+  {
+    "file": "mara-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2747310,
+    "format": "PNG"
+  },
+  {
+    "file": "mara-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2747310,
+    "format": "PNG"
+  },
+  {
+    "file": "noll-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 3090920,
+    "format": "PNG"
+  },
+  {
+    "file": "noll-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 3090920,
+    "format": "PNG"
+  },
+  {
+    "file": "pipra-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2998260,
+    "format": "PNG"
+  },
+  {
+    "file": "pipra-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2998260,
+    "format": "PNG"
+  },
+  {
+    "file": "rika-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2523629,
+    "format": "PNG"
+  },
+  {
+    "file": "rika-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2523629,
+    "format": "PNG"
+  },
+  {
+    "file": "sella-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2696751,
+    "format": "PNG"
+  },
+  {
+    "file": "sella-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2696751,
+    "format": "PNG"
+  },
+  {
+    "file": "sella-v2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2879198,
+    "format": "PNG"
+  },
+  {
+    "file": "tavi-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2575048,
+    "format": "PNG"
+  },
+  {
+    "file": "tavi-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2575048,
+    "format": "PNG"
+  },
+  {
+    "file": "tavi-v2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2769644,
+    "format": "PNG"
+  },
+  {
+    "file": "vessa-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2449517,
+    "format": "PNG"
+  },
+  {
+    "file": "vessa-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2449517,
+    "format": "PNG"
+  },
+  {
+    "file": "yara-raw-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2317651,
+    "format": "PNG"
+  },
+  {
+    "file": "yara-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 2317651,
+    "format": "PNG"
+  }
+]

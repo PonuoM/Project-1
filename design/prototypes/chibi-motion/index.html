@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chibi motion</title>
+<style>
+ :root{--bg:#ece9e2;--fg:#2a2420;--card:#f7f4ee;--line:#d6cfc3;--accent:#b5562f}
+ @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1b19;--fg:#ece6dc;--card:#272421;--line:#3a3530;--accent:#e08a5e}}
+ :root[data-theme="dark"]{--bg:#1d1b19;--fg:#ece6dc;--card:#272421;--line:#3a3530;--accent:#e08a5e}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 system-ui,"Segoe UI",Tahoma,sans-serif;padding:16px}
+ h1{font-size:18px;margin:0 0 4px}
+ p.sub{margin:0 0 12px;opacity:.75}
+ .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+ button,select{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer}
+ button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+ .grid{display:flex;flex-wrap:wrap;gap:12px}
+ .clip{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px;max-width:100%}
+ .clip h2{font-size:14px;margin:0 0 2px}
+ .clip .note{font-size:12px;opacity:.75;min-height:18px}
+ canvas{display:block;image-rendering:pixelated;max-width:100%;height:auto;border-radius:4px}
+ .stage-light{background:#e9e4da}.stage-forest{background:linear-gradient(#5d7a6b,#3f5a4b 70%,#2f4237)}
+</style>
+</head>
+<body>
+<h1>ท่าทางตัวละคร (PixelLab skeleton)</h1>
+<p class="sub">เล่นตามจังหวะที่ออกแบบไว้ต่อเฟรม (ms) · เฟรมกระทบค้าง (hit stop) + สั่นเล็กน้อย · ภาพจริง 1 พิกเซล = 4 จุดบนจอ</p>
+<div class="bar">
+ <button id="play" aria-pressed="true">⏸ หยุด</button>
+ <button id="step">เฟรมถัดไป ▶</button>
+ <label>ความเร็ว <select id="speed"><option value="1">1×</option><option value="0.5">0.5×</option><option value="0.25">0.25×</option></select></label>
+ <label>ฉาก <select id="stage"><option value="stage-light">พื้นสว่าง</option><option value="stage-forest">ป่า</option></select></label>
+ <button id="hit" aria-pressed="true">hit stop เปิด</button>
+</div>
+<div class="grid" id="grid"></div>
+<script>
+const Z=4,HITSTOP=70,SHAKE=2;
+let playing=true,speed=1,hitOn=true,clips=[];
+const $=id=>document.getElementById(id);
+async function load(){
+ const list=await (await fetch('clips.json')).json();
+ for(const c of list){
+  let spec,img;
+  try{spec=await (await fetch(c.spec)).json();img=await new Promise((ok,no)=>{const i=new Image();i.onload=()=>ok(i);i.onerror=no;i.src=c.strip;});}
+  catch(e){continue;}
+  const size=img.height,fw=c.frameWidth||spec.frameWidth||size,n=Math.round(img.width/fw);
+  const card=document.createElement('div');card.className='clip';
+  card.innerHTML=`<h2></h2><div class="note"></div>`;card.querySelector('h2').textContent=c.label;
+  const cv=document.createElement('canvas');cv.width=fw*Z;cv.height=size*Z;cv.className=$('stage').value;card.appendChild(cv);
+  $('grid').appendChild(card);
+  clips.push({c,spec,img,size,fw,n,cv,ctx:cv.getContext('2d'),note:card.querySelector('.note'),frame:0,t:0,hold:0});
+ }
+ for(const k of clips)draw(k,0);
+ requestAnimationFrame(tick);
+}
+function ms(k,i){return (k.spec.frames[i]&&k.spec.frames[i].ms)||60;}
+function draw(k,shake){
+ const {ctx,img,size,fw,frame}=k;ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,fw*Z,size*Z);
+ ctx.drawImage(img,frame*fw,0,fw,size,shake,0,fw*Z,size*Z);
+ const f=k.spec.frames[frame]||{};k.note.textContent=`เฟรม ${frame} · ${f.note||''} · ${ms(k,frame)}ms`;
+}
+let last=performance.now();
+function tick(now){
+ const dt=(now-last)*speed;last=now;
+ if(playing)for(const k of clips)advance(k,dt);
+ requestAnimationFrame(tick);
+}
+function advance(k,dt){
+ if(k.hold>0){k.hold-=dt;draw(k,k.hold>0?(Math.random()<.5?-SHAKE:SHAKE):0);return;}
+ k.t+=dt;
+ while(k.t>=ms(k,k.frame)){
+  k.t-=ms(k,k.frame);k.frame=(k.frame+1)%k.n;
+  if(hitOn&&k.frame===k.spec.impactFrame){k.hold=HITSTOP;break;}
+ }
+ draw(k,0);
+}
+$('play').onclick=e=>{playing=!playing;e.target.setAttribute('aria-pressed',playing);e.target.textContent=playing?'⏸ หยุด':'▶ เล่น';};
+$('step').onclick=()=>{for(const k of clips){k.frame=(k.frame+1)%k.n;k.t=0;k.hold=0;draw(k,0);}};
+$('speed').onchange=e=>speed=+e.target.value;
+$('stage').onchange=e=>clips.forEach(k=>k.cv.className=e.target.value);
+$('hit').onclick=e=>{hitOn=!hitOn;e.target.setAttribute('aria-pressed',hitOn);e.target.textContent=hitOn?'hit stop เปิด':'hit stop ปิด';};
+load();
+</script>
+</body>
+</html>

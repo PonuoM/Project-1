@@ -1,0 +1,14 @@
+{
+ "grip": [
+  6.4,
+  20.5
+ ],
+ "angle": -76,
+ "length": 27.1,
+ "source": [
+  "weapon-axe/ref-image.png",
+  "hero-ref-64-nosword.png"
+ ],
+ "pixels": 229,
+ "note": "cleaned: hand skin/cuff removed; grip set on the haft under the fist; angle = grip to head along the haft"
+}

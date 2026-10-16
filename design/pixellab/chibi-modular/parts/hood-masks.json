@@ -1,0 +1,5 @@
+{
+  "source": "parts/hood.png (PixelLab equipment/candidate-02.png)",
+  "processing": "native transparent face-opening and occlusion masks, no new paint, generated cloth pixels preserved",
+  "opening": "remove mannequin fill, show character face; foreground cloth covers hair crown and rear silhouette"
+}

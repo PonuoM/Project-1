@@ -1,0 +1,2 @@
+# Only server/public is meant to be reachable over HTTP.
+Require all denied

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="th">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ห้องลองชุด · Chibi prototype</title><link rel="stylesheet" href="wardrobe.css"></head>
+<body>
+<main>
+  <header class="page-head"><div><h1>ห้องลองชุดนักผจญภัย</h1><p>ถอดใส่อุปกรณ์ แล้วลองเดินและโจมตีด้วยชุดที่เลือก</p></div><a href="../action/index.html?variant=A&art=clean">ดูท่าฟันเดิม</a></header>
+  <div class="source-control"><label for="art-source">ที่มาของภาพ</label><select id="art-source"><option value="3d">3D render (ใหม่)</option><option value="pixel">PixelLab (เดิม)</option></select><a href="../../sprites3d/adventurer/contact-sheet.png" target="_blank">ดูภาพเทียบกับตัวต้นแบบ</a></div>
+  <p class="art-status" id="art-status" aria-live="polite">กำลังโหลดภาพและแอนิเมชัน PixelLab…</p>
+  <div class="workbench">
+    <section class="preview" aria-labelledby="preview-title">
+      <div class="panel-title"><h2 id="preview-title">สนามทดลอง</h2><span id="pose-label" aria-live="polite">ยืน</span></div>
+      <canvas id="scene" width="640" height="340" aria-label="ตัวละครที่ใส่ชุดปัจจุบันและหุ่นซ้อม"></canvas>
+      <div class="action-controls" aria-label="ท่าโจมตี">
+        <button type="button" data-action="attack"><kbd>J</kbd> ตีธรรมดา</button>
+        <button type="button" data-action="slam"><kbd>K</kbd> ฟาด</button>
+        <button type="button" data-action="leap"><kbd>L</kbd> กระโดดพุ่งโจมตี</button>
+      </div>
+      <div class="playback-controls">
+        <label><input type="checkbox" id="walk"> เดิน</label>
+        <label><input type="checkbox" id="auto"> เล่นท่าต่อเนื่อง</label>
+        <label><input type="checkbox" id="mirror"> หันซ้าย</label>
+        <label>ขนาด <select id="scale"><option value="1">1× · ขนาดในเกม</option><option value="2">2×</option><option value="3" selected>3× · ดูรายละเอียด</option></select></label>
+        <button type="button" id="pause" aria-pressed="false">หยุดภาพ</button>
+      </div>
+      <div class="timeline"><span id="frame-label">เฟรม 1 / 6</span><input type="range" id="scrub" min="0" max="5" value="0" aria-label="เลือกเฟรมแอนิเมชัน"><button id="replay" type="button">เล่นท่าซ้ำ</button></div>
+      <p class="stage-note" id="action-note">กด J / K / L เพื่อลองท่า · ความเสียหายและเวลาเป็นค่าทดลอง</p>
+      <section class="reference"><img src="../../pixellab/chibi-modular/reference-native.png" width="128" height="128" alt="ภาพคอนเซปต์จิบิผมเขียวที่เลือกไว้"><div><h3>สไตล์ภาพที่เลือกไว้</h3><p>ตัวละครและอุปกรณ์ในสนามสร้างด้วย PixelLab แล้วแยกชิ้นเพื่อลองแฟชั่น ภาพนี้คือคอนเซปต์ที่ใช้เป็นต้นทาง</p></div></section>
+    </section>
+    <section class="wardrobe" aria-labelledby="wardrobe-title">
+      <div class="panel-title"><h2 id="wardrobe-title">อุปกรณ์</h2><button type="button" id="unequip">ถอดทั้งหมด</button></div>
+      <p class="section-note">เปลี่ยนแต่ละชิ้นได้ระหว่างเล่นท่า</p>
+      <div id="equipment"></div>
+      <div class="outfit-actions"><button type="button" id="restore">ใส่ชุดนักผจญภัย</button><button type="button" id="alternate">ใส่ครบทุกชิ้น</button></div>
+      <fieldset class="accessories"><legend>เครื่องประดับ</legend><label>แหวน<select id="ring" aria-label="แหวน"><option value="none">ไม่ได้ใส่</option><option value="copper">แหวนทองแดง</option><option value="moon">แหวนจันทร์</option></select></label><label>สร้อย<select id="necklace" aria-label="สร้อย"><option value="none">ไม่ได้ใส่</option><option value="amber">สร้อยอำพัน</option></select></label><p>ใส่ได้ แต่ไม่แสดงบนตัวละคร</p></fieldset>
+      <div class="equipped-summary" aria-live="polite"><h3>ชุดปัจจุบัน</h3><p id="summary"></p></div>
+    </section>
+  </div>
+  <details class="technical"><summary>ข้อมูลการทดลองและภาพต้นฉบับ</summary><p>PixelLab สร้างตัวฐาน ท่าเดิน และท่าโจมตี ส่วนเสื้อกับอุปกรณ์แยกเป็น PNG โปร่งใสและผูกตำแหน่งกับแต่ละเฟรม การ mirror กลับทั้งตัวพร้อมกัน ไม่เปลี่ยนข้อมูลอุปกรณ์</p><p>นี่เป็นต้นแบบเพื่อประเมินภาพกับการซ้อนชุด ยังต้องเก็บรอยต่อและท่าที่ใช้จริงก่อนนำเข้าตัวเกม ดูที่ <a href="../../pixellab/chibi-modular/README.md">บันทึกงานและภาพต้นฉบับ PixelLab</a></p></details>
+</main>
+<script type="module" src="wardrobe.js"></script>
+</body></html>

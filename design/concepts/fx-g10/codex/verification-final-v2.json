@@ -1,0 +1,82 @@
+[
+  {
+    "effect": "fire",
+    "size": [
+      1024,
+      256
+    ],
+    "gridPassed": true,
+    "blackCellGuttersPassed": true,
+    "colors": 5,
+    "phasePixelAreas": [
+      94,
+      504,
+      163,
+      15
+    ]
+  },
+  {
+    "effect": "ice",
+    "size": [
+      1024,
+      256
+    ],
+    "gridPassed": true,
+    "blackCellGuttersPassed": true,
+    "colors": 5,
+    "phasePixelAreas": [
+      181,
+      749,
+      431,
+      30
+    ]
+  },
+  {
+    "effect": "poison",
+    "size": [
+      1024,
+      256
+    ],
+    "gridPassed": true,
+    "blackCellGuttersPassed": true,
+    "colors": 5,
+    "phasePixelAreas": [
+      171,
+      643,
+      380,
+      99
+    ]
+  },
+  {
+    "effect": "lightning",
+    "size": [
+      1024,
+      256
+    ],
+    "gridPassed": true,
+    "blackCellGuttersPassed": true,
+    "colors": 5,
+    "phasePixelAreas": [
+      64,
+      237,
+      124,
+      21
+    ]
+  },
+  {
+    "effect": "explosion",
+    "size": [
+      1024,
+      256
+    ],
+    "gridPassed": true,
+    "blackCellGuttersPassed": true,
+    "colors": 5,
+    "phasePixelAreas": [
+      86,
+      432,
+      246,
+      84
+    ]
+  }
+]

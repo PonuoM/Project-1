@@ -1,0 +1,32 @@
+{
+  "grassland": {
+    "th": "ทุ่งหญ้า",
+    "en": "Grassland",
+    "monsters": [
+      "slime",
+      "goblin"
+    ],
+    "boss": "boss_kingslime",
+    "ground": "ground_grassland"
+  },
+  "darkforest": {
+    "th": "ป่ามืด",
+    "en": "Dark Forest",
+    "monsters": [
+      "wolf",
+      "spider"
+    ],
+    "boss": "boss_treant",
+    "ground": "ground_darkforest"
+  },
+  "crypt": {
+    "th": "สุสาน",
+    "en": "Crypt",
+    "monsters": [
+      "skeleton",
+      "ghost"
+    ],
+    "boss": "boss_lich",
+    "ground": "ground_crypt"
+  }
+}

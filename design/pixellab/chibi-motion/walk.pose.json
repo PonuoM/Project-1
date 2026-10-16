@@ -1,0 +1,262 @@
+{
+ "reference": "hero-ref-64.png",
+ "restSkeleton": "estimate-result.json",
+ "referenceSize": 64,
+ "canvas": 80,
+ "offset": [
+  8,
+  16
+ ],
+ "groundY": 61.5,
+ "headCenter": [
+  31,
+  26
+ ],
+ "headRadius": 13.5,
+ "weaponHand": "L",
+ "bladeLength": 15,
+ "about": "Walk cycle in place (world scrolls). 8 frames: contact/down/passing/up per leg, feet slide 2px/frame in stance, pelvis bob, sword arm swings less than the free arm. Same canvas/offset as heavy-slash so all actions share one anchor.",
+ "impactFrame": null,
+ "frames": [
+  {
+   "note": "L contact",
+   "ms": 95,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     35.61,
+     59.51
+    ],
+    "R": [
+     20.65,
+     58.77
+    ]
+   },
+   "handsRel": {
+    "L": [
+     -1.6,
+     0
+    ],
+    "R": [
+     2.8,
+     -1.2
+    ]
+   },
+   "blade": 32
+  },
+  {
+   "note": "down",
+   "ms": 95,
+   "pelvis": [
+    0,
+    1.2
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     33.61,
+     59.51
+    ],
+    "R": [
+     23.15,
+     56.77
+    ]
+   },
+   "handsRel": {
+    "L": [
+     -0.8,
+     0
+    ],
+    "R": [
+     1.05,
+     -0.45
+    ]
+   },
+   "blade": 32
+  },
+  {
+   "note": "passing",
+   "ms": 95,
+   "pelvis": [
+    0,
+    0
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     31.61,
+     59.51
+    ],
+    "R": [
+     26.15,
+     56.77
+    ]
+   },
+   "handsRel": {
+    "L": [
+     -0.0,
+     0
+    ],
+    "R": [
+     -1.05,
+     -0.45
+    ]
+   },
+   "blade": 38
+  },
+  {
+   "note": "up",
+   "ms": 95,
+   "pelvis": [
+    0,
+    -0.6
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     29.61,
+     59.51
+    ],
+    "R": [
+     28.15,
+     58.27
+    ]
+   },
+   "handsRel": {
+    "L": [
+     0.8,
+     0
+    ],
+    "R": [
+     -2.45,
+     -1.05
+    ]
+   },
+   "blade": 38
+  },
+  {
+   "note": "R contact",
+   "ms": 95,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     27.61,
+     59.01
+    ],
+    "R": [
+     28.65,
+     59.27
+    ]
+   },
+   "handsRel": {
+    "L": [
+     1.6,
+     0
+    ],
+    "R": [
+     -2.8,
+     -1.2
+    ]
+   },
+   "blade": 38
+  },
+  {
+   "note": "down",
+   "ms": 95,
+   "pelvis": [
+    0,
+    1.2
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     30.11,
+     57.01
+    ],
+    "R": [
+     26.65,
+     59.27
+    ]
+   },
+   "handsRel": {
+    "L": [
+     0.6,
+     0
+    ],
+    "R": [
+     -1.4,
+     -0.6
+    ]
+   },
+   "blade": 38
+  },
+  {
+   "note": "passing",
+   "ms": 95,
+   "pelvis": [
+    0,
+    0
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     33.11,
+     57.01
+    ],
+    "R": [
+     24.65,
+     59.27
+    ]
+   },
+   "handsRel": {
+    "L": [
+     -0.6,
+     0
+    ],
+    "R": [
+     -0.0,
+     -0.0
+    ]
+   },
+   "blade": 32
+  },
+  {
+   "note": "up",
+   "ms": 95,
+   "pelvis": [
+    0,
+    -0.6
+   ],
+   "lean": 5,
+   "feet": {
+    "L": [
+     35.11,
+     58.51
+    ],
+    "R": [
+     22.65,
+     59.27
+    ]
+   },
+   "handsRel": {
+    "L": [
+     -1.4,
+     0
+    ],
+    "R": [
+     1.4,
+     -0.6
+    ]
+   },
+   "blade": 32
+  }
+ ]
+}

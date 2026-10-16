@@ -1,0 +1,56 @@
+[
+  {
+    "id": "thornboar",
+    "canvas": 384,
+    "height": 30,
+    "palette": {
+      "fur": [
+        "#20212a",
+        "#343743",
+        "#505562"
+      ],
+      "tusks": [
+        "#948b71",
+        "#d8cfac",
+        "#fff0c9"
+      ],
+      "vines": [
+        "#12672b",
+        "#45c52d",
+        "#a1ed45"
+      ],
+      "eye": [
+        "#ffe447"
+      ]
+    },
+    "detail": "48x48 logical pixel canvas shown at8x (384x384). THORNBOAR a thick FOUR-LEGGED wild boar, TOTAL30 pixels tall and40 pixels long. Dominant near-black CHARCOAL body with only ONE broad grey shadow/highlight patch, ABSOLUTELY NO fur texture. Huge head with snout facingLEFT, angry clear2x2 YELLOW eye. Two huge bright IVORY tusks in a clean upcurved silhouette, lowered for charging. Across back ONE SIMPLE THICK BRIGHT GREEN thorny vine,3 pixels thick, with just3 large triangular thorns, no tangled fibres. Four short separate thick legs. Feet native row45.",
+    "prompt": "EDIT the supplied pixel sprite, preserve the exact silhouette, body proportions, all objects, position, pose and colors. Change ONLY the visible main creature EYE: replace the tiny eye with a large SOLID RECTANGULAR YELLOW #ffe447 eye block exactly3 logical pixels WIDE and3 logical pixels HIGH inside a dark outline eye socket, so a2x2 square certainly survives native export. Each logical pixel corresponds to8x8 image pixels in the supplied reference. The eye is9SOLID color pixels without a highlight or pupil. Enlarge into existing face area, keep skull silhouette unchanged. The bird eye is NOT the edit target. Do not change anything else. Render with the SAME extremely low-resolution chunky pixel design, no additional detail or texture. Solid #00B140 green backdrop, warm #2e1816 outline. Do not add border, text, effects, shadows, glows, gradients. 48x48 logical pixel canvas shown at8x (384x384). THORNBOAR a thick FOUR-LEGGED wild boar, TOTAL30 pixels tall and40 pixels long. Dominant near-black CHARCOAL body with only ONE broad grey shadow/highlight patch, ABSOLUTELY NO fur texture. Huge head with snout facingLEFT, angry clear2x2 YELLOW eye. Two huge bright IVORY tusks in a clean upcurved silhouette, lowered for charging. Across back ONE SIMPLE THICK BRIGHT GREEN thorny vine,3 pixels thick, with just3 large triangular thorns, no tangled fibres. Four short separate thick legs. Feet native row45. Exact content palette: fur #20212a, #343743, #505562; tusks #948b71, #d8cfac, #fff0c9; vines #12672b, #45c52d, #a1ed45; eye #ffe447. Limit12 colors including green and outline."
+  },
+  {
+    "id": "hex-scarecrow",
+    "canvas": 384,
+    "height": 42,
+    "palette": {
+      "straw": [
+        "#a58a43",
+        "#dcc16b",
+        "#fff0ac"
+      ],
+      "rags": [
+        "#272530",
+        "#46404c",
+        "#655b68"
+      ],
+      "crow": [
+        "#211d32",
+        "#403352",
+        "#655075"
+      ],
+      "eye": [
+        "#ff8d2c"
+      ]
+    },
+    "detail": "48x48 logical pixel canvas shown at8x (384x384). HEX SCARECROW, TOTAL42 pixels tall, leaning tall thin straw humanoid with a LARGE PALE STRAW-YELLOW SACK HEAD14 pixels high, big2x2 ORANGE eye on left-facing profile, broad dark stitched grin with only3 square stitches. Dominant pale straw yellow head and torso, dark charcoal rags limited to shoulder and waist. No huge floppy hat; small torn cap only if needed and within42 total height. Short thick straw hands, no fingers or straw fibres. ONE ARM raised forward to LEFT and horizontal, visibly supporting a LARGE PURPLE-BLACK CROW at least9 pixels long and8 pixels tall. Crow is a simple bold recognizable bird with left-pointing thick beak, rounded head, folded wing, stout tail, two feet touching forearm. Bird must be spatially separate from sack head with a clear green gap. No flying birds. Feet native row45.",
+    "prompt": "EDIT the supplied pixel sprite, preserve the exact silhouette, body proportions, all objects, position, pose and colors. Change ONLY the visible main creature EYE: replace the tiny eye with a large SOLID RECTANGULAR ORANGE #ff8d2c eye block exactly3 logical pixels WIDE and3 logical pixels HIGH inside a dark outline eye socket, so a2x2 square certainly survives native export. Each logical pixel corresponds to8x8 image pixels in the supplied reference. The eye is9SOLID color pixels without a highlight or pupil. Enlarge into existing face area, keep skull silhouette unchanged. The bird eye is NOT the edit target. Do not change anything else. Render with the SAME extremely low-resolution chunky pixel design, no additional detail or texture. Solid #00B140 green backdrop, warm #2e1816 outline. Do not add border, text, effects, shadows, glows, gradients. 48x48 logical pixel canvas shown at8x (384x384). HEX SCARECROW, TOTAL42 pixels tall, leaning tall thin straw humanoid with a LARGE PALE STRAW-YELLOW SACK HEAD14 pixels high, big2x2 ORANGE eye on left-facing profile, broad dark stitched grin with only3 square stitches. Dominant pale straw yellow head and torso, dark charcoal rags limited to shoulder and waist. No huge floppy hat; small torn cap only if needed and within42 total height. Short thick straw hands, no fingers or straw fibres. ONE ARM raised forward to LEFT and horizontal, visibly supporting a LARGE PURPLE-BLACK CROW at least9 pixels long and8 pixels tall. Crow is a simple bold recognizable bird with left-pointing thick beak, rounded head, folded wing, stout tail, two feet touching forearm. Bird must be spatially separate from sack head with a clear green gap. No flying birds. Feet native row45. Exact content palette: straw #a58a43, #dcc16b, #fff0ac; rags #272530, #46404c, #655b68; crow #211d32, #403352, #655075; eye #ff8d2c. Limit12 colors including green and outline."
+  }
+]

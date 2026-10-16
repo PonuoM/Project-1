@@ -1,0 +1,57 @@
+{
+ "about": "Sella idle",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 2
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 3
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 4
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 5
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 6
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 7
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 8
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 9
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 10
+  },
+  {
+   "note": "idle",
+   "ms": 100,
+   "sourceFrame": 11
+  }
+ ]
+}

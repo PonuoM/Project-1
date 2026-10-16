@@ -1,0 +1,397 @@
+{
+  "exact4x4Grid": true,
+  "pureBlackBackground": true,
+  "contentColorsPerEffect": 4,
+  "cellSizeArtPx": [
+    64,
+    64
+  ],
+  "frameOrder": [
+    "start",
+    "peak",
+    "breakup",
+    "remains"
+  ],
+  "effects": [
+    {
+      "effect": "fire",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "nativeSize": [
+        256,
+        64
+      ],
+      "hitAnchorArtPx": [
+        32,
+        52
+      ],
+      "sharedTranslationArtPx": [
+        0,
+        -6
+      ],
+      "palette": [
+        "#000000",
+        "#b52e25",
+        "#f36b27",
+        "#ffbd45",
+        "#fff3ae"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            19,
+            32,
+            45,
+            53
+          ],
+          "occupiedArtPixels": 171
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            10,
+            3,
+            56,
+            53
+          ],
+          "occupiedArtPixels": 833
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            17,
+            9,
+            48,
+            53
+          ],
+          "occupiedArtPixels": 271
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            27,
+            20,
+            38,
+            53
+          ],
+          "occupiedArtPixels": 20
+        }
+      ]
+    },
+    {
+      "effect": "ice",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "nativeSize": [
+        256,
+        64
+      ],
+      "hitAnchorArtPx": [
+        32,
+        52
+      ],
+      "sharedTranslationArtPx": [
+        1,
+        -1
+      ],
+      "palette": [
+        "#000000",
+        "#164f9c",
+        "#248cd0",
+        "#65dfef",
+        "#f0ffff"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            21,
+            36,
+            44,
+            53
+          ],
+          "occupiedArtPixels": 166
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            10,
+            14,
+            54,
+            53
+          ],
+          "occupiedArtPixels": 634
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            7,
+            19,
+            59,
+            53
+          ],
+          "occupiedArtPixels": 360
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            22,
+            47,
+            43,
+            53
+          ],
+          "occupiedArtPixels": 26
+        }
+      ]
+    },
+    {
+      "effect": "poison",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "nativeSize": [
+        256,
+        64
+      ],
+      "hitAnchorArtPx": [
+        32,
+        52
+      ],
+      "sharedTranslationArtPx": [
+        0,
+        -1
+      ],
+      "palette": [
+        "#000000",
+        "#176735",
+        "#39b83d",
+        "#a3e835",
+        "#e6ff92"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            14,
+            37,
+            50,
+            53
+          ],
+          "occupiedArtPixels": 185
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            3,
+            17,
+            61,
+            53
+          ],
+          "occupiedArtPixels": 662
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            12,
+            22,
+            61,
+            53
+          ],
+          "occupiedArtPixels": 380
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            17,
+            45,
+            51,
+            53
+          ],
+          "occupiedArtPixels": 103
+        }
+      ]
+    },
+    {
+      "effect": "lightning",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "nativeSize": [
+        256,
+        64
+      ],
+      "hitAnchorArtPx": [
+        32,
+        52
+      ],
+      "sharedTranslationArtPx": [
+        0,
+        -4
+      ],
+      "palette": [
+        "#000000",
+        "#6741a4",
+        "#d6a83c",
+        "#ffe875",
+        "#ffffff"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            24,
+            3,
+            41,
+            53
+          ],
+          "occupiedArtPixels": 121
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            13,
+            3,
+            52,
+            54
+          ],
+          "occupiedArtPixels": 417
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            19,
+            3,
+            46,
+            53
+          ],
+          "occupiedArtPixels": 221
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            21,
+            44,
+            43,
+            53
+          ],
+          "occupiedArtPixels": 37
+        }
+      ]
+    },
+    {
+      "effect": "explosion",
+      "sourceSize": [
+        1983,
+        793
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "nativeSize": [
+        256,
+        64
+      ],
+      "hitAnchorArtPx": [
+        32,
+        52
+      ],
+      "sharedTranslationArtPx": [
+        2,
+        3
+      ],
+      "palette": [
+        "#000000",
+        "#59616b",
+        "#c45324",
+        "#ff9c42",
+        "#fff1bc"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            18,
+            37,
+            47,
+            53
+          ],
+          "occupiedArtPixels": 121
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            5,
+            21,
+            61,
+            55
+          ],
+          "occupiedArtPixels": 563
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            6,
+            20,
+            61,
+            55
+          ],
+          "occupiedArtPixels": 314
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            17,
+            30,
+            57,
+            53
+          ],
+          "occupiedArtPixels": 107
+        }
+      ]
+    }
+  ]
+}

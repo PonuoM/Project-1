@@ -1,0 +1,230 @@
+[
+  {
+    "id": "thrust",
+    "start": 4,
+    "keys": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "impact": [
+      5
+    ],
+    "region": [
+      82,
+      57,
+      124,
+      73
+    ],
+    "move": "sk-thrust",
+    "sheet": "thrust-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": null
+  },
+  {
+    "id": "rising",
+    "start": 3,
+    "keys": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "impact": [
+      4
+    ],
+    "region": [
+      48,
+      6,
+      99,
+      75
+    ],
+    "move": "sk-rising",
+    "sheet": "rising-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": null
+  },
+  {
+    "id": "spin",
+    "start": 1,
+    "end": 31,
+    "cycle": true,
+    "keys": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "impact": [
+      7,
+      13,
+      19,
+      25
+    ],
+    "region": [
+      7,
+      44,
+      103,
+      72
+    ],
+    "move": "sk-spin",
+    "sheet": "spin-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": [
+      53,
+      51
+    ]
+  },
+  {
+    "id": "leap",
+    "start": 6,
+    "keys": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "impact": [
+      7
+    ],
+    "region": [
+      66,
+      5,
+      121,
+      77
+    ],
+    "move": "sk-leap",
+    "sheet": "leap-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": null
+  },
+  {
+    "id": "dash",
+    "start": 1,
+    "keys": [
+      12,
+      23,
+      35,
+      35
+    ],
+    "impact": [
+      1
+    ],
+    "region": [
+      12,
+      51,
+      100,
+      74
+    ],
+    "move": "sk-dash",
+    "sheet": "dash-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": null
+  },
+  {
+    "id": "ground",
+    "start": 1,
+    "keys": [
+      15,
+      55,
+      65,
+      45
+    ],
+    "impact": [
+      1
+    ],
+    "region": [
+      47,
+      49,
+      104,
+      79
+    ],
+    "move": "sk-ground",
+    "sheet": "ground-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": null
+  },
+  {
+    "id": "flurry",
+    "start": 1,
+    "starts": [
+      1,
+      6,
+      11,
+      16,
+      21,
+      25,
+      29,
+      33
+    ],
+    "keys": [
+      8,
+      27,
+      25,
+      20
+    ],
+    "impact": [
+      1,
+      6,
+      11,
+      16,
+      21,
+      25,
+      29,
+      33
+    ],
+    "region": [
+      81,
+      58,
+      120,
+      71
+    ],
+    "move": "sk-flurry",
+    "sheet": "flurry-native-v2.png",
+    "frameWidth": 128,
+    "frameHeight": 80,
+    "cols": 2,
+    "offset": [
+      0,
+      0
+    ],
+    "referenceBody": null
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "sheet": "sheet-a",
+    "size": [
+      1608,
+      816
+    ],
+    "changedImagePixels": 14628,
+    "protectedChangedPixels": 0,
+    "originalRectangleSha256": "af8176c537b657d1d68857b505f9bfa27675a78b96ebc7bb9b82355fd759e62e",
+    "finalRectangleSha256": "af8176c537b657d1d68857b505f9bfa27675a78b96ebc7bb9b82355fd759e62e",
+    "exact2x2Grid": true,
+    "originalPaletteOnly": true
+  },
+  {
+    "sheet": "sheet-b",
+    "size": [
+      1664,
+      832
+    ],
+    "changedImagePixels": 15644,
+    "protectedChangedPixels": 0,
+    "originalRectangleSha256": "099a86e965af691097efbe130797c5430165230249f5fd593d43350f49b46bcb",
+    "finalRectangleSha256": "099a86e965af691097efbe130797c5430165230249f5fd593d43350f49b46bcb",
+    "exact2x2Grid": true,
+    "originalPaletteOnly": true
+  }
+]

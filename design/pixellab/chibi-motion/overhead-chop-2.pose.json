@@ -1,0 +1,396 @@
+{
+ "reference": "hero-ref-64.png",
+ "restSkeleton": "estimate-result.json",
+ "referenceSize": 64,
+ "canvas": 80,
+ "offset": [
+  8,
+  16
+ ],
+ "groundY": 61.5,
+ "headCenter": [
+  31,
+  26
+ ],
+ "headRadius": 13.5,
+ "weaponHand": "L",
+ "bladeLength": 26,
+ "impactFrame": 7,
+ "about": "Overhead chop, take 2 (weapon layer only, same body frames as body-chop/). Owner: the wind-up looked like the blade went THROUGH the head (fist hidden behind the hair, short blade drawn over it). Fix: chibi-sized long sword drawn BEHIND the head so only the part clearing the hair shows, angled steeply up-back; the pass over the head also stays behind.",
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": 3,
+   "hands": {
+    "L": [
+     37,
+     49
+    ]
+   },
+   "blade": 35
+  },
+  {
+   "note": "sink",
+   "ms": 60,
+   "pelvis": [
+    -1,
+    1.5
+   ],
+   "lean": -3,
+   "hands": {
+    "L": [
+     31,
+     45
+    ],
+    "R": [
+     27,
+     47
+    ]
+   },
+   "blade": -170,
+   "weaponFront": false
+  },
+  {
+   "note": "raise",
+   "ms": 60,
+   "pelvis": [
+    -2,
+    1
+   ],
+   "lean": -9,
+   "hands": {
+    "L": [
+     25,
+     36
+    ],
+    "R": [
+     33,
+     45
+    ]
+   },
+   "elbow": {
+    "L": "down"
+   },
+   "blade": -125,
+   "weaponFront": false
+  },
+  {
+   "note": "coil",
+   "ms": 70,
+   "pelvis": [
+    -3,
+    0.5
+   ],
+   "lean": -13,
+   "hands": {
+    "L": [
+     21.5,
+     33.5
+    ],
+    "R": [
+     34,
+     44
+    ]
+   },
+   "elbow": {
+    "L": "down"
+   },
+   "feet": {
+    "L": [
+     34,
+     58.6
+    ]
+   },
+   "blade": -115,
+   "weaponFront": false
+  },
+  {
+   "note": "HOLD",
+   "ms": 110,
+   "pelvis": [
+    -3,
+    0.5
+   ],
+   "lean": -14,
+   "hands": {
+    "L": [
+     21,
+     33
+    ],
+    "R": [
+     34.5,
+     44
+    ]
+   },
+   "elbow": {
+    "L": "down"
+   },
+   "feet": {
+    "L": [
+     34.5,
+     58.2
+    ]
+   },
+   "blade": -112,
+   "weaponFront": false
+  },
+  {
+   "note": "launch (over head)",
+   "ms": 40,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": -2,
+   "hands": {
+    "L": [
+     32,
+     32
+    ],
+    "R": [
+     29,
+     46
+    ]
+   },
+   "feet": {
+    "L": [
+     37,
+     59.5
+    ]
+   },
+   "blade": -62,
+   "weaponFront": false
+  },
+  {
+   "note": "chop",
+   "ms": 30,
+   "pelvis": [
+    3,
+    2.5
+   ],
+   "lean": 10,
+   "hands": {
+    "L": [
+     46.4,
+     38.3
+    ],
+    "R": [
+     26,
+     46
+    ]
+   },
+   "feet": {
+    "L": [
+     38.5,
+     59.5
+    ]
+   },
+   "blade": -20
+  },
+  {
+   "note": "IMPACT",
+   "ms": 50,
+   "pelvis": [
+    6,
+    4.5
+   ],
+   "lean": 18,
+   "hands": {
+    "L": [
+     52,
+     51
+    ],
+    "R": [
+     23,
+     45
+    ]
+   },
+   "feet": {
+    "L": [
+     40,
+     59.5
+    ],
+    "R": [
+     24.5,
+     59.3
+    ]
+   },
+   "blade": 36
+  },
+  {
+   "note": "squash (tip at ground)",
+   "ms": 60,
+   "pelvis": [
+    6.5,
+    5.5
+   ],
+   "lean": 22,
+   "hands": {
+    "L": [
+     51,
+     52
+    ],
+    "R": [
+     23,
+     46
+    ]
+   },
+   "feet": {
+    "L": [
+     40,
+     59.5
+    ],
+    "R": [
+     24.5,
+     59.3
+    ]
+   },
+   "blade": 35
+  },
+  {
+   "note": "follow HOLD",
+   "ms": 90,
+   "pelvis": [
+    6,
+    5.5
+   ],
+   "lean": 21,
+   "hands": {
+    "L": [
+     51,
+     52.3
+    ],
+    "R": [
+     23.5,
+     46.5
+    ]
+   },
+   "feet": {
+    "L": [
+     40,
+     59.5
+    ],
+    "R": [
+     24.5,
+     59.3
+    ]
+   },
+   "blade": 36
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "pelvis": [
+    4.5,
+    3.5
+   ],
+   "lean": 12,
+   "hands": {
+    "L": [
+     45,
+     49
+    ],
+    "R": [
+     27,
+     48
+    ]
+   },
+   "feet": {
+    "L": [
+     39,
+     59.5
+    ],
+    "R": [
+     25,
+     59.3
+    ]
+   },
+   "blade": 40
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "pelvis": [
+    3,
+    2
+   ],
+   "lean": 7,
+   "hands": {
+    "L": [
+     41,
+     49
+    ]
+   },
+   "feet": {
+    "L": [
+     37,
+     59.5
+    ],
+    "R": [
+     24,
+     59.3
+    ]
+   },
+   "blade": 38
+  },
+  {
+   "note": "step back",
+   "ms": 60,
+   "pelvis": [
+    1.5,
+    1
+   ],
+   "lean": 4,
+   "hands": {
+    "L": [
+     39,
+     49.5
+    ]
+   },
+   "feet": {
+    "L": [
+     35,
+     59.5
+    ]
+   },
+   "blade": 36
+  },
+  {
+   "note": "settle",
+   "ms": 60,
+   "pelvis": [
+    0,
+    1
+   ],
+   "lean": 3,
+   "hands": {
+    "L": [
+     37.5,
+     49.5
+    ]
+   },
+   "blade": 34
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": 3,
+   "hands": {
+    "L": [
+     37,
+     49
+    ]
+   },
+   "blade": 35
+  }
+ ]
+}

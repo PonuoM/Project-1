@@ -1,0 +1,67 @@
+{
+ "about": "Yara walk v2",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 7
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 8
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 9
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 10
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 11
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 12
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 13
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 14
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 15
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 16
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 17
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 18
+  }
+ ]
+}

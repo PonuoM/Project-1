@@ -1,0 +1,88 @@
+{
+ "about": "hand-picked by Claude from the Flow clip (fast timing)",
+ "source": "frames/",
+ "frameWidth": 128,
+ "impactFrame": 14,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 50,
+   "sourceFrame": 0
+  },
+  {
+   "note": "step",
+   "ms": 40,
+   "sourceFrame": 7
+  },
+  {
+   "note": "slash 1",
+   "ms": 40,
+   "sourceFrame": 9
+  },
+  {
+   "note": "HIT 1",
+   "ms": 70,
+   "sourceFrame": 10
+  },
+  {
+   "note": "turn",
+   "ms": 40,
+   "sourceFrame": 12
+  },
+  {
+   "note": "HIT 2",
+   "ms": 70,
+   "sourceFrame": 13
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 27
+  },
+  {
+   "note": "crouch",
+   "ms": 40,
+   "sourceFrame": 45
+  },
+  {
+   "note": "jump",
+   "ms": 50,
+   "sourceFrame": 47
+  },
+  {
+   "note": "overhead",
+   "ms": 40,
+   "sourceFrame": 49
+  },
+  {
+   "note": "HOLD air",
+   "ms": 60,
+   "sourceFrame": 52
+  },
+  {
+   "note": "drop",
+   "ms": 40,
+   "sourceFrame": 60
+  },
+  {
+   "note": "chop",
+   "ms": 30,
+   "sourceFrame": 62
+  },
+  {
+   "note": "HIT 3",
+   "ms": 90,
+   "sourceFrame": 64
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "sourceFrame": 66
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 67
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "about": "walk loop (frames 30-43, lag 14)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 30
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 31
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 32
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 33
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 34
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 35
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 36
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 37
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 38
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 39
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 40
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 41
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 42
+  },
+  {
+   "note": "walk",
+   "ms": 55,
+   "sourceFrame": 43
+  }
+ ],
+ "loop": [
+  0,
+  13
+ ]
+}

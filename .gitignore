@@ -1,0 +1,15 @@
+node_modules/
+client/out/
+
+# Copied from design/ by client/scripts/sync-design.mjs (design/ is the source of truth)
+client/src/renderer/public/sprites/
+client/src/renderer/public/design/
+client/src/renderer/public/backgrounds/
+client/src/renderer/src/design/
+
+# Local secrets
+server/config.local.php
+
+# Tool output and recordings
+.playwright-mcp/
+*.mp4

@@ -1,0 +1,170 @@
+{
+ "about": "auto-picked by sprite_autopick.py (holds folded, motion at video timing x speed)",
+ "source": "frames/",
+ "frameWidth": 112,
+ "impactFrame": 11,
+ "frames": [
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 2,
+   "span": [
+    0,
+    4
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 300,
+   "sourceFrame": 5,
+   "span": [
+    5,
+    10
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 50,
+   "sourceFrame": 11,
+   "span": [
+    11,
+    11
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 100,
+   "sourceFrame": 12,
+   "span": [
+    12,
+    13
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 150,
+   "sourceFrame": 14,
+   "span": [
+    14,
+    16
+   ]
+  },
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 18,
+   "span": [
+    17,
+    19
+   ]
+  },
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 23,
+   "span": [
+    20,
+    27
+   ]
+  },
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 31,
+   "span": [
+    28,
+    34
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 50,
+   "sourceFrame": 35,
+   "span": [
+    35,
+    35
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 50,
+   "sourceFrame": 36,
+   "span": [
+    36,
+    36
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 750,
+   "sourceFrame": 37,
+   "span": [
+    37,
+    51
+   ]
+  },
+  {
+   "note": "IMPACT (auto)",
+   "ms": 150,
+   "sourceFrame": 53,
+   "span": [
+    52,
+    54
+   ]
+  },
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 55,
+   "span": [
+    55,
+    56
+   ]
+  },
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 59,
+   "span": [
+    57,
+    61
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 50,
+   "sourceFrame": 62,
+   "span": [
+    62,
+    62
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 50,
+   "sourceFrame": 63,
+   "span": [
+    63,
+    63
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 50,
+   "sourceFrame": 64,
+   "span": [
+    64,
+    64
+   ]
+  },
+  {
+   "note": "hold",
+   "ms": 150,
+   "sourceFrame": 68,
+   "span": [
+    65,
+    71
+   ]
+  }
+ ]
+}

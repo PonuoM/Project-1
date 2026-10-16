@@ -1,0 +1,288 @@
+{
+  "sheets": [
+    {
+      "sheet": "sheet-a",
+      "inputSize": [
+        1608,
+        816
+      ],
+      "sourceSize": [
+        1760,
+        894
+      ],
+      "outputSize": [
+        1608,
+        816
+      ],
+      "inputSha256": "80d78c4d7451836637ac03f48b2fee6a8384630a5191f789685c3b2f5db57945",
+      "gridBlockPx": 2,
+      "paletteColors": 21,
+      "protectedChangedPixels": 0,
+      "cells": [
+        {
+          "cell": 1,
+          "move": "attack",
+          "frame": 11,
+          "registrationShiftNative": [
+            0,
+            2
+          ],
+          "matchScore": 0.9122,
+          "addedNativePixels": 653,
+          "topCutOriginalPixels": 25,
+          "topCutJoinedPixels": 25,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 2,
+          "move": "attack",
+          "frame": 12,
+          "registrationShiftNative": [
+            0,
+            2
+          ],
+          "matchScore": 0.9511,
+          "addedNativePixels": 724,
+          "topCutOriginalPixels": 40,
+          "topCutJoinedPixels": 38,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 3,
+          "move": "attack",
+          "frame": 37,
+          "registrationShiftNative": [
+            -1,
+            2
+          ],
+          "matchScore": 0.8363,
+          "addedNativePixels": 527,
+          "topCutOriginalPixels": 24,
+          "topCutJoinedPixels": 24,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 4,
+          "move": "hurt-death",
+          "frame": 40,
+          "registrationShiftNative": [
+            1,
+            3
+          ],
+          "matchScore": 0.7409,
+          "addedNativePixels": 608,
+          "topCutOriginalPixels": 7,
+          "topCutJoinedPixels": 7,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 5,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 5,
+          "move": "hurt-death",
+          "frame": 42,
+          "registrationShiftNative": [
+            1,
+            3
+          ],
+          "matchScore": 0.8669,
+          "addedNativePixels": 585,
+          "topCutOriginalPixels": 22,
+          "topCutJoinedPixels": 22,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 6,
+          "move": "hurt-death",
+          "frame": 43,
+          "registrationShiftNative": [
+            1,
+            3
+          ],
+          "matchScore": 0.8706,
+          "addedNativePixels": 560,
+          "topCutOriginalPixels": 20,
+          "topCutJoinedPixels": 20,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        }
+      ]
+    },
+    {
+      "sheet": "sheet-b",
+      "inputSize": [
+        1664,
+        832
+      ],
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "outputSize": [
+        1664,
+        832
+      ],
+      "inputSha256": "152e1c90b03a3d442988058d5396855b7ca375fa0ea2a6c58ab0cc03612e39b2",
+      "gridBlockPx": 2,
+      "paletteColors": 21,
+      "protectedChangedPixels": 0,
+      "cells": [
+        {
+          "cell": 1,
+          "move": "special",
+          "frame": 7,
+          "registrationShiftNative": [
+            0,
+            0
+          ],
+          "matchScore": 0.8966,
+          "addedNativePixels": 537,
+          "topCutOriginalPixels": 24,
+          "topCutJoinedPixels": 24,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 2,
+          "move": "special",
+          "frame": 8,
+          "registrationShiftNative": [
+            -1,
+            0
+          ],
+          "matchScore": 0.899,
+          "addedNativePixels": 582,
+          "topCutOriginalPixels": 32,
+          "topCutJoinedPixels": 31,
+          "rightCutOriginalPixels": 0,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 3,
+          "move": "special",
+          "frame": 9,
+          "registrationShiftNative": [
+            0,
+            0
+          ],
+          "matchScore": 0.9109,
+          "addedNativePixels": 742,
+          "topCutOriginalPixels": 36,
+          "topCutJoinedPixels": 36,
+          "rightCutOriginalPixels": 24,
+          "rightCutJoinedPixels": 17,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 4,
+          "move": "special",
+          "frame": 11,
+          "registrationShiftNative": [
+            0,
+            0
+          ],
+          "matchScore": 0.8925,
+          "addedNativePixels": 702,
+          "topCutOriginalPixels": 31,
+          "topCutJoinedPixels": 30,
+          "rightCutOriginalPixels": 14,
+          "rightCutJoinedPixels": 14,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 5,
+          "move": "special",
+          "frame": 13,
+          "registrationShiftNative": [
+            1,
+            5
+          ],
+          "matchScore": 0.853,
+          "addedNativePixels": 952,
+          "topCutOriginalPixels": 47,
+          "topCutJoinedPixels": 45,
+          "rightCutOriginalPixels": 33,
+          "rightCutJoinedPixels": 32,
+          "discardedUnattachedNativePixels": 20,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 6,
+          "move": "special",
+          "frame": 25,
+          "registrationShiftNative": [
+            1,
+            4
+          ],
+          "matchScore": 0.7679,
+          "addedNativePixels": 445,
+          "topCutOriginalPixels": 0,
+          "topCutJoinedPixels": 0,
+          "rightCutOriginalPixels": 59,
+          "rightCutJoinedPixels": 57,
+          "discardedUnattachedNativePixels": 335,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 7,
+          "move": "special",
+          "frame": 26,
+          "registrationShiftNative": [
+            -2,
+            4
+          ],
+          "matchScore": 0.8929,
+          "addedNativePixels": 0,
+          "topCutOriginalPixels": 0,
+          "topCutJoinedPixels": 0,
+          "rightCutOriginalPixels": 6,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 71,
+          "protectedChangedPixels": 0
+        },
+        {
+          "cell": 8,
+          "move": "special",
+          "frame": 34,
+          "registrationShiftNative": [
+            -3,
+            5
+          ],
+          "matchScore": 0.8613,
+          "addedNativePixels": 0,
+          "topCutOriginalPixels": 0,
+          "topCutJoinedPixels": 0,
+          "rightCutOriginalPixels": 3,
+          "rightCutJoinedPixels": 0,
+          "discardedUnattachedNativePixels": 0,
+          "protectedChangedPixels": 0
+        }
+      ]
+    }
+  ],
+  "allProtectedPixelsIdentical": true,
+  "allOutputsOnExact2x2Grid": true,
+  "addedColoursFromOriginalPaletteOnly": true,
+  "redGuidePixelsAbsent": true
+}

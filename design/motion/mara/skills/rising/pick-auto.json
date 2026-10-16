@@ -1,0 +1,134 @@
+{
+ "about": "auto-picked by sprite_autopick.py (holds folded, motion at video timing x speed)",
+ "source": "frames/",
+ "frameWidth": 128,
+ "impactFrame": 11,
+ "frames": [
+  {
+   "note": "move",
+   "ms": 262,
+   "sourceFrame": 0,
+   "span": [
+    0,
+    6
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 7,
+   "span": [
+    7,
+    7
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 8,
+   "span": [
+    8,
+    8
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 525,
+   "sourceFrame": 9,
+   "span": [
+    9,
+    22
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 23,
+   "span": [
+    23,
+    23
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 24,
+   "span": [
+    24,
+    24
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 25,
+   "span": [
+    25,
+    25
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 75,
+   "sourceFrame": 26,
+   "span": [
+    26,
+    27
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 600,
+   "sourceFrame": 28,
+   "span": [
+    28,
+    43
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 44,
+   "span": [
+    44,
+    44
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 45,
+   "span": [
+    45,
+    45
+   ]
+  },
+  {
+   "note": "IMPACT (auto)",
+   "ms": 38,
+   "sourceFrame": 46,
+   "span": [
+    46,
+    46
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 525,
+   "sourceFrame": 47,
+   "span": [
+    47,
+    60
+   ]
+  },
+  {
+   "note": "move",
+   "ms": 38,
+   "sourceFrame": 61,
+   "span": [
+    61,
+    61
+   ]
+  }
+ ]
+}

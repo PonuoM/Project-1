@@ -1,0 +1,114 @@
+[
+  {
+    "effect": "explosion",
+    "sheetSize": [
+      1024,
+      1024
+    ],
+    "frameCount": 16,
+    "effectMs": 730,
+    "previewMs": 1230.0,
+    "storedApngFrames": 17,
+    "distinctFrameAreas": [
+      29,
+      70,
+      116,
+      286,
+      286,
+      298,
+      317,
+      262,
+      195,
+      174,
+      141,
+      80,
+      38,
+      30,
+      9,
+      1
+    ],
+    "exactGrid": true,
+    "blackGutters": true
+  },
+  {
+    "effect": "fire",
+    "sheetSize": [
+      1024,
+      768
+    ],
+    "frameCount": 12,
+    "effectMs": 625,
+    "previewMs": 1125.0,
+    "storedApngFrames": 12,
+    "distinctFrameAreas": [
+      18,
+      62,
+      161,
+      315,
+      323,
+      227,
+      179,
+      109,
+      48,
+      16,
+      8,
+      0
+    ],
+    "exactGrid": true,
+    "blackGutters": true
+  },
+  {
+    "effect": "ice-shatter",
+    "sheetSize": [
+      1024,
+      768
+    ],
+    "frameCount": 12,
+    "effectMs": 625,
+    "previewMs": 1125.0,
+    "storedApngFrames": 12,
+    "distinctFrameAreas": [
+      18,
+      72,
+      168,
+      591,
+      447,
+      406,
+      245,
+      128,
+      41,
+      15,
+      6,
+      0
+    ],
+    "exactGrid": true,
+    "blackGutters": true
+  },
+  {
+    "effect": "poison-slash",
+    "sheetSize": [
+      1024,
+      768
+    ],
+    "frameCount": 12,
+    "effectMs": 720,
+    "previewMs": 1220.0,
+    "storedApngFrames": 13,
+    "distinctFrameAreas": [
+      14,
+      122,
+      320,
+      392,
+      362,
+      285,
+      140,
+      138,
+      121,
+      94,
+      44,
+      2
+    ],
+    "exactGrid": true,
+    "blackGutters": true
+  }
+]

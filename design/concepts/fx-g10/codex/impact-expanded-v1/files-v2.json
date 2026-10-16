@@ -1,0 +1,386 @@
+[
+  {
+    "file": "explosion-contact-v2.png",
+    "size": [
+      1152,
+      96
+    ],
+    "frames": 1
+  },
+  {
+    "file": "explosion-native-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 1
+  },
+  {
+    "file": "explosion-native-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 1
+  },
+  {
+    "file": "explosion-on-target-still-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 1
+  },
+  {
+    "file": "explosion-on-target-v1.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 17
+  },
+  {
+    "file": "explosion-on-target-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 17
+  },
+  {
+    "file": "explosion-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 17
+  },
+  {
+    "file": "explosion-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 17
+  },
+  {
+    "file": "explosion-raw-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "frames": 1
+  },
+  {
+    "file": "explosion-v1.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "frames": 1
+  },
+  {
+    "file": "explosion-v2.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-contact-v2.png",
+    "size": [
+      1152,
+      96
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-native-v1.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-native-v2.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-on-target-still-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-on-target-v1.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 13
+  },
+  {
+    "file": "fire-on-target-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 12
+  },
+  {
+    "file": "fire-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 13
+  },
+  {
+    "file": "fire-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 12
+  },
+  {
+    "file": "fire-raw-v1.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-v1.png",
+    "size": [
+      1024,
+      768
+    ],
+    "frames": 1
+  },
+  {
+    "file": "fire-v2.png",
+    "size": [
+      1024,
+      768
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-contact-v2.png",
+    "size": [
+      1152,
+      96
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-native-v1.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-native-v2.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-on-target-still-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-on-target-v1.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 13
+  },
+  {
+    "file": "ice-shatter-on-target-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 12
+  },
+  {
+    "file": "ice-shatter-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 13
+  },
+  {
+    "file": "ice-shatter-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 12
+  },
+  {
+    "file": "ice-shatter-raw-v1.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-v1.png",
+    "size": [
+      1024,
+      768
+    ],
+    "frames": 1
+  },
+  {
+    "file": "ice-shatter-v2.png",
+    "size": [
+      1024,
+      768
+    ],
+    "frames": 1
+  },
+  {
+    "file": "impact-peaks-1x-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "frames": 1
+  },
+  {
+    "file": "impact-peaks-1x-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "frames": 1
+  },
+  {
+    "file": "impact-peaks-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "frames": 1
+  },
+  {
+    "file": "impact-peaks-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-contact-v2.png",
+    "size": [
+      1152,
+      96
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-native-v1.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-native-v2.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-on-target-still-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-on-target-v1.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 13
+  },
+  {
+    "file": "poison-slash-on-target-v2.png",
+    "size": [
+      576,
+      288
+    ],
+    "frames": 13
+  },
+  {
+    "file": "poison-slash-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 13
+  },
+  {
+    "file": "poison-slash-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "frames": 13
+  },
+  {
+    "file": "poison-slash-raw-v1.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-v1.png",
+    "size": [
+      1024,
+      768
+    ],
+    "frames": 1
+  },
+  {
+    "file": "poison-slash-v2.png",
+    "size": [
+      1024,
+      768
+    ],
+    "frames": 1
+  }
+]

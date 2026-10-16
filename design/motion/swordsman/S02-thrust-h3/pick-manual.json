@@ -1,0 +1,63 @@
+{
+ "about": "hand-picked by Claude from the Flow clip (fast timing)",
+ "source": "frames/",
+ "frameWidth": 128,
+ "impactFrame": 6,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 0
+  },
+  {
+   "note": "drop",
+   "ms": 50,
+   "sourceFrame": 10
+  },
+  {
+   "note": "pull back",
+   "ms": 50,
+   "sourceFrame": 11
+  },
+  {
+   "note": "coil",
+   "ms": 60,
+   "sourceFrame": 12
+  },
+  {
+   "note": "HOLD coil",
+   "ms": 80,
+   "sourceFrame": 14
+  },
+  {
+   "note": "lunge",
+   "ms": 40,
+   "sourceFrame": 15
+  },
+  {
+   "note": "IMPACT thrust",
+   "ms": 120,
+   "sourceFrame": 16
+  },
+  {
+   "note": "hold",
+   "ms": 70,
+   "sourceFrame": 40
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 51
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 52
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 53
+  }
+ ]
+}

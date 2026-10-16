@@ -1,0 +1,106 @@
+{
+  "width": 256,
+  "height": 192,
+  "exportWidth": 2048,
+  "exportHeight": 1536,
+  "unit": "native art pixels; multiply by8 for exported PNG",
+  "regions": [
+    {
+      "id": 1,
+      "name": "ทุ่งหญ้า",
+      "nameEn": "Greenhollow",
+      "color": "#739647",
+      "view": [
+        6,
+        88,
+        112,
+        84
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ป่าเห็ด",
+      "nameEn": "Mirewood",
+      "color": "#8254a5",
+      "view": [
+        89,
+        43,
+        112,
+        84
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ทะเลทราย",
+      "nameEn": "Vastsand",
+      "color": "#b7802c",
+      "view": [
+        118,
+        99,
+        124,
+        93
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ภูเขาหิมะ",
+      "nameEn": "Frostspire",
+      "color": "#4a94bd",
+      "view": [
+        91,
+        0,
+        112,
+        84
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ภูเขาไฟ",
+      "nameEn": "Cinderthorn",
+      "color": "#ac4d32",
+      "view": [
+        162,
+        15,
+        92,
+        69
+      ]
+    }
+  ],
+  "clouds": [
+    {
+      "x": 15,
+      "y": 24,
+      "near": false
+    },
+    {
+      "x": 80,
+      "y": 164,
+      "near": false
+    },
+    {
+      "x": 145,
+      "y": 15,
+      "near": false
+    },
+    {
+      "x": 205,
+      "y": 148,
+      "near": false
+    },
+    {
+      "x": 37,
+      "y": 68,
+      "near": true
+    },
+    {
+      "x": 165,
+      "y": 110,
+      "near": true
+    },
+    {
+      "x": 228,
+      "y": 57,
+      "near": true
+    }
+  ]
+}

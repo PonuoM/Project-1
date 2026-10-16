@@ -1,0 +1,5 @@
+# Mara warcry v2 (buff pose) — MiniMax H3 Max, 480P, 16:9, 5 s, First & Last Frame (~200 credits)
+first `inputs/mara-violet-1280x720.png`, last `inputs/mara-violet-1280x720-end.png`, save as `mara-warcry2`.
+```text
+A chibi pixel-art swordswoman with an auburn bob and a navy coat holding a short violet sword in her right hand. She does NOT attack and does NOT swing the sword. She plants her feet wide, lowers the sword point down beside her, clenches her free fist, throws her head back to look up at the sky and roars, her chest pushed out and shoulders squared, her whole body tensing and powering up, hair and coat lifting slightly as if pushed by rising wind. She holds this roaring power-up pose for a moment, then relaxes back into the exact starting pose. Side view facing right, static locked-off camera, aspect ratio 16:9, flat solid green background that never changes. The sword keeps exactly the same short length and violet colour. Same character and size, chunky pixel art, no other characters or objects, no zoom, no motion blur, no effects, no aura, no text.
+```

@@ -1,0 +1,47 @@
+{
+ "about": "Tavi walk (weak loop)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 14
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 15
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 16
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 17
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 18
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 19
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 20
+  },
+  {
+   "note": "walk",
+   "ms": 75,
+   "sourceFrame": 21
+  }
+ ]
+}

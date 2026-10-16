@@ -1,0 +1,9 @@
+{
+  "endpoint": "/animate-with-text-v3",
+  "firstFrameFile": "candidate-11.png",
+  "lastFrameFile": "candidate-11.png",
+  "action": "A fast, forceful one-handed longsword attack facing RIGHT. Start from the exact ready stance in the reference. Briefly coil the torso and draw the sword back, step forward with the front foot, drive one powerful diagonal cut to the right with a sharp wide sword arc, then follow through low and recover back to the original ready stance. Strong readable anticipation, explosive lunge, heavy impact pose and compact recovery. The shield remains attached to the left arm and moves naturally with the torso. The heavy crimson cape snaps behind the movement. Preserve the detailed silver armor, helmet, anatomy, colors and pixel clusters of the reference. Keep facing right throughout, keep boots on a stable baseline, no spinning or jumping, no extra limbs, no text, no scenery. Keep the entire character and sword inside the canvas, transparent background. Crisp hand-drawn pixel-art key poses, no soft blur.",
+  "frame_count": 8,
+  "no_background": true,
+  "seed": 7147
+}

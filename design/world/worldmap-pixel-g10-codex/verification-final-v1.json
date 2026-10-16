@@ -1,0 +1,19 @@
+{
+  "gridCheckPassed": true,
+  "binaryAlphaPassed": true,
+  "stageCount": 100,
+  "browserRegions": [
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "browserFinalBossSelectionPassed": true,
+  "animationChangedPixelsT0T3": 5534,
+  "pauseStopsClock": true,
+  "mobileOverflow": false,
+  "desktopOverflow": false,
+  "apngFrames": 13,
+  "apngDurationMs": 6000.0
+}

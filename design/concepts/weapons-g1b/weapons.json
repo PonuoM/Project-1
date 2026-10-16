@@ -1,0 +1,19 @@
+[
+  { "cell": 1, "name": "dagger", "lengthPx": 9 },
+  { "cell": 2, "name": "short sword", "lengthPx": 14 },
+  { "cell": 3, "name": "long sword", "lengthPx": 20 },
+  { "cell": 4, "name": "greatsword", "lengthPx": 26 },
+  { "cell": 5, "name": "curved sabre", "lengthPx": 16 },
+  { "cell": 6, "name": "katana", "lengthPx": 20 },
+  { "cell": 7, "name": "hand axe", "lengthPx": 13 },
+  { "cell": 8, "name": "battle axe", "lengthPx": 20 },
+  { "cell": 9, "name": "mace", "lengthPx": 14 },
+  { "cell": 10, "name": "war hammer", "lengthPx": 20 },
+  { "cell": 11, "name": "spear", "lengthPx": 30 },
+  { "cell": 12, "name": "halberd", "lengthPx": 30 },
+  { "cell": 13, "name": "wooden staff", "lengthPx": 26 },
+  { "cell": 14, "name": "crystal wand", "lengthPx": 11 },
+  { "cell": 15, "name": "scythe", "lengthPx": 26 },
+  { "cell": 16, "name": "club", "lengthPx": 15 }
+]
+

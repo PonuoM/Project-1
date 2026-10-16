@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data: blob:; connect-src 'self' ws://localhost:*"
+    />
+    <title>ทดสอบฟอนต์ภาษาไทย</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 16px 20px 40px;
+        background: #1b1e2b;
+        color: #e8ebf2;
+        font-family: 'Leelawadee UI', Tahoma, sans-serif;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0 0 4px;
+      }
+      .help {
+        color: #9aa3b5;
+        margin: 0 0 16px;
+        line-height: 1.6;
+      }
+      .drop {
+        border: 2px dashed #4a5168;
+        padding: 14px;
+        text-align: center;
+        color: #9aa3b5;
+        margin-bottom: 20px;
+      }
+      .drop.over {
+        border-color: #ffd27a;
+        color: #ffd27a;
+      }
+      section {
+        background: #232738;
+        border: 1px solid #343a52;
+        padding: 12px 14px;
+        margin-bottom: 14px;
+      }
+      section h2 {
+        font-size: 15px;
+        margin: 0 0 8px;
+        color: #ffd27a;
+      }
+      section.missing h2 {
+        color: #7c8496;
+      }
+      .row {
+        display: flex;
+        gap: 12px;
+        align-items: baseline;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 3px 0;
+        border-bottom: 1px solid #2c3146;
+      }
+      .size {
+        width: 44px;
+        flex: none;
+        color: #7c8496;
+        font-size: 12px;
+        font-family: 'Leelawadee UI', Tahoma, sans-serif;
+      }
+      .canvas-label {
+        margin: 10px 0 4px;
+        color: #9aa3b5;
+        font-size: 12px;
+      }
+      canvas {
+        image-rendering: pixelated;
+        display: block;
+        margin-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ทดสอบฟอนต์ภาษาไทย</h1>
+    <p class="help">
+      วางไฟล์ฟอนต์ไว้ที่ <code>client/src/renderer/public/fonts/</code> แล้วกดรีเฟรช หรือลากไฟล์ .ttf/.otf มาวางในกรอบด้านล่าง<br />
+      ผ่านเมื่อ: สระบนกับวรรณยุกต์ไม่ทับกัน, ตัว ป ฝ ฟ ไม่ชนวรรณยุกต์, ตัว ญ ฐ ฎ ไม่ชนสระล่าง และขนาดที่จะใช้ในเกมยังคมชัด
+    </p>
+    <div class="drop" id="drop">ลากไฟล์ฟอนต์มาวางตรงนี้</div>
+    <div id="results"></div>
+    <script type="module" src="./src/fonttest.ts"></script>
+  </body>
+</html>

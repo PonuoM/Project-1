@@ -1,0 +1,9 @@
+{
+ "grip": [
+  0.5,
+  3.5
+ ],
+ "angle": 0,
+ "length": 24.8,
+ "note": "sword.png laid flat with RotSprite, blade lengthened by repeating a middle column (chibi-sized weapon, clears the big head)"
+}

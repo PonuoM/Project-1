@@ -1,0 +1,15 @@
+{
+  "generationJob": "1f124af7-1d19-47e7-a22b-eadb795ef1a5",
+  "animationJob": "58afa61e-4159-4ad5-a282-4e11937a3db0",
+  "generationUsage": {
+    "type": "generations",
+    "generations": 10
+  },
+  "animationUsage": {
+    "type": "generations",
+    "generations": 1
+  },
+  "totalTrialGenerations": 11,
+  "remainingGenerations": 27.75,
+  "usdCredits": 0
+}

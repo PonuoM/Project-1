@@ -1,0 +1,86 @@
+{
+ "about": "run loop (frames 21-35, lag 15)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 21
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 22
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 23
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 24
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 25
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 26
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 27
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 28
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 29
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 30
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 31
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 32
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 33
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 34
+  },
+  {
+   "note": "run",
+   "ms": 40,
+   "sourceFrame": 35
+  }
+ ],
+ "loop": [
+  0,
+  14
+ ]
+}

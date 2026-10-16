@@ -1,0 +1,192 @@
+{
+  "gridBlockPx": 8,
+  "background": "#00B140",
+  "outline": "#2e1816",
+  "lineupNativeSize": [
+    339,
+    102
+  ],
+  "lineupSize": [
+    2712,
+    816
+  ],
+  "silhouetteNativeSize": [
+    184,
+    50
+  ],
+  "bossSha256": "bd165b72be252ea574e68b0d5b238c52189ef5c856562f20e3512067df1c55f9",
+  "monsters": [
+    {
+      "id": "kiki",
+      "file": "kiki-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "heightArtPx": 28,
+      "widthArtPx": 30,
+      "boundsArtPx": [
+        9,
+        18,
+        39,
+        46
+      ],
+      "groundRow": 45,
+      "colorCount": 12,
+      "eye2x2Squares": 1,
+      "palette": {
+        "skin": [
+          "#3c5268",
+          "#7893aa",
+          "#b2c8d6"
+        ],
+        "knife": [
+          "#8b3d21",
+          "#cf6b2f",
+          "#f5aa56"
+        ],
+        "cloth": [
+          "#531e2a",
+          "#852d39",
+          "#b94b50"
+        ],
+        "eye": [
+          "#ff393e"
+        ]
+      }
+    },
+    {
+      "id": "thornboar",
+      "file": "thornboar-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "heightArtPx": 30,
+      "widthArtPx": 40,
+      "boundsArtPx": [
+        4,
+        16,
+        44,
+        46
+      ],
+      "groundRow": 45,
+      "colorCount": 12,
+      "eye2x2Squares": 0,
+      "palette": {
+        "fur": [
+          "#20212a",
+          "#343743",
+          "#505562"
+        ],
+        "tusks": [
+          "#948b71",
+          "#d8cfac",
+          "#fff0c9"
+        ],
+        "vines": [
+          "#12672b",
+          "#45c52d",
+          "#a1ed45"
+        ],
+        "eye": [
+          "#ffe447"
+        ]
+      }
+    },
+    {
+      "id": "hex-scarecrow",
+      "file": "hex-scarecrow-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        384,
+        384
+      ],
+      "heightArtPx": 42,
+      "widthArtPx": 32,
+      "boundsArtPx": [
+        8,
+        4,
+        40,
+        46
+      ],
+      "groundRow": 45,
+      "colorCount": 12,
+      "eye2x2Squares": 0,
+      "palette": {
+        "straw": [
+          "#a58a43",
+          "#dcc16b",
+          "#fff0ac"
+        ],
+        "rags": [
+          "#272530",
+          "#46404c",
+          "#655b68"
+        ],
+        "crow": [
+          "#211d32",
+          "#403352",
+          "#655075"
+        ],
+        "eye": [
+          "#ff8d2c"
+        ]
+      }
+    },
+    {
+      "id": "bridge-troll",
+      "file": "bridge-troll-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "heightArtPx": 44,
+      "widthArtPx": 50,
+      "boundsArtPx": [
+        7,
+        18,
+        57,
+        62
+      ],
+      "groundRow": 61,
+      "colorCount": 12,
+      "eye2x2Squares": 1,
+      "palette": {
+        "skin": [
+          "#385339",
+          "#6f9252",
+          "#a8bc75"
+        ],
+        "club": [
+          "#525963",
+          "#939c9e",
+          "#dbe1da"
+        ],
+        "tusks": [
+          "#b6bba7",
+          "#e4e5d3",
+          "#fffdf0"
+        ],
+        "eye": [
+          "#ffe25a"
+        ]
+      }
+    }
+  ]
+}

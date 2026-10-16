@@ -1,0 +1,67 @@
+{
+ "about": "hex-scarecrow walk",
+ "frameWidth": 45,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 30
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 31
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 32
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 33
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 34
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 35
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 36
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 37
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 38
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 39
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 40
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 41
+  }
+ ]
+}

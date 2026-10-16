@@ -1,0 +1,378 @@
+[
+  {
+    "file": "arc-down-native-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-down-native-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-down-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-down-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-down-raw-v1.png",
+    "size": [
+      1983,
+      793
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-down-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-down-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-spin-native-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-spin-native-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-spin-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-spin-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-spin-raw-v1.png",
+    "size": [
+      1983,
+      793
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-spin-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-spin-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-lr-native-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-lr-native-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-lr-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-sweep-lr-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-sweep-lr-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-lr-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-lr-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-rl-native-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-rl-native-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-rl-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-sweep-rl-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-sweep-rl-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-rl-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-sweep-rl-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-thrust-native-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-thrust-native-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-thrust-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-thrust-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-thrust-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-thrust-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-thrust-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-up-native-v1.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-up-native-v2.png",
+    "size": [
+      256,
+      64
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-up-preview-v1.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-up-preview-v2.png",
+    "size": [
+      256,
+      256
+    ],
+    "animationFrames": 5
+  },
+  {
+    "file": "arc-up-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-up-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "arc-up-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "lineup-1x-v1.png",
+    "size": [
+      256,
+      384
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "lineup-1x-v2.png",
+    "size": [
+      256,
+      384
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "lineup-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "lineup-v2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "animationFrames": 1
+  },
+  {
+    "file": "reference-contact-v1.png",
+    "size": [
+      1600,
+      1600
+    ],
+    "animationFrames": 1
+  }
+]

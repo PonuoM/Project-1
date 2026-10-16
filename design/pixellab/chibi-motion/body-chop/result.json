@@ -1,0 +1,28 @@
+{
+ "usage": {
+  "type": "generations",
+  "generations": 4.0
+ },
+ "id": "06b0d7f8-5aa3-4d13-b34b-ea1030093b65",
+ "status": "completed",
+ "created_at": "2026-10-14T07:04:33.460759+00:00",
+ "last_response": {
+  "seed": 2634758688,
+  "type": "done",
+  "action": "smoothing frames",
+  "images": "15 images -> frame-NN.png",
+  "status": "initializing",
+  "progress": 1.0,
+  "flow_kind": "animation",
+  "billing_usage": {
+   "usd": 0.0,
+   "type": "generations",
+   "generations": 4
+  },
+  "generation_id": "5f5c05c5-3af9-4866-9821-e83580ec658c",
+  "queue_position": 0,
+  "billing_charged": true,
+  "generation_started_at": "2026-10-14T07:05:16.408894+00:00",
+  "estimated_wait_seconds": 0
+ }
+}

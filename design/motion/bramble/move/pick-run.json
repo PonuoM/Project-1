@@ -1,0 +1,37 @@
+{
+ "about": "Bramble run",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "run",
+   "ms": 55,
+   "sourceFrame": 31
+  },
+  {
+   "note": "run",
+   "ms": 55,
+   "sourceFrame": 32
+  },
+  {
+   "note": "run",
+   "ms": 55,
+   "sourceFrame": 33
+  },
+  {
+   "note": "run",
+   "ms": 55,
+   "sourceFrame": 34
+  },
+  {
+   "note": "run",
+   "ms": 55,
+   "sourceFrame": 35
+  },
+  {
+   "note": "run",
+   "ms": 55,
+   "sourceFrame": 36
+  }
+ ]
+}

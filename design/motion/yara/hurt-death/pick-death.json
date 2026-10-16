@@ -1,0 +1,62 @@
+{
+ "about": "Yara death (frames by measurement)",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 33
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 34
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 35
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 36
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 37
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 38
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 39
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 41
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 42
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 43
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 45
+  }
+ ]
+}

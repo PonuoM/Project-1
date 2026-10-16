@@ -1,0 +1,47 @@
+{
+ "about": "Pipra run",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 32
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 33
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 34
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 35
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 36
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 37
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 38
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 39
+  }
+ ]
+}

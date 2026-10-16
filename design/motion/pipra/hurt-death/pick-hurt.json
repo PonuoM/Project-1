@@ -1,0 +1,52 @@
+{
+ "about": "Pipra hurt (frames by measurement)",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 10
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 11
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 12
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 13
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 14
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 15
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 17
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 19
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 21
+  }
+ ]
+}

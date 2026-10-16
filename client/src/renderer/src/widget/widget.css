@@ -1,0 +1,352 @@
+/*
+ * Base look of the widget, taken from Codex's action prototype (design/prototypes/action/prototype.css, variant A).
+ * Codex's production design/mockups/widget.css (copied to public/design/widget.css) loads after this and wins.
+ * Sizes must match src/shared/widget.ts: 568×266 frame = 4px border + 32 title + 180 scene + 46 action bar.
+ */
+
+:root {
+  --tw-dark: #20282b;
+  --tw-panel: #2d3433;
+  --tw-edge: #615746;
+  --tw-gold: var(--tb-palette-gold_light);
+  --tw-brass: var(--tb-palette-gold_mid);
+  --tw-cream: var(--tb-palette-cream);
+  --tw-muted: var(--tb-palette-silver);
+  --tw-ink: var(--tb-palette-ink);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+  user-select: none;
+  color: var(--tw-cream);
+}
+
+.tw-widget {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 568px;
+  height: 266px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: var(--tw-dark);
+  border: 3px solid #101715;
+  box-shadow: inset 0 0 0 1px var(--tw-edge);
+  padding: 1px;
+}
+
+.tw-widget::before,
+.tw-widget::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 7px;
+  height: 7px;
+  border: 2px solid var(--tw-brass);
+  pointer-events: none;
+}
+
+.tw-widget::before {
+  left: 0;
+}
+
+.tw-widget::after {
+  right: 0;
+}
+
+.tw-titlebar {
+  height: 32px;
+  box-sizing: border-box;
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: linear-gradient(#493736, #322a2b);
+  border-bottom: 2px solid var(--tw-edge);
+  cursor: grab;
+  touch-action: none;
+  font-size: 12px;
+}
+
+.tw-titlebar.is-dragging {
+  cursor: grabbing;
+}
+
+.tw-sigil {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--tw-brass);
+  transform: rotate(45deg);
+  background: var(--tb-palette-red_dark);
+  margin: 0 3px;
+}
+
+.tw-stage {
+  margin-left: auto;
+  color: var(--tw-gold);
+  font-variant-numeric: tabular-nums;
+}
+
+.tw-scene {
+  position: relative;
+  width: 560px;
+  height: 180px;
+  flex: none;
+  overflow: hidden;
+  background: var(--tw-ink);
+}
+
+.tw-scene canvas {
+  display: block;
+  width: 560px;
+  height: 180px;
+  image-rendering: pixelated;
+  cursor: grab;
+}
+
+.tw-scene-top {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  line-height: 1.6;
+  text-shadow: 1px 1px var(--tw-ink), -1px -1px var(--tw-ink), 1px -1px var(--tw-ink), -1px 1px var(--tw-ink);
+  pointer-events: none;
+}
+
+.tw-phase {
+  color: var(--tw-gold);
+}
+
+.tw-phase.is-stuck {
+  color: var(--tb-ui-danger);
+}
+
+.tw-error {
+  position: absolute;
+  left: 10px;
+  bottom: 34px;
+  font-size: 11px;
+  color: var(--tb-ui-danger);
+  text-shadow: 1px 1px var(--tw-ink), -1px -1px var(--tw-ink);
+  pointer-events: none;
+}
+
+.tw-actionbar {
+  height: 46px;
+  box-sizing: border-box;
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border-top: 2px solid var(--tw-edge);
+  background: #28261f;
+  font-size: 12px;
+}
+
+.tw-actionbar button {
+  font: inherit;
+  color: var(--tw-cream);
+  background: var(--tw-dark);
+  border: 1px solid var(--tw-edge);
+  border-radius: 2px;
+  min-height: 30px;
+  padding: 2px 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tw-actionbar button:hover:not(:disabled) {
+  border-color: var(--tw-gold);
+  background: var(--tw-panel);
+}
+
+.tw-actionbar button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.tw-actionbar button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.tw-actionbar button[hidden] {
+  display: none;
+}
+
+.tw-gold {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--tw-gold);
+  min-width: 74px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tw-grow {
+  flex: 1;
+}
+
+.tw-box .tb-sprite {
+  width: 16px;
+  height: 16px;
+}
+
+.tw-box-gold.is-ready {
+  color: var(--tb-palette-green_light);
+  border-color: var(--tw-gold);
+}
+
+.tw-box.is-bump {
+  animation: tw-bump 320ms ease-out;
+}
+
+@keyframes tw-bump {
+  40% {
+    transform: translateY(-4px) scale(1.08);
+  }
+}
+
+.tw-openall {
+  color: var(--tw-gold);
+}
+
+.tw-skill {
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.tw-actionbar .tw-skill {
+  background: #6b3c27;
+  border-color: var(--tw-brass);
+  color: var(--tw-gold);
+}
+
+.tw-actionbar .tw-skill:hover:not(:disabled) {
+  background: #82512d;
+}
+
+.tw-cooldown {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--tw-gold);
+}
+
+.tw-actionbar .tw-expand {
+  width: 30px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* ---------- popups above the widget ---------- */
+
+.tw-popups {
+  position: fixed;
+  right: 0;
+  bottom: 274px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  pointer-events: none;
+}
+
+.tw-popup {
+  --tw-tier: var(--tw-edge);
+  pointer-events: auto;
+  cursor: pointer;
+  min-width: 220px;
+  max-width: 440px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 12px 8px 8px;
+  background: rgba(23, 28, 44, 0.97);
+  border: 2px solid var(--tw-tier);
+  font-size: 12px;
+  line-height: 1.5;
+  animation: tw-pop 150ms ease-out;
+}
+
+.tw-popup.is-leaving {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.tw-popup-icon {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  background: var(--tb-ui-panelBgAlt);
+  border: 2px solid var(--tw-tier);
+  box-sizing: border-box;
+}
+
+.tw-popup-icon .tb-sprite {
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+}
+
+.tw-popup-lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-popup .is-title {
+  font-size: 16px;
+}
+
+.tw-popup .is-tier {
+  color: var(--tw-tier);
+}
+
+.tw-popup .is-up {
+  color: var(--tb-palette-green_light);
+}
+
+.tw-popup .is-muted {
+  color: var(--tw-muted);
+}
+
+.tw-popup .is-accent {
+  color: var(--tw-gold);
+}
+
+.tw-popup .is-small {
+  font-size: 10px;
+}
+
+@keyframes tw-pop {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tw-box.is-bump,
+  .tw-popup {
+    animation: none;
+  }
+}

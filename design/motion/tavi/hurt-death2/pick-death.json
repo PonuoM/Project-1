@@ -1,0 +1,62 @@
+{
+ "about": "Tavi death v2",
+ "frameWidth": 80,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 37
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 38
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 39
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 40
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 42
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 44
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 46
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 47
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 48
+  },
+  {
+   "note": "",
+   "ms": 65,
+   "sourceFrame": 49
+  },
+  {
+   "note": "",
+   "ms": 600,
+   "sourceFrame": 50
+  }
+ ]
+}

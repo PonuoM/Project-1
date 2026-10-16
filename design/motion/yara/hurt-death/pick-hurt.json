@@ -1,0 +1,42 @@
+{
+ "about": "Yara hurt",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 6
+  },
+  {
+   "note": "HIT",
+   "ms": 70,
+   "sourceFrame": 7
+  },
+  {
+   "note": "recoil",
+   "ms": 60,
+   "sourceFrame": 8
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 9
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 11
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 13
+  },
+  {
+   "note": "guard",
+   "ms": 60,
+   "sourceFrame": 16
+  }
+ ]
+}

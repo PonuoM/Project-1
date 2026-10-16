@@ -1,0 +1,12 @@
+{
+  "description": "Single full-body veteran swordsman knight sprite for a premium 2D side-scrolling medieval fantasy RPG. Strict right-facing side profile, grounded ready-for-combat stance. Athletic adult proportions, small head, readable articulated arms and legs, detailed layered steel plate armor with silver highlights and dark blue-gray shadows, closed visor helmet with a flowing crimson plume, burgundy cape behind his shoulders, sturdy gauntlets and greaves, broad heavy steel longsword held forward in his RIGHT hand, compact kite shield with aged brass rim in his LEFT hand. Serious heroic silhouette, not cute, not chibi. Handcrafted 16-bit pixel art with disciplined sharp pixel clusters, nuanced metallic facets, convincing anatomy and armor volume, one-pixel near-black contour and lit inner edges. Warm top-left lighting. Character around 48-54 pixels tall within a 64x64 canvas, room around the weapon. Isolated sprite on transparent background, no floor, no scenery, no text, no UI, no multiple characters, no soft blur or painterly smooth gradients.",
+  "image_size": {
+    "width": 64,
+    "height": 64
+  },
+  "no_background": true,
+  "seed": 27183,
+  "target_palette": {
+    "max_colors": 32
+  }
+}

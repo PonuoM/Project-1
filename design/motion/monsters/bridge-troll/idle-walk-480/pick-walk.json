@@ -1,0 +1,87 @@
+{
+ "about": "bridge-troll walk",
+ "frameWidth": 54,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 23
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 24
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 25
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 26
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 27
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 28
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 29
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 30
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 31
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 32
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 33
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 34
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 35
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 36
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 37
+  },
+  {
+   "note": "walk",
+   "ms": 70,
+   "sourceFrame": 38
+  }
+ ]
+}

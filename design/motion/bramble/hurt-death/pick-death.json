@@ -1,0 +1,47 @@
+{
+ "about": "Bramble death",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 28
+  },
+  {
+   "note": "HIT",
+   "ms": 60,
+   "sourceFrame": 30
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 32
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 33
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 36
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 39
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 40
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 43
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+Image 1 is a sprite sheet: 8 frames of one pixel-art character walking (4 columns x 2 rows, each cell 384x384, every pixel is a 6x6 block).
+Image 2 shows the outfit: dark steel plate chest armor with shoulder pauldrons and a short crimson cape.
+Dress the character in EVERY frame in exactly the outfit from image 2. Keep each frame's pose, body position, head, hair and face pixel-for-pixel identical; only the clothing changes. The outfit must look identical in all 8 frames (same shapes, same colours), moving naturally with the walk. Keep the hard-edged pixel-art style with the same 6x6 pixel blocks, flat colours, no anti-aliasing, no blur, white background, same grid layout and size.

@@ -1,0 +1,28 @@
+{
+  "sourceSize": [
+    1448,
+    1086
+  ],
+  "exportSize": [
+    2048,
+    1536
+  ],
+  "nativeSize": [
+    256,
+    192
+  ],
+  "gridBlockPx": 8,
+  "sourceHasAlpha": true,
+  "exportAlphaValues": [
+    0,
+    255
+  ],
+  "colorLimit": 80,
+  "stages": 100,
+  "regions": 5,
+  "zones": 20,
+  "stagesPerZone": 5,
+  "allStagesOnOpaqueTerrain": true,
+  "relocations": [],
+  "stagePlacement": "prototype suggestions, not committed game progression"
+}

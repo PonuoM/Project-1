@@ -1,0 +1,82 @@
+[
+  {
+    "file": "land-native-v1.png",
+    "size": [
+      256,
+      192
+    ],
+    "frames": 1
+  },
+  {
+    "file": "land-raw-v1.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "frames": 1
+  },
+  {
+    "file": "land-v1.png",
+    "size": [
+      2048,
+      1536
+    ],
+    "frames": 1
+  },
+  {
+    "file": "motion-preview-v1.png",
+    "size": [
+      768,
+      576
+    ],
+    "frames": 13
+  },
+  {
+    "file": "motion-still-v1.png",
+    "size": [
+      768,
+      576
+    ],
+    "frames": 1
+  },
+  {
+    "file": "overview-v1.png",
+    "size": [
+      2048,
+      1536
+    ],
+    "frames": 1
+  },
+  {
+    "file": "preview-desktop-v1.png",
+    "size": [
+      1425,
+      1168
+    ],
+    "frames": 1
+  },
+  {
+    "file": "preview-desktop-v2.png",
+    "size": [
+      1265,
+      1168
+    ],
+    "frames": 1
+  },
+  {
+    "file": "preview-mobile-v1.png",
+    "size": [
+      375,
+      1121
+    ],
+    "frames": 1
+  },
+  {
+    "file": "preview-mobile-v2.png",
+    "size": [
+      375,
+      1121
+    ],
+    "frames": 1
+  }
+]

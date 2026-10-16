@@ -1,0 +1,67 @@
+{
+ "about": "tavi walk (group clip, 2 steps)",
+ "frameWidth": 50,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 19
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 20
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 21
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 22
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 23
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 24
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 25
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 26
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 27
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 28
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 29
+  },
+  {
+   "note": "walk",
+   "ms": 60,
+   "sourceFrame": 30
+  }
+ ]
+}

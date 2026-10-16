@@ -1,0 +1,134 @@
+{
+  "hood": {
+    "file": "parts/hood.png",
+    "source": "equipment/candidate-02.png",
+    "region": [
+      0,
+      0,
+      52,
+      68
+    ],
+    "trim": [
+      11,
+      16,
+      48,
+      63
+    ],
+    "size": [
+      37,
+      47
+    ],
+    "discardedNeighborPixels": 0,
+    "processing": "lossless transparent crop and removal of detached neighboring-item pixels; original component colors retained"
+  },
+  "shirt": {
+    "file": "parts/shirt.png",
+    "source": "equipment/candidate-02.png",
+    "region": [
+      52,
+      0,
+      91,
+      82
+    ],
+    "trim": [
+      3,
+      23,
+      34,
+      75
+    ],
+    "size": [
+      31,
+      52
+    ],
+    "discardedNeighborPixels": 0,
+    "processing": "lossless transparent crop and removal of detached neighboring-item pixels; original component colors retained"
+  },
+  "pants": {
+    "file": "parts/pants.png",
+    "source": "equipment/candidate-02.png",
+    "region": [
+      92,
+      0,
+      128,
+      49
+    ],
+    "trim": [
+      1,
+      22,
+      25,
+      44
+    ],
+    "size": [
+      24,
+      22
+    ],
+    "discardedNeighborPixels": 0,
+    "processing": "lossless transparent crop and removal of detached neighboring-item pixels; original component colors retained"
+  },
+  "sword": {
+    "file": "parts/sword.png",
+    "source": "equipment/candidate-02.png",
+    "region": [
+      0,
+      88,
+      65,
+      124
+    ],
+    "trim": [
+      10,
+      6,
+      63,
+      25
+    ],
+    "size": [
+      53,
+      19
+    ],
+    "discardedNeighborPixels": 0,
+    "processing": "lossless transparent crop and removal of detached neighboring-item pixels; original component colors retained"
+  },
+  "wrist": {
+    "file": "parts/wrist.png",
+    "source": "equipment/candidate-02.png",
+    "region": [
+      65,
+      88,
+      86,
+      122
+    ],
+    "trim": [
+      8,
+      10,
+      18,
+      21
+    ],
+    "size": [
+      10,
+      11
+    ],
+    "discardedNeighborPixels": 0,
+    "processing": "lossless transparent crop and removal of detached neighboring-item pixels; original component colors retained"
+  },
+  "boots": {
+    "file": "parts/boots.png",
+    "source": "equipment/candidate-02.png",
+    "region": [
+      88,
+      85,
+      128,
+      125
+    ],
+    "trim": [
+      7,
+      6,
+      29,
+      28
+    ],
+    "size": [
+      22,
+      22
+    ],
+    "discardedNeighborPixels": 0,
+    "processing": "lossless transparent crop and removal of detached neighboring-item pixels; original component colors retained"
+  }
+}

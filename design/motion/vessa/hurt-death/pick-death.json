@@ -1,0 +1,52 @@
+{
+ "about": "Vessa death (frames by measurement)",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 44
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 46
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 47
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 48
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 49
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 51
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 53
+  },
+  {
+   "note": "",
+   "ms": 70,
+   "sourceFrame": 54
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 56
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "about": "death (falls, lies still; frames after 47 get up and are unused)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 0
+  },
+  {
+   "note": "hit",
+   "ms": 60,
+   "sourceFrame": 8
+  },
+  {
+   "note": "jolt",
+   "ms": 60,
+   "sourceFrame": 10
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 16
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 19
+  },
+  {
+   "note": "drop",
+   "ms": 70,
+   "sourceFrame": 20
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 22
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 27
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 28
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 30
+  },
+  {
+   "note": "down",
+   "ms": 120,
+   "sourceFrame": 36
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 44
+  }
+ ]
+}

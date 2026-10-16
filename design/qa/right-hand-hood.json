@@ -1,0 +1,17 @@
+{
+  "nativePoseSamples":41,
+  "equipmentRemovalChecks":246,
+  "removalFailures":0,
+  "boundaryTouches":0,
+  "frameReportFailures":0,
+  "weaponAnchor":"right (near-side arm)",
+  "wrongHandAnchors":0,
+  "mobileOverflow":false,
+  "heavySlashImpactVerified":true,
+  "heavySlashFrameMs":[25,45,70,100,25,45,90,140,80],
+  "heavySlashDurationMs":620,
+  "impactTimeMs":310,
+  "hitStopMs":70,
+  "provenance":"Actual PixelLab slam-v2 body frames with explicit original-texture arm reposing; generated hood with native alpha masks",
+  "ownerAcceptance":"pending"
+}

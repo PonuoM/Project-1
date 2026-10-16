@@ -1,0 +1,134 @@
+{
+ "info": {
+  "kiki": {
+   "scale": 8,
+   "origin": [
+    596,
+    296
+   ],
+   "box": [
+    668,
+    440,
+    908,
+    664
+   ],
+   "native": 48
+  },
+  "thornboar": {
+   "scale": 8,
+   "origin": [
+    596,
+    296
+   ],
+   "box": [
+    628,
+    424,
+    948,
+    664
+   ],
+   "native": 48
+  },
+  "hex-scarecrow": {
+   "scale": 8,
+   "origin": [
+    596,
+    296
+   ],
+   "box": [
+    660,
+    328,
+    916,
+    664
+   ],
+   "native": 48
+  },
+  "bridge-troll": {
+   "scale": 8,
+   "origin": [
+    468,
+    168
+   ],
+   "box": [
+    524,
+    312,
+    924,
+    664
+   ],
+   "native": 64
+  },
+  "grimfang": {
+   "scale": 4,
+   "origin": [
+    468,
+    168
+   ],
+   "box": [
+    520,
+    288,
+    924,
+    672
+   ],
+   "native": 128
+  },
+  "thunderhead": {
+   "scale": 4,
+   "origin": [
+    340,
+    40
+   ],
+   "box": [
+    364,
+    88,
+    952,
+    672
+   ],
+   "native": 160
+  }
+ },
+ "groups": {
+  "mob-group-a": {
+   "kiki": {
+    "scale": 8,
+    "origin": [
+     44,
+     296
+    ],
+    "native": 48
+   },
+   "thornboar": {
+    "scale": 8,
+    "origin": [
+     440,
+     296
+    ],
+    "native": 48
+   },
+   "hex-scarecrow": {
+    "scale": 8,
+    "origin": [
+     844,
+     296
+    ],
+    "native": 48
+   }
+  },
+  "mob-group-b": {
+   "bridge-troll": {
+    "scale": 8,
+    "origin": [
+     102,
+     168
+    ],
+    "native": 64
+   },
+   "grimfang": {
+    "scale": 4,
+    "origin": [
+     664,
+     168
+    ],
+    "native": 128
+   }
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "about": "Rika run loop",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 34
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 35
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 36
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 37
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 38
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 39
+  }
+ ]
+}

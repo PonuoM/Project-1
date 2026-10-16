@@ -1,0 +1,66 @@
+{
+  "result": "pass",
+  "pngs": [
+    {
+      "file": "icon-16.png",
+      "size": 16,
+      "colors": 6
+    },
+    {
+      "file": "icon-24.png",
+      "size": 24,
+      "colors": 7
+    },
+    {
+      "file": "icon-32.png",
+      "size": 32,
+      "colors": 7
+    },
+    {
+      "file": "icon-48.png",
+      "size": 48,
+      "colors": 7
+    },
+    {
+      "file": "icon-64.png",
+      "size": 64,
+      "colors": 7
+    },
+    {
+      "file": "icon-128.png",
+      "size": 128,
+      "colors": 7
+    },
+    {
+      "file": "icon-256.png",
+      "size": 256,
+      "colors": 7
+    },
+    {
+      "file": "tray-16.png",
+      "size": 16,
+      "colors": 6
+    },
+    {
+      "file": "tray-32.png",
+      "size": 32,
+      "colors": 7
+    }
+  ],
+  "icoSizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    256
+  ],
+  "checks": [
+    "native dimensions",
+    "RGBA binary alpha",
+    "palette and color budget",
+    "transparent corners",
+    "ICO native PNG payload identity",
+    "ICO decoded size directory"
+  ]
+}

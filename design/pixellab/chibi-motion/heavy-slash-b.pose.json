@@ -1,0 +1,421 @@
+{
+ "about": "Take B of the heavy rising slash. Take A (slash-a/) hid the sword during the wind-up because the weapon arm is the far arm (behind the torso) and lost it in the follow-through when the hand sat at the chin. B: the weapon elbow/wrist draw in front of the chest while winding up (z override), the forearm points along the planned blade every frame, and the follow-through stays at shoulder height.",
+ "reference": "hero-ref-64.png",
+ "restSkeleton": "estimate-result.json",
+ "referenceSize": 64,
+ "canvas": 80,
+ "offset": [
+  8,
+  16
+ ],
+ "groundY": 61.5,
+ "headCenter": [
+  31,
+  26
+ ],
+ "headRadius": 13.5,
+ "weaponHand": "L",
+ "bladeLength": 15,
+ "impactFrame": 7,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": 3,
+   "hands": {
+    "L": [
+     37,
+     49
+    ]
+   },
+   "blade": 35
+  },
+  {
+   "note": "sink",
+   "ms": 60,
+   "pelvis": [
+    -1,
+    1.5
+   ],
+   "lean": -3,
+   "hands": {
+    "L": [
+     29,
+     50
+    ],
+    "R": [
+     25,
+     49
+    ]
+   },
+   "blade": 150,
+   "z": {
+    "LEFT ELBOW": 2,
+    "LEFT ARM": 2
+   }
+  },
+  {
+   "note": "wind-up",
+   "ms": 60,
+   "pelvis": [
+    -2,
+    2.5
+   ],
+   "lean": -8,
+   "hands": {
+    "L": [
+     24,
+     52
+    ],
+    "R": [
+     31,
+     46
+    ]
+   },
+   "elbow": {
+    "L": "back"
+   },
+   "blade": 160,
+   "z": {
+    "LEFT ELBOW": 2,
+    "LEFT ARM": 2
+   },
+   "weaponFront": false
+  },
+  {
+   "note": "coil",
+   "ms": 70,
+   "pelvis": [
+    -3,
+    3
+   ],
+   "lean": -12,
+   "hands": {
+    "L": [
+     19,
+     51
+    ],
+    "R": [
+     32,
+     45
+    ]
+   },
+   "elbow": {
+    "L": "back"
+   },
+   "feet": {
+    "L": [
+     34,
+     58.6
+    ]
+   },
+   "blade": 170,
+   "z": {
+    "LEFT ELBOW": 2,
+    "LEFT ARM": 2
+   },
+   "weaponFront": false
+  },
+  {
+   "note": "HOLD",
+   "ms": 110,
+   "pelvis": [
+    -3,
+    3.5
+   ],
+   "lean": -13,
+   "hands": {
+    "L": [
+     18.5,
+     51.5
+    ],
+    "R": [
+     32.5,
+     45
+    ]
+   },
+   "elbow": {
+    "L": "back"
+   },
+   "feet": {
+    "L": [
+     34.5,
+     58.2
+    ]
+   },
+   "blade": 172,
+   "z": {
+    "LEFT ELBOW": 2,
+    "LEFT ARM": 2
+   },
+   "weaponFront": false
+  },
+  {
+   "note": "launch",
+   "ms": 40,
+   "pelvis": [
+    1,
+    2.5
+   ],
+   "lean": -2,
+   "hands": {
+    "L": [
+     27,
+     54
+    ],
+    "R": [
+     31,
+     46
+    ]
+   },
+   "feet": {
+    "L": [
+     37.5,
+     59.5
+    ]
+   },
+   "blade": 165,
+   "z": {
+    "LEFT ELBOW": 2,
+    "LEFT ARM": 2
+   },
+   "weaponFront": false
+  },
+  {
+   "note": "sweep",
+   "ms": 30,
+   "pelvis": [
+    4,
+    3
+   ],
+   "lean": 6,
+   "hands": {
+    "L": [
+     38,
+     53
+    ],
+    "R": [
+     26,
+     47
+    ]
+   },
+   "feet": {
+    "L": [
+     39.5,
+     59.5
+    ]
+   },
+   "blade": 30,
+   "elbow": {
+    "L": "back"
+   }
+  },
+  {
+   "note": "IMPACT",
+   "ms": 50,
+   "pelvis": [
+    6,
+    3.5
+   ],
+   "lean": 12,
+   "hands": {
+    "L": [
+     48,
+     48
+    ],
+    "R": [
+     24,
+     46
+    ]
+   },
+   "elbow": {
+    "L": "down"
+   },
+   "feet": {
+    "L": [
+     40,
+     59.5
+    ],
+    "R": [
+     24.5,
+     59.3
+    ]
+   },
+   "blade": -25
+  },
+  {
+   "note": "squash",
+   "ms": 60,
+   "pelvis": [
+    6.5,
+    4
+   ],
+   "lean": 14,
+   "hands": {
+    "L": [
+     51,
+     47
+    ],
+    "R": [
+     24,
+     47
+    ]
+   },
+   "feet": {
+    "L": [
+     40,
+     59.5
+    ],
+    "R": [
+     24.5,
+     59.3
+    ]
+   },
+   "blade": -30
+  },
+  {
+   "note": "follow HOLD",
+   "ms": 90,
+   "pelvis": [
+    6,
+    4
+   ],
+   "lean": 12,
+   "hands": {
+    "L": [
+     50.5,
+     47.5
+    ],
+    "R": [
+     25,
+     47
+    ]
+   },
+   "feet": {
+    "L": [
+     40,
+     59.5
+    ],
+    "R": [
+     24.5,
+     59.3
+    ]
+   },
+   "blade": -28
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "pelvis": [
+    4.5,
+    3
+   ],
+   "lean": 8,
+   "hands": {
+    "L": [
+     46,
+     48
+    ],
+    "R": [
+     25,
+     48
+    ]
+   },
+   "feet": {
+    "L": [
+     39,
+     59.5
+    ],
+    "R": [
+     25,
+     59.3
+    ]
+   },
+   "blade": -5
+  },
+  {
+   "note": "recover",
+   "ms": 60,
+   "pelvis": [
+    3,
+    2
+   ],
+   "lean": 6,
+   "hands": {
+    "L": [
+     42,
+     50
+    ]
+   },
+   "feet": {
+    "L": [
+     37,
+     59.5
+    ],
+    "R": [
+     24,
+     59.3
+    ]
+   },
+   "blade": 20
+  },
+  {
+   "note": "step back",
+   "ms": 60,
+   "pelvis": [
+    1.5,
+    1
+   ],
+   "lean": 4,
+   "hands": {
+    "L": [
+     39.5,
+     50
+    ]
+   },
+   "feet": {
+    "L": [
+     35,
+     59.5
+    ]
+   },
+   "blade": 30
+  },
+  {
+   "note": "settle",
+   "ms": 60,
+   "pelvis": [
+    0,
+    1
+   ],
+   "lean": 3,
+   "hands": {
+    "L": [
+     37.5,
+     49.5
+    ]
+   },
+   "blade": 34
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "pelvis": [
+    0,
+    0.5
+   ],
+   "lean": 3,
+   "hands": {
+    "L": [
+     37,
+     49
+    ]
+   },
+   "blade": 35
+  }
+ ]
+}

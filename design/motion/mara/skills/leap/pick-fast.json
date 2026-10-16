@@ -1,0 +1,102 @@
+{
+ "about": "leap fast cut (manual)",
+ "frameWidth": 128,
+ "impactFrame": 8,
+ "frames": [
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 0
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 18
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 20
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 22
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 24
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 26
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 28
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 30
+  },
+  {
+   "note": "HIT",
+   "ms": 70,
+   "sourceFrame": 32
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 34
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 36
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 38
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 40
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 42
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 44
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 46
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 48
+  },
+  {
+   "note": "",
+   "ms": 35,
+   "sourceFrame": 50
+  },
+  {
+   "note": "",
+   "ms": 60,
+   "sourceFrame": 61
+  }
+ ]
+}

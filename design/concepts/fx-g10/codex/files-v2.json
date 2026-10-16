@@ -1,0 +1,154 @@
+[
+  {
+    "file": "explosion-raw-v1.png",
+    "size": [
+      1983,
+      793
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "explosion-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "explosion-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "fire-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "fire-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "fire-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "ice-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "ice-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "ice-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lightning-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lightning-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lightning-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-1x-v1.png",
+    "size": [
+      256,
+      320
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-1x-v2.png",
+    "size": [
+      256,
+      320
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v1.png",
+    "size": [
+      1024,
+      1280
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v2.png",
+    "size": [
+      1024,
+      1280
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "poison-raw-v1.png",
+    "size": [
+      2172,
+      724
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "poison-v1.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "poison-v2.png",
+    "size": [
+      1024,
+      256
+    ],
+    "format": "PNG"
+  }
+]

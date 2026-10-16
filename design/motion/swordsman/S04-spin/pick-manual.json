@@ -1,0 +1,72 @@
+{
+ "about": "hand-picked by Claude from the Flow clip (fast timing)",
+ "source": "frames/",
+ "frameWidth": 128,
+ "impactFrame": 4,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 50,
+   "sourceFrame": 0
+  },
+  {
+   "note": "extend",
+   "ms": 40,
+   "sourceFrame": 3
+  },
+  {
+   "note": "set",
+   "ms": 50,
+   "sourceFrame": 5
+  },
+  {
+   "note": "spin front",
+   "ms": 45,
+   "sourceFrame": 20
+  },
+  {
+   "note": "spin back",
+   "ms": 45,
+   "sourceFrame": 21
+  },
+  {
+   "note": "spin back-left",
+   "ms": 45,
+   "sourceFrame": 22
+  },
+  {
+   "note": "spin front",
+   "ms": 45,
+   "sourceFrame": 24
+  },
+  {
+   "note": "spin back",
+   "ms": 45,
+   "sourceFrame": 25
+  },
+  {
+   "note": "spin back-left",
+   "ms": 45,
+   "sourceFrame": 26
+  },
+  {
+   "note": "stop",
+   "ms": 50,
+   "sourceFrame": 44
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 45
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 47
+  }
+ ],
+ "loop": [
+  3,
+  8
+ ]
+}

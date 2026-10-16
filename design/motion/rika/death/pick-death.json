@@ -1,0 +1,67 @@
+{
+ "about": "Rika death (frames 2-3 skipped: an attacker weapon appeared)",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 0
+  },
+  {
+   "note": "hit",
+   "ms": 60,
+   "sourceFrame": 4
+  },
+  {
+   "note": "jolt",
+   "ms": 60,
+   "sourceFrame": 6
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 10
+  },
+  {
+   "note": "stagger",
+   "ms": 60,
+   "sourceFrame": 16
+  },
+  {
+   "note": "sway",
+   "ms": 60,
+   "sourceFrame": 24
+  },
+  {
+   "note": "sway",
+   "ms": 60,
+   "sourceFrame": 32
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 36
+  },
+  {
+   "note": "kneel",
+   "ms": 70,
+   "sourceFrame": 40
+  },
+  {
+   "note": "slump",
+   "ms": 80,
+   "sourceFrame": 44
+  },
+  {
+   "note": "fall",
+   "ms": 60,
+   "sourceFrame": 45
+  },
+  {
+   "note": "lie still",
+   "ms": 600,
+   "sourceFrame": 47
+  }
+ ]
+}

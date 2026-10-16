@@ -1,0 +1,237 @@
+[
+  {
+    "city": 1,
+    "zone": 0,
+    "name": "Greenhollow Village",
+    "x": 298,
+    "y": 719,
+    "kind": "village"
+  },
+  {
+    "city": 1,
+    "zone": 1,
+    "name": "Greenhollow Fields",
+    "x": 382,
+    "y": 780,
+    "kind": "zone"
+  },
+  {
+    "city": 1,
+    "zone": 2,
+    "name": "Windmill Farms",
+    "x": 489,
+    "y": 685,
+    "kind": "zone"
+  },
+  {
+    "city": 1,
+    "zone": 3,
+    "name": "Troll Bridge",
+    "x": 570,
+    "y": 584,
+    "kind": "zone"
+  },
+  {
+    "city": 1,
+    "zone": 4,
+    "name": "Wolfden Woods",
+    "x": 532,
+    "y": 511,
+    "kind": "zone"
+  },
+  {
+    "city": 2,
+    "zone": 0,
+    "name": "Mirewood Camp",
+    "x": 750,
+    "y": 521,
+    "kind": "camp"
+  },
+  {
+    "city": 2,
+    "zone": 1,
+    "name": "Glowcap Hollow",
+    "x": 728,
+    "y": 399,
+    "kind": "zone"
+  },
+  {
+    "city": 2,
+    "zone": 2,
+    "name": "Wisp Marsh",
+    "x": 962,
+    "y": 472,
+    "kind": "zone"
+  },
+  {
+    "city": 2,
+    "zone": 3,
+    "name": "Gingerbread Lane",
+    "x": 947,
+    "y": 340,
+    "kind": "zone"
+  },
+  {
+    "city": 2,
+    "zone": 4,
+    "name": "Candy Cottage",
+    "x": 883,
+    "y": 275,
+    "kind": "zone"
+  },
+  {
+    "city": 3,
+    "zone": 0,
+    "name": "Vastsand Camp",
+    "x": 900,
+    "y": 744,
+    "kind": "camp"
+  },
+  {
+    "city": 3,
+    "zone": 1,
+    "name": "Scarab Dunes",
+    "x": 1024,
+    "y": 847,
+    "kind": "zone"
+  },
+  {
+    "city": 3,
+    "zone": 2,
+    "name": "Scorpion Canyon",
+    "x": 1126,
+    "y": 756,
+    "kind": "zone"
+  },
+  {
+    "city": 3,
+    "zone": 3,
+    "name": "Mummy Necropolis",
+    "x": 1267,
+    "y": 687,
+    "kind": "zone"
+  },
+  {
+    "city": 3,
+    "zone": 4,
+    "name": "Lamp Sanctum",
+    "x": 1084,
+    "y": 623,
+    "kind": "zone"
+  },
+  {
+    "city": 4,
+    "zone": 0,
+    "name": "Frostspire Camp",
+    "x": 694,
+    "y": 129,
+    "kind": "camp"
+  },
+  {
+    "city": 4,
+    "zone": 1,
+    "name": "Pinefrost Pass",
+    "x": 785,
+    "y": 211,
+    "kind": "zone"
+  },
+  {
+    "city": 4,
+    "zone": 2,
+    "name": "Yeti Caves",
+    "x": 837,
+    "y": 91,
+    "kind": "zone"
+  },
+  {
+    "city": 4,
+    "zone": 3,
+    "name": "Rime Lake",
+    "x": 985,
+    "y": 152,
+    "kind": "zone"
+  },
+  {
+    "city": 4,
+    "zone": 4,
+    "name": "Ice Palace",
+    "x": 1114,
+    "y": 76,
+    "kind": "zone"
+  },
+  {
+    "city": 5,
+    "zone": 0,
+    "name": "Cinderthorn Camp",
+    "x": 1176,
+    "y": 313,
+    "kind": "camp"
+  },
+  {
+    "city": 5,
+    "zone": 1,
+    "name": "Ashen Fields",
+    "x": 1201,
+    "y": 377,
+    "kind": "zone"
+  },
+  {
+    "city": 5,
+    "zone": 2,
+    "name": "Hellhound Crags",
+    "x": 1260,
+    "y": 411,
+    "kind": "zone"
+  },
+  {
+    "city": 5,
+    "zone": 3,
+    "name": "Thorn Gate",
+    "x": 1305,
+    "y": 245,
+    "kind": "zone"
+  },
+  {
+    "city": 5,
+    "zone": 4,
+    "name": "Dragon's Throne",
+    "x": 1356,
+    "y": 141,
+    "kind": "zone"
+  },
+  {
+    "special": "beanstalk",
+    "name": "Giant Beanstalk",
+    "x": 535,
+    "y": 311,
+    "kind": "special"
+  },
+  {
+    "special": "endless-tower",
+    "name": "Endless Tower",
+    "x": 328,
+    "y": 367,
+    "kind": "special"
+  },
+  {
+    "special": "sewer-gate",
+    "name": "Greenhollow Sewer Gate",
+    "x": 294,
+    "y": 784,
+    "kind": "special"
+  },
+  {
+    "special": "fairy-tale-rift",
+    "name": "Fairy-Tale Rift",
+    "x": 1472,
+    "y": 619,
+    "kind": "special"
+  },
+  {
+    "special": "harbour",
+    "name": "Western Harbour",
+    "x": 155,
+    "y": 567,
+    "kind": "special"
+  }
+]

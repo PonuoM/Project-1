@@ -1,0 +1,47 @@
+{
+ "about": "Vessa run",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 40
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 41
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 42
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 43
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 44
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 45
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 46
+  },
+  {
+   "note": "run",
+   "ms": 50,
+   "sourceFrame": 47
+  }
+ ]
+}

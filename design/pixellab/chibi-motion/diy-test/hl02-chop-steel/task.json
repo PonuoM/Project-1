@@ -1,0 +1,20 @@
+{
+ "api": "v1",
+ "task_id": "452252600951145",
+ "response": {
+  "task_id": "452252600951145",
+  "base_resp": {
+   "status_code": 0,
+   "status_msg": "success"
+  }
+ },
+ "request": {
+  "model": "MiniMax-Hailuo-02",
+  "prompt": "2D side-view pixel-art game sprite animation on a plain flat chroma-key green background (pure green screen). Static locked-off camera: no camera movement, no zoom, no pan, no cut. The small chibi swordsman (teal bob hair, ivory hooded mantle, moss-green tunic, terracotta sash, short steel sword) performs one heavy overhead sword chop: he crouches slightly, raises the sword high behind his head and holds it for a beat, then steps forward and chops down hard so the blade strikes the ground in front of him, holds the impact pose briefly, then steps back and returns to exactly his starting ready stance. Keep the same character, outfit, colours and size in every frame, chunky crisp pixel-art style with hard edges, no motion blur, no particles, no shadows, no text, no new objects, background stays flat chroma-key green.",
+  "first_frame_image": "<image>",
+  "duration": 6,
+  "resolution": "768P",
+  "prompt_optimizer": false,
+  "last_frame_image": "<image>"
+ }
+}

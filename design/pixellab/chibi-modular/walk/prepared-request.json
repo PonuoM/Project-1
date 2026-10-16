@@ -1,0 +1,12 @@
+{
+  "endpoint": "animate-with-text-v3",
+  "description": "Looping side-view walk toward RIGHT in place: alternate left and right leg contact, down, passing and up phases with natural opposite arm swing. Modest head bob. End in the original pose for a seamless loop. Keep the same chibi proportions, teal hair, undershirt and shorts. No added clothing or weapon. Stable baseline, transparent background, keep all limbs inside 64x64.",
+  "image_size": {
+    "width": 64,
+    "height": 64
+  },
+  "no_background": true,
+  "status": "prepared only; no generation submitted",
+  "frame_count": 8,
+  "first_frame_file": "C:\\AppServ\\www\\Projects-1\\design\\pixellab\\chibi-modular\\base\\candidate-01.png"
+}

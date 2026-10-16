@@ -1,0 +1,73 @@
+{
+ "about": "hand-picked by Claude from the Flow clip (fast timing)",
+ "source": "frames/",
+ "frameWidth": 64,
+ "impactFrame": 7,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 0
+  },
+  {
+   "note": "lift",
+   "ms": 50,
+   "sourceFrame": 1
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 2
+  },
+  {
+   "note": "wind",
+   "ms": 60,
+   "sourceFrame": 3
+  },
+  {
+   "note": "wind",
+   "ms": 60,
+   "sourceFrame": 4
+  },
+  {
+   "note": "HOLD high",
+   "ms": 100,
+   "sourceFrame": 5
+  },
+  {
+   "note": "launch",
+   "ms": 40,
+   "sourceFrame": 6
+  },
+  {
+   "note": "IMPACT",
+   "ms": 100,
+   "sourceFrame": 7
+  },
+  {
+   "note": "follow",
+   "ms": 60,
+   "sourceFrame": 8
+  },
+  {
+   "note": "hold",
+   "ms": 60,
+   "sourceFrame": 9
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 10
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 11
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 12
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "imageSize": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "pinCount": 30,
+  "zoneCount": 20,
+  "villageCampCount": 5,
+  "specialCount": 5,
+  "allPinsInsideImage": true,
+  "allCoordinatesUnique": true,
+  "minPinDistancePx": 65.12,
+  "coordinateOrigin": "top-left",
+  "xDirection": "right",
+  "yDirection": "down",
+  "centres": "manually observed on final image, not copied from planned coordinates",
+  "cropSheetOrder": "rows1-5 cities1-5; columns village/camp, zones1-4; row6 specials in zones.json order"
+}

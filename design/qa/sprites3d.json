@@ -1,0 +1,1350 @@
+{
+  "frames": [
+    {
+      "animation": "idle",
+      "frame": 0,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        70,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 1,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        70,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 2,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        70,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 3,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        70,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 0,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 1,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 2,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        71,
+        65
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "idle",
+      "frame": 3,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 0,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        70,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 1,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        9,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 2,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 3,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        69,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 4,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        68,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 5,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        9,
+        67,
+        65
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 6,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        67,
+        66
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 7,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        69,
+        66
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 0,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        71,
+        65
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 1,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        72,
+        65
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 2,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        72,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 3,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 4,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        70,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 5,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        69,
+        66
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 6,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        69,
+        67
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "walk",
+      "frame": 7,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        70,
+        67
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 0,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 1,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        25,
+        8,
+        66,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 2,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        27,
+        8,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 3,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        8,
+        76,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 4,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        8,
+        71,
+        73
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 5,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        31,
+        8,
+        70,
+        70
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 6,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 0,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 1,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        24,
+        7,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 2,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        27,
+        7,
+        74,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "attack",
+      "frame": 3,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        7,
+        77,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 4,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        7,
+        72,
+        75
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 5,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        31,
+        7,
+        71,
+        72
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "attack",
+      "frame": 6,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 0,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "slam",
+      "frame": 1,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        3,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "slam",
+      "frame": 2,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        4,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "slam",
+      "frame": 3,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        27,
+        8,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 4,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        25,
+        8,
+        64,
+        70
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 5,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        27,
+        6,
+        66,
+        73
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 6,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        10,
+        71,
+        73
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 7,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        30,
+        8,
+        70,
+        66
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "slam",
+      "frame": 8,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "slam",
+      "frame": 0,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "slam",
+      "frame": 1,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        1,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "slam",
+      "frame": 2,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        1,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "slam",
+      "frame": 3,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        27,
+        7,
+        69,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 4,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        25,
+        7,
+        65,
+        72
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 5,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        27,
+        5,
+        67,
+        75
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 6,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        9,
+        72,
+        75
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "slam",
+      "frame": 7,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        30,
+        7,
+        71,
+        67
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "slam",
+      "frame": 8,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 0,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 1,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        3,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "leap",
+      "frame": 2,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        1,
+        67,
+        63
+      ],
+      "bottomRow": 61,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "leap",
+      "frame": 3,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        2,
+        67,
+        60
+      ],
+      "bottomRow": 58,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 4,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        26,
+        4,
+        69,
+        60
+      ],
+      "bottomRow": 58,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 5,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        26,
+        5,
+        65,
+        62
+      ],
+      "bottomRow": 60,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 6,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        8,
+        71,
+        73
+      ],
+      "bottomRow": 61,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 7,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        9,
+        70,
+        72
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 8,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        30,
+        8,
+        69,
+        65
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 9,
+      "outfit": "cloth",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        8,
+        71,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 0,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 1,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        1,
+        67,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "leap",
+      "frame": 2,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        0,
+        67,
+        63
+      ],
+      "bottomRow": 61,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "back"
+    },
+    {
+      "animation": "leap",
+      "frame": 3,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        28,
+        0,
+        68,
+        60
+      ],
+      "bottomRow": 58,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 4,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        26,
+        3,
+        70,
+        60
+      ],
+      "bottomRow": 58,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 5,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        26,
+        4,
+        67,
+        63
+      ],
+      "bottomRow": 60,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 6,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        7,
+        72,
+        75
+      ],
+      "bottomRow": 61,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "forward"
+    },
+    {
+      "animation": "leap",
+      "frame": 7,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        32,
+        8,
+        71,
+        74
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 8,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        30,
+        7,
+        71,
+        67
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    },
+    {
+      "animation": "leap",
+      "frame": 9,
+      "outfit": "iron",
+      "compositeDifferingPixels3D": 0,
+      "bounds": [
+        29,
+        7,
+        73,
+        64
+      ],
+      "bottomRow": 62,
+      "gripDistancePx": 0.0,
+      "rightHandBone": "handslot.r",
+      "headVariant": "neutral"
+    }
+  ],
+  "referenceDifferences": {
+    "cloth_idle": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "iron_idle": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "cloth_walk": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iron_walk": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cloth_attack": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iron_attack": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cloth_slam": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iron_slam": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cloth_leap": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "iron_leap": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "renderSeconds": 4.3397536277771,
+  "weaponGripFailures": 0,
+  "edgeFrames": [
+    [
+      "leap",
+      2,
+      "iron"
+    ],
+    [
+      "leap",
+      3,
+      "iron"
+    ]
+  ],
+  "feetFailures": [],
+  "colorsPerItem": {
+    "body": 5,
+    "chest_tunic": 7,
+    "chest_plate": 3,
+    "chest_plum": 7,
+    "legs_trousers": 3,
+    "legs_leather": 3,
+    "boots_boots": 3,
+    "boots_greaves": 3,
+    "wrist_bracer": 3,
+    "wrist_cuff": 3,
+    "weapon_sword": 7,
+    "weapon_sabre": 5
+  },
+  "headSource": "base/candidate-01.png unchanged; 38x30 crop, offline integer pixel edits",
+  "noNewAICalls": true,
+  "note": "3D-only composite compared to independently rendered full outfit. Hybrid reference adds the same original head and authored hat to that independent render."
+}

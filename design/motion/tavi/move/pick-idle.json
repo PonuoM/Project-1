@@ -1,0 +1,27 @@
+{
+ "about": "Tavi idle",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 0
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 1
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 2
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 3
+  }
+ ]
+}

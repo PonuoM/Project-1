@@ -1,0 +1,73 @@
+{
+ "about": "hand-picked by Claude (MiniMax Design H3 768P)",
+ "source": "frames/",
+ "frameWidth": 128,
+ "impactFrame": 8,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 0
+  },
+  {
+   "note": "shift",
+   "ms": 50,
+   "sourceFrame": 14
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 15
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 16
+  },
+  {
+   "note": "wind",
+   "ms": 60,
+   "sourceFrame": 17
+  },
+  {
+   "note": "HOLD high",
+   "ms": 100,
+   "sourceFrame": 20
+  },
+  {
+   "note": "launch",
+   "ms": 30,
+   "sourceFrame": 29
+  },
+  {
+   "note": "swing smear",
+   "ms": 40,
+   "sourceFrame": 30
+  },
+  {
+   "note": "IMPACT",
+   "ms": 90,
+   "sourceFrame": 31
+  },
+  {
+   "note": "follow",
+   "ms": 60,
+   "sourceFrame": 40
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 51
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 53
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 55
+  }
+ ]
+}

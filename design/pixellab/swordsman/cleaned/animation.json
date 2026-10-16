@@ -1,0 +1,14 @@
+{
+  "file": "attack.png",
+  "width": 64,
+  "height": 64,
+  "frames": 9,
+  "fps": 32,
+  "impact": 3,
+  "hitStopMs": 45,
+  "loopPauseMs": 650,
+  "source": "Cleaned copy of ../attack-frames (stray pixels removed; frames not moved). Originals unchanged.",
+  "requestedFrames": 8,
+  "returnedImages": 9,
+  "cleanedBy": "design/tools/clean_pixellab_frames.py"
+}

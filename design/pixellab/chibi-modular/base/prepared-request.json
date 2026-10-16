@@ -1,0 +1,10 @@
+{
+  "endpoint": "generate-image-v2",
+  "description": "One compact chibi fantasy adventurer base body, facing RIGHT in a side view, matching the reference identity and chunky low-resolution art style. Large rounded head almost half of total height, dark teal bob hair, tiny simple profile eye, short torso and legs. Plain fitted ivory undershirt and shorts only, bare feet and bare hands. NO hat, cloak, scarf, armor, tunic, pants, gloves, boots or weapon. This is the reusable body beneath interchangeable fashion layers. Standing neutral combat-ready pose with arms and legs readable and separated. Whole figure about 48 pixels tall, centered in 64x64, feet around row 59, margins for motion. Crisp deliberate pixel clusters, dark warm one-pixel outline, restrained 24-color palette, flat 2-3 shade ramps. True transparent background, no floor, no text, no shadow, no blur, no realistic adult proportions, no extra characters.",
+  "image_size": {
+    "width": 64,
+    "height": 64
+  },
+  "no_background": true,
+  "status": "prepared only; no generation submitted"
+}

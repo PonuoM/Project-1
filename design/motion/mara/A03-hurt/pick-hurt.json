@@ -1,0 +1,57 @@
+{
+ "about": "hurt (frames 0-27 idle skipped)",
+ "frameWidth": 128,
+ "impactFrame": 1,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 40,
+   "sourceFrame": 0
+  },
+  {
+   "note": "HIT jolt",
+   "ms": 70,
+   "sourceFrame": 28
+  },
+  {
+   "note": "recoil",
+   "ms": 50,
+   "sourceFrame": 30
+  },
+  {
+   "note": "stagger back",
+   "ms": 80,
+   "sourceFrame": 32
+  },
+  {
+   "note": "hold",
+   "ms": 60,
+   "sourceFrame": 36
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 44
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 48
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 51
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 53
+  },
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 55
+  }
+ ]
+}

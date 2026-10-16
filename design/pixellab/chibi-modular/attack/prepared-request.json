@@ -1,0 +1,12 @@
+{
+  "endpoint": "animate-with-text-v3",
+  "description": "One quick ordinary RIGHT-facing unarmed swing, with a visible gripping hand reserved for a separate sword layer. Brief anticipation, forceful forward diagonal swing, short recovery to the exact original pose. Preserve chibi identity, base undershirt and shorts, no added weapon or effect baked into body. Keep whole figure inside canvas, transparent.",
+  "image_size": {
+    "width": 64,
+    "height": 64
+  },
+  "no_background": true,
+  "status": "prepared only; no generation submitted",
+  "frame_count": 8,
+  "first_frame_file": "C:\\AppServ\\www\\Projects-1\\design\\pixellab\\chibi-modular\\base\\candidate-01.png"
+}

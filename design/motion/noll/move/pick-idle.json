@@ -1,0 +1,27 @@
+{
+ "about": "Noll idle",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 4
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 5
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 6
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 7
+  }
+ ]
+}

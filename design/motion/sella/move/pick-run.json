@@ -1,0 +1,37 @@
+{
+ "about": "Sella run",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 51
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 52
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 53
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 54
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 55
+  },
+  {
+   "note": "run",
+   "ms": 60,
+   "sourceFrame": 56
+  }
+ ]
+}

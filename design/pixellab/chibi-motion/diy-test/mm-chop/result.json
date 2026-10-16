@@ -1,0 +1,25 @@
+{
+ "task": {
+  "id": "452238026912125",
+  "model": "MiniMax-H3",
+  "status": "succeeded",
+  "created_at": 1791962860,
+  "updated_at": 1791963032,
+  "content": {
+   "url": "https://video-product.cdn.minimax.io/inference_output/rollout/2026-10-14/944f9b12-ba2f-4c50-b41e-528763943e03/output_aigc.mp4"
+  },
+  "resolution": "768P",
+  "duration": 5,
+  "usage": {
+   "total_seconds": 5,
+   "input_seconds": 0,
+   "output_seconds": 5,
+   "input_image_count": 2,
+   "total_tokens": 188785,
+   "prompt_tokens": 26040,
+   "completion_tokens": 162745
+  },
+  "ratio": "",
+  "task_type": "generation"
+ }
+}

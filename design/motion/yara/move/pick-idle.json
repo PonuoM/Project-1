@@ -1,0 +1,27 @@
+{
+ "about": "Yara idle",
+ "frameWidth": 128,
+ "impactFrame": -1,
+ "frames": [
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 2
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 3
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 4
+  },
+  {
+   "note": "idle",
+   "ms": 150,
+   "sourceFrame": 5
+  }
+ ]
+}

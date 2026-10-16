@@ -1,0 +1,152 @@
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 */
+:root {  --tb-palette-ink: #171C2C;
+  --tb-palette-outline: #252C40;
+  --tb-palette-slate_dark: #343E52;
+  --tb-palette-slate_mid: #55647A;
+  --tb-palette-slate_light: #8794A7;
+  --tb-palette-silver: #B8C4CF;
+  --tb-palette-cream: #F4EAD5;
+  --tb-palette-white: #FFF9ED;
+  --tb-palette-skin_dark: #A96347;
+  --tb-palette-skin_mid: #DE9C70;
+  --tb-palette-skin_light: #F4C399;
+  --tb-palette-wood_dark: #593A31;
+  --tb-palette-wood_mid: #8B5739;
+  --tb-palette-wood_light: #C68B52;
+  --tb-palette-gold_dark: #8C5B27;
+  --tb-palette-gold_mid: #D69B37;
+  --tb-palette-gold_light: #FFD875;
+  --tb-palette-gold_glint: #FFF0AC;
+  --tb-palette-red_dark: #7F3544;
+  --tb-palette-red_mid: #D75B60;
+  --tb-palette-red_light: #F49B88;
+  --tb-palette-green_dark: #365945;
+  --tb-palette-green_mid: #6DB586;
+  --tb-palette-green_light: #B6E2B1;
+  --tb-palette-blue_dark: #314F79;
+  --tb-palette-blue_mid: #5389CA;
+  --tb-palette-blue_light: #9ACBF0;
+  --tb-palette-purple_dark: #593F7A;
+  --tb-palette-purple_mid: #B19AD8;
+  --tb-palette-purple_light: #DBCBF2;
+  --tb-rarity-common: #8794A7;
+  --tb-rarity-uncommon: #6DB586;
+  --tb-rarity-rare: #5389CA;
+  --tb-rarity-epic: #B19AD8;
+  --tb-rarity-legendary: #FFD875;
+  --tb-ui-bandBg: rgba(23,28,44,0.94);
+  --tb-ui-bandBorder: rgba(184,196,207,0.38);
+  --tb-ui-text: #FFF9ED;
+  --tb-ui-textMuted: #B8C4CF;
+  --tb-ui-textOutline: #171C2C;
+  --tb-ui-accent: #FFD875;
+  --tb-ui-danger: #F49B88;
+  --tb-ui-panelBg: #171C2C;
+  --tb-ui-panelBgAlt: #252C40;
+  --tb-ui-panelBorder: #55647A;
+  --tb-spacing-xs: 2px;
+  --tb-spacing-sm: 4px;
+  --tb-spacing-md: 8px;
+  --tb-spacing-lg: 12px;
+  --tb-spacing-xl: 16px;
+  --tb-radius-sm: 0px;
+  --tb-radius-md: 2px;
+  --tb-font-sizes-xs: 10px;
+  --tb-font-sizes-sm: 12px;
+  --tb-font-sizes-md: 16px;
+  --tb-font-sizes-lg: 24px;
+  --tb-font-family: GameFont, "Leelawadee UI", Tahoma, sans-serif;
+  --tb-frame:32px;--tb-icon:16px;--tb-hit:24px;--tb-band:64px;--tb-overlay:156px;--tb-strip:220px;--tb-taskbar:48px;
+  --tb-window-width:960px;--tb-window-height:600px;--tb-title-height:40px;--tb-nav-width:156px;
+  --tb-sprite-large:96px;--tb-cell:64px;--tb-line-height:1.6;--tb-focus-width:2px;
+  --tb-context-white:#FFFFFF;--tb-context-dark:#1E1E1E;--tb-context-grid:#DEE4E9;
+  --tb-shadow:0 1px 0 var(--tb-ui-textOutline),1px 0 0 var(--tb-ui-textOutline),-1px 0 0 var(--tb-ui-textOutline),0 -1px 0 var(--tb-ui-textOutline),1px 1px 0 var(--tb-ui-textOutline),-1px -1px 0 var(--tb-ui-textOutline),1px -1px 0 var(--tb-ui-textOutline),-1px 1px 0 var(--tb-ui-textOutline);
+}
+*{box-sizing:border-box}html{color-scheme:dark}body{margin:0;background:var(--tb-ui-panelBg);color:var(--tb-ui-text);font:var(--tb-font-sizes-sm)/var(--tb-line-height) var(--tb-font-family);font-variant-numeric:tabular-nums}
+button,input,select{font:inherit}button,select{color:var(--tb-ui-text);background:var(--tb-ui-panelBgAlt);border:1px solid var(--tb-ui-panelBorder);border-radius:var(--tb-radius-md);min-height:var(--tb-hit);padding:var(--tb-spacing-sm) var(--tb-spacing-md)}button{cursor:pointer;white-space:nowrap}button:hover,.tb-hover{background:var(--tb-palette-slate_dark);border-color:var(--tb-ui-accent)}button:active{transform:translateY(1px)}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:var(--tb-focus-width) solid var(--tb-ui-accent);outline-offset:var(--tb-spacing-xs)}button:disabled{opacity:.55;cursor:default}
+input{accent-color:var(--tb-ui-accent)}a{color:var(--tb-ui-accent);text-underline-offset:var(--tb-spacing-sm)}::selection{background:var(--tb-palette-gold_dark);color:var(--tb-ui-text)}*{scrollbar-color:var(--tb-ui-panelBorder) var(--tb-ui-panelBgAlt);scrollbar-width:thin}
+h1,h2,h3,p{margin:0}h1{font-size:var(--tb-font-sizes-lg);line-height:1.5}h2{font-size:var(--tb-font-sizes-md)}h3{font-size:var(--tb-font-sizes-sm)}.tb-muted{color:var(--tb-ui-textMuted)}.tb-accent{color:var(--tb-ui-accent)}.tb-primary{background:var(--tb-ui-accent);color:var(--tb-ui-panelBg);border-color:var(--tb-ui-accent);font-weight:bold}.tb-primary:hover{background:var(--tb-palette-gold_glint);color:var(--tb-ui-panelBg)}
+.tb-sprite{display:inline-block;width:var(--tb-frame);height:var(--tb-frame);image-rendering:pixelated;flex:none;background-repeat:no-repeat;vertical-align:middle}.tb-icon{width:var(--tb-icon);height:var(--tb-icon)}.tb-large{width:var(--tb-sprite-large);height:var(--tb-sprite-large)}
+.tb-inline{display:flex;align-items:center;gap:var(--tb-spacing-md)}.tb-between{display:flex;justify-content:space-between;align-items:center;gap:var(--tb-spacing-lg)}.tb-rarity{--tb-tier:var(--tb-rarity-common);border:2px solid var(--tb-tier);outline:1px solid var(--tb-ui-textOutline);box-shadow:inset 0 0 0 1px var(--tb-palette-cream)}.tb-common{--tb-tier:var(--tb-rarity-common)}.tb-uncommon{--tb-tier:var(--tb-rarity-uncommon)}.tb-rare{--tb-tier:var(--tb-rarity-rare)}.tb-epic{--tb-tier:var(--tb-rarity-epic)}.tb-legendary{--tb-tier:var(--tb-rarity-legendary)}.tb-tier{color:var(--tb-tier)}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.tb-s-hero_melee_idle{background-image:url("../sprites/hero_melee_idle.png");background-size:128px 32px}
+.tb-large.tb-s-hero_melee_idle{background-size:384px 96px}
+.tb-s-hero_melee_walk{background-image:url("../sprites/hero_melee_walk.png");background-size:192px 32px}
+.tb-large.tb-s-hero_melee_walk{background-size:576px 96px}
+.tb-s-hero_melee_attack{background-image:url("../sprites/hero_melee_attack.png");background-size:192px 32px}
+.tb-large.tb-s-hero_melee_attack{background-size:576px 96px}
+.tb-s-hero_melee_hurt{background-image:url("../sprites/hero_melee_hurt.png");background-size:64px 32px}
+.tb-large.tb-s-hero_melee_hurt{background-size:192px 96px}
+.tb-s-hero_melee_death{background-image:url("../sprites/hero_melee_death.png");background-size:160px 32px}
+.tb-large.tb-s-hero_melee_death{background-size:480px 96px}
+.tb-s-hero_mage_idle{background-image:url("../sprites/hero_mage_idle.png");background-size:128px 32px}
+.tb-large.tb-s-hero_mage_idle{background-size:384px 96px}
+.tb-s-hero_mage_walk{background-image:url("../sprites/hero_mage_walk.png");background-size:192px 32px}
+.tb-large.tb-s-hero_mage_walk{background-size:576px 96px}
+.tb-s-hero_mage_attack{background-image:url("../sprites/hero_mage_attack.png");background-size:192px 32px}
+.tb-large.tb-s-hero_mage_attack{background-size:576px 96px}
+.tb-s-hero_mage_hurt{background-image:url("../sprites/hero_mage_hurt.png");background-size:64px 32px}
+.tb-large.tb-s-hero_mage_hurt{background-size:192px 96px}
+.tb-s-hero_mage_death{background-image:url("../sprites/hero_mage_death.png");background-size:160px 32px}
+.tb-large.tb-s-hero_mage_death{background-size:480px 96px}
+.tb-s-hero_ranged_idle{background-image:url("../sprites/hero_ranged_idle.png");background-size:128px 32px}
+.tb-large.tb-s-hero_ranged_idle{background-size:384px 96px}
+.tb-s-hero_ranged_walk{background-image:url("../sprites/hero_ranged_walk.png");background-size:192px 32px}
+.tb-large.tb-s-hero_ranged_walk{background-size:576px 96px}
+.tb-s-hero_ranged_attack{background-image:url("../sprites/hero_ranged_attack.png");background-size:192px 32px}
+.tb-large.tb-s-hero_ranged_attack{background-size:576px 96px}
+.tb-s-hero_ranged_hurt{background-image:url("../sprites/hero_ranged_hurt.png");background-size:64px 32px}
+.tb-large.tb-s-hero_ranged_hurt{background-size:192px 96px}
+.tb-s-hero_ranged_death{background-image:url("../sprites/hero_ranged_death.png");background-size:160px 32px}
+.tb-large.tb-s-hero_ranged_death{background-size:480px 96px}
+.tb-s-slime_idle{background-image:url("../sprites/slime_idle.png");background-size:128px 32px}
+.tb-large.tb-s-slime_idle{background-size:384px 96px}
+.tb-s-slime_walk{background-image:url("../sprites/slime_walk.png");background-size:192px 32px}
+.tb-large.tb-s-slime_walk{background-size:576px 96px}
+.tb-s-slime_attack{background-image:url("../sprites/slime_attack.png");background-size:128px 32px}
+.tb-large.tb-s-slime_attack{background-size:384px 96px}
+.tb-s-slime_death{background-image:url("../sprites/slime_death.png");background-size:160px 32px}
+.tb-large.tb-s-slime_death{background-size:480px 96px}
+.tb-s-goblin_idle{background-image:url("../sprites/goblin_idle.png");background-size:128px 32px}
+.tb-large.tb-s-goblin_idle{background-size:384px 96px}
+.tb-s-goblin_walk{background-image:url("../sprites/goblin_walk.png");background-size:192px 32px}
+.tb-large.tb-s-goblin_walk{background-size:576px 96px}
+.tb-s-goblin_attack{background-image:url("../sprites/goblin_attack.png");background-size:128px 32px}
+.tb-large.tb-s-goblin_attack{background-size:384px 96px}
+.tb-s-goblin_death{background-image:url("../sprites/goblin_death.png");background-size:160px 32px}
+.tb-large.tb-s-goblin_death{background-size:480px 96px}
+.tb-s-skeleton_idle{background-image:url("../sprites/skeleton_idle.png");background-size:128px 32px}
+.tb-large.tb-s-skeleton_idle{background-size:384px 96px}
+.tb-s-skeleton_walk{background-image:url("../sprites/skeleton_walk.png");background-size:192px 32px}
+.tb-large.tb-s-skeleton_walk{background-size:576px 96px}
+.tb-s-skeleton_attack{background-image:url("../sprites/skeleton_attack.png");background-size:128px 32px}
+.tb-large.tb-s-skeleton_attack{background-size:384px 96px}
+.tb-s-skeleton_death{background-image:url("../sprites/skeleton_death.png");background-size:160px 32px}
+.tb-large.tb-s-skeleton_death{background-size:480px 96px}
+.tb-s-box_wood_idle{background-image:url("../sprites/box_wood_idle.png");background-size:32px 32px}
+.tb-large.tb-s-box_wood_idle{background-size:96px 96px}
+.tb-s-box_wood_open{background-image:url("../sprites/box_wood_open.png");background-size:160px 32px}
+.tb-large.tb-s-box_wood_open{background-size:480px 96px}
+.tb-s-box_gold_locked{background-image:url("../sprites/box_gold_locked.png");background-size:128px 32px}
+.tb-large.tb-s-box_gold_locked{background-size:384px 96px}
+.tb-s-box_gold_ready{background-image:url("../sprites/box_gold_ready.png");background-size:128px 32px}
+.tb-large.tb-s-box_gold_ready{background-size:384px 96px}
+.tb-s-box_gold_open{background-image:url("../sprites/box_gold_open.png");background-size:192px 32px}
+.tb-large.tb-s-box_gold_open{background-size:576px 96px}
+.tb-s-icon_box_wood{background-image:url("../sprites/icon_box_wood.png");background-size:16px 16px}
+.tb-s-icon_box_gold{background-image:url("../sprites/icon_box_gold.png");background-size:16px 16px}
+.tb-s-icon_coin{background-image:url("../sprites/icon_coin.png");background-size:16px 16px}
+.tb-s-icon_power{background-image:url("../sprites/icon_power.png");background-size:16px 16px}
+.tb-s-icon_stage{background-image:url("../sprites/icon_stage.png");background-size:16px 16px}
+.tb-s-icon_expand{background-image:url("../sprites/icon_expand.png");background-size:16px 16px}
+.tb-s-icon_close{background-image:url("../sprites/icon_close.png");background-size:16px 16px}
+.tb-s-icon_settings{background-image:url("../sprites/icon_settings.png");background-size:16px 16px}
+.tb-s-icon_weapon{background-image:url("../sprites/icon_weapon.png");background-size:16px 16px}
+.tb-s-icon_armor{background-image:url("../sprites/icon_armor.png");background-size:16px 16px}
+.tb-s-icon_ring{background-image:url("../sprites/icon_ring.png");background-size:16px 16px}
+.tb-s-coin_spin{background-image:url("../sprites/coin_spin.png");background-size:96px 16px}
+.tb-s-fx_hit{background-image:url("../sprites/fx_hit.png");background-size:128px 32px}
+.tb-large.tb-s-fx_hit{background-size:384px 96px}
+.tb-s-fx_levelup{background-image:url("../sprites/fx_levelup.png");background-size:192px 32px}
+.tb-large.tb-s-fx_levelup{background-size:576px 96px}
+.tb-s-fx_arrow{background-image:url("../sprites/fx_arrow.png");background-size:32px 16px}

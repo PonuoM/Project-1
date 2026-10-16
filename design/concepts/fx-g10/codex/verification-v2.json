@@ -1,0 +1,372 @@
+{
+  "exact4x4Grid": true,
+  "blackBackground": true,
+  "uniformAspectScale": true,
+  "effects": [
+    {
+      "effect": "fire",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "anchorArtPx": [
+        32,
+        52
+      ],
+      "sourceAnchor": [
+        274.0,
+        666
+      ],
+      "uniformScale": 0.07947019867549669,
+      "palette": [
+        "#000000",
+        "#b52e25",
+        "#f36b27",
+        "#ffbd45",
+        "#fff3ae"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            24,
+            33,
+            41,
+            53
+          ],
+          "occupiedArtPixels": 94
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            17,
+            4,
+            48,
+            53
+          ],
+          "occupiedArtPixels": 504
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            22,
+            13,
+            43,
+            53
+          ],
+          "occupiedArtPixels": 163
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            29,
+            23,
+            36,
+            53
+          ],
+          "occupiedArtPixels": 15
+        }
+      ]
+    },
+    {
+      "effect": "ice",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "anchorArtPx": [
+        32,
+        52
+      ],
+      "sourceAnchor": [
+        263.0,
+        607
+      ],
+      "uniformScale": 0.1111111111111111,
+      "palette": [
+        "#000000",
+        "#164f9c",
+        "#248cd0",
+        "#65dfef",
+        "#f0ffff"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            22,
+            31,
+            43,
+            53
+          ],
+          "occupiedArtPixels": 181
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            12,
+            4,
+            53,
+            53
+          ],
+          "occupiedArtPixels": 749
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            9,
+            10,
+            58,
+            52
+          ],
+          "occupiedArtPixels": 431
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            23,
+            46,
+            44,
+            52
+          ],
+          "occupiedArtPixels": 30
+        }
+      ]
+    },
+    {
+      "effect": "poison",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "anchorArtPx": [
+        32,
+        52
+      ],
+      "sourceAnchor": [
+        274.5,
+        606
+      ],
+      "uniformScale": 0.09836065573770492,
+      "palette": [
+        "#000000",
+        "#176735",
+        "#39b83d",
+        "#a3e835",
+        "#e6ff92"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            17,
+            35,
+            47,
+            53
+          ],
+          "occupiedArtPixels": 171
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            7,
+            13,
+            59,
+            53
+          ],
+          "occupiedArtPixels": 643
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            5,
+            19,
+            56,
+            53
+          ],
+          "occupiedArtPixels": 380
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            20,
+            44,
+            48,
+            53
+          ],
+          "occupiedArtPixels": 99
+        }
+      ]
+    },
+    {
+      "effect": "lightning",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "anchorArtPx": [
+        32,
+        52
+      ],
+      "sourceAnchor": [
+        273.0,
+        647
+      ],
+      "uniformScale": 0.07418856259659969,
+      "palette": [
+        "#000000",
+        "#6741a4",
+        "#d6a83c",
+        "#ffe875",
+        "#ffffff"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            27,
+            9,
+            38,
+            52
+          ],
+          "occupiedArtPixels": 64
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            22,
+            4,
+            45,
+            53
+          ],
+          "occupiedArtPixels": 237
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            24,
+            9,
+            41,
+            52
+          ],
+          "occupiedArtPixels": 124
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            25,
+            46,
+            40,
+            52
+          ],
+          "occupiedArtPixels": 21
+        }
+      ]
+    },
+    {
+      "effect": "explosion",
+      "sourceSize": [
+        1983,
+        793
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "anchorArtPx": [
+        32,
+        52
+      ],
+      "sourceAnchor": [
+        307.5,
+        613
+      ],
+      "uniformScale": 0.08780487804878048,
+      "palette": [
+        "#000000",
+        "#59616b",
+        "#c45324",
+        "#ff9c42",
+        "#fff1bc"
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "phase": "start",
+          "boundsArtPx": [
+            16,
+            34,
+            49,
+            53
+          ],
+          "occupiedArtPixels": 86
+        },
+        {
+          "frame": 2,
+          "phase": "peak",
+          "boundsArtPx": [
+            5,
+            18,
+            48,
+            55
+          ],
+          "occupiedArtPixels": 432
+        },
+        {
+          "frame": 3,
+          "phase": "breakup",
+          "boundsArtPx": [
+            8,
+            18,
+            48,
+            55
+          ],
+          "occupiedArtPixels": 246
+        },
+        {
+          "frame": 4,
+          "phase": "remains",
+          "boundsArtPx": [
+            16,
+            28,
+            43,
+            53
+          ],
+          "occupiedArtPixels": 84
+        }
+      ]
+    }
+  ]
+}

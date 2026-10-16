@@ -1,0 +1,14 @@
+{
+ "grip": [
+  0.0,
+  2.0
+ ],
+ "angle": 32.7,
+ "length": 15.8,
+ "source": [
+  "hero-ref-64.png",
+  "hero-ref-64-nosword.png"
+ ],
+ "pixels": 79,
+ "note": "blade + terracotta grip + guard; the fist covers the grip"
+}

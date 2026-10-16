@@ -1,0 +1,162 @@
+[
+  {
+    "file": "bridge-troll-raw-v3.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "bridge-troll-v3.png",
+    "size": [
+      512,
+      512
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "hex-scarecrow-raw-v3.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "hex-scarecrow-raw-v4.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "hex-scarecrow-v3.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "hex-scarecrow-v4.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "kiki-raw-v3.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "kiki-v3.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-1x-v3.png",
+    "size": [
+      339,
+      102
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-1x-v4.png",
+    "size": [
+      339,
+      102
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v3.png",
+    "size": [
+      2712,
+      816
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "lineup-v4.png",
+    "size": [
+      2712,
+      816
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "silhouettes-1x-v3.png",
+    "size": [
+      184,
+      50
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "silhouettes-1x-v4.png",
+    "size": [
+      184,
+      50
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "silhouettes-v3.png",
+    "size": [
+      1472,
+      400
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "silhouettes-v4.png",
+    "size": [
+      1472,
+      400
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-raw-v3.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-raw-v4.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-v3.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "thornboar-v4.png",
+    "size": [
+      384,
+      384
+    ],
+    "format": "PNG"
+  }
+]

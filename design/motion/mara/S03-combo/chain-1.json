@@ -1,0 +1,72 @@
+{
+ "about": "combo chain preview (Claude)",
+ "frameWidth": 128,
+ "impactFrame": 8,
+ "frames": [
+  {
+   "note": "ready",
+   "ms": 60,
+   "sourceFrame": 0
+  },
+  {
+   "note": "shift",
+   "ms": 50,
+   "sourceFrame": 1
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 2
+  },
+  {
+   "note": "raise",
+   "ms": 50,
+   "sourceFrame": 3
+  },
+  {
+   "note": "wind",
+   "ms": 60,
+   "sourceFrame": 4
+  },
+  {
+   "note": "HOLD high",
+   "ms": 100,
+   "sourceFrame": 5
+  },
+  {
+   "note": "launch",
+   "ms": 30,
+   "sourceFrame": 6
+  },
+  {
+   "note": "swing",
+   "ms": 40,
+   "sourceFrame": 7
+  },
+  {
+   "note": "HIT 1",
+   "ms": 90,
+   "sourceFrame": 8
+  },
+  {
+   "note": "follow = link",
+   "ms": 60,
+   "sourceFrame": 9
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 10
+  },
+  {
+   "note": "recover",
+   "ms": 50,
+   "sourceFrame": 11
+  },
+  {
+   "note": "ready",
+   "ms": 80,
+   "sourceFrame": 12
+  }
+ ]
+}

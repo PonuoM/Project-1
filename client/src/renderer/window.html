@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' http://localhost:* http://127.0.0.1:* ws://localhost:*"
+    />
+    <title>Idle Loot</title>
+  </head>
+  <body>
+    <!-- Structure and class names follow Codex's design/mockups/window.html; its CSS is loaded at runtime by src/window/main.ts. -->
+    <section class="tb-window" id="app" aria-label="หน้าต่างเกม" hidden>
+      <header class="tb-titlebar">
+        <div class="tb-drag" id="title"></div>
+        <div class="tb-window-actions" id="window-actions"></div>
+      </header>
+      <div class="tb-window-layout">
+        <nav class="tb-nav" aria-label="เมนูหลัก">
+          <div role="tablist" aria-label="เมนูเกม" id="tabs"></div>
+          <div class="tb-nav-bottom" id="nav-bottom"></div>
+        </nav>
+        <div class="tb-main" id="main">
+          <section class="tb-panel" id="panel-hero" role="tabpanel" aria-labelledby="tab-hero"></section>
+          <section class="tb-panel" id="panel-inventory" role="tabpanel" aria-labelledby="tab-inventory" hidden></section>
+          <section class="tb-panel" id="panel-boxes" role="tabpanel" aria-labelledby="tab-boxes" hidden></section>
+          <section class="tb-panel" id="panel-expeditions" role="tabpanel" aria-labelledby="tab-expeditions" hidden></section>
+          <section class="tb-panel" id="panel-settings" role="tabpanel" aria-labelledby="tab-settings" hidden></section>
+          <div class="toasts" id="toasts" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./src/window/main.ts"></script>
+  </body>
+</html>
